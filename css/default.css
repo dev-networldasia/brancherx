@@ -25,6 +25,10 @@
     --gray-hover-bg:rgb(200, 200, 200, 0.4);
     --color-gray-light: #F6F6F6;
     --color-body: #6b7385;
+    --color-heading: #192335;
+    --black-opacity: rgba(0, 0, 0, 0.04);
+    --white2:#ffffff;
+
     --shadow-1: 0px 6px 34px rgba(215, 216, 222, 0.41);
 }
 
@@ -110,6 +114,11 @@ p:last-child{
 	margin-bottom:0;
 }
 /*--------------------------------------------------------------default--*/
+.container{
+    padding-right: 10px;
+	padding-left: 10px;
+    margin: 0 auto;
+}
 @media (min-width: 767px) {
     .container {
         width: 750px;	
@@ -121,6 +130,7 @@ p:last-child{
 @media (min-width: 992px) {
     .container {
         width: 970px;
+        
     }
 }
 
@@ -130,9 +140,9 @@ p:last-child{
     }
 }
 
-@media (max-width: 1399px) {
+@media (min-width: 1366px) {
 	.container {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
 		padding-right: 10px;
 		padding-left: 10px;
