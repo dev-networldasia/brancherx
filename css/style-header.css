@@ -90,10 +90,12 @@ html{
 .header-right .swap-lag span{
     font-size: 1.6em;
     font-weight: 500;
+    margin-left: 0.5em;
 }
 .lag img{
     width: 2em;
     margin-right: 0.6em;
+    border: 1px solid var(--black-opacity);
 }
 .swap-lag{
     display: flex;
@@ -117,7 +119,7 @@ html{
     opacity: 0;
     transition: 0.3s;
     padding: 1em;
-    min-width: 12em;
+    min-width: 15em;
 }
 .sub-menu-lag .lag{
     padding: 0.4em;

@@ -30,8 +30,15 @@
     .header-right .search{
         display: none;
     }
-    .swap-lag{
-        font-size: 0.8em;
+    .header-right .swap-lag .english{
+        display: none;
+    }
+    .lag img{
+        margin-right: 0;
+        width: 2.5em;
+    }
+    .sub-menu-lag{
+        transform: translateY(80%) translateX(-60%);
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
@@ -56,6 +63,9 @@
     .header-right .search{
         display: none;
     }
+    .sub-menu-lag{
+        transform: translateY(80%) translateX(-20%);
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     html{
@@ -63,6 +73,9 @@
     }
     .top-wrapper__center{
         display: none;
+    }
+    .mainmenu-nav .mainmenu {
+        gap: 0.5em;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
