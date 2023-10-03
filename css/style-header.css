@@ -234,7 +234,7 @@ html{
     justify-content: center;
     gap: 1.2em;
 }
-.menu-child-item a{
+.menu-child-item>a{
     font-size: 1.6em;
     font-weight: 500;
     display: flex;
@@ -248,7 +248,7 @@ html{
 .menu-child-item a i{
     transition: 0.3s;
 }
-.menu-child-item a:hover i{
+.menu-child-item a:hover>i{
     transform: rotate(180deg);
 }
 .header-right{
