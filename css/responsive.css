@@ -77,6 +77,10 @@
     .mainmenu-nav .mainmenu {
         gap: 0.5em;
     }
+    .img-inner-blog{
+        padding: 0;
+        padding-top: 2em;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     html{

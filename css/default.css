@@ -10,6 +10,7 @@
     --red: #950505;
     --black: #373737;
     --color-darker: #192335;
+    --color-body: #6b7385;
     --tx1: #595959;
 	--yellow:#F6D167;
 	--yellow1:#FFF7AE;
@@ -27,6 +28,7 @@
     --color-body: #6b7385;
     --color-heading: #192335;
     --black-opacity: rgba(0, 0, 0, 0.04);
+    --primary-opacity: #2f57ef21;
     --white2:#ffffff;
 
     --shadow-1: 0px 6px 34px rgba(215, 216, 222, 0.41);
