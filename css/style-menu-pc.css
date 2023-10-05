@@ -8,6 +8,7 @@
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(15px);
     transition: all 0.7s;
+    z-index: 1;
 }
 
 .menu-child-item{
@@ -651,6 +652,9 @@
     padding-bottom: 0.5em;
     margin-bottom: 0;
     align-items: center;
+}
+.card-rating .rating{
+    display: flex;
 }
 .list-course .card-img img{
     border-radius: 6px;
