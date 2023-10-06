@@ -545,9 +545,8 @@
     clip: rect(0px, 200vw, 200vh, 0px);
     transition: clip 0.6s linear, opacity 0.2s linear;
 }
-.slider-btn{
+.search-dropdown .slider-btn{
     width: fit-content;
-    padding: 1em 2em;
     background-size: 300% 100%;
     background-image: linear-gradient(to right, rgba(65,91,255,1), rgba(234,112,255,1), rgba(234,112,255,1), rgba(65,91,255,1));
     border-radius: 0.8em;
@@ -556,30 +555,30 @@
     align-items: center;
     transition: all 0.4s ease-in-out;
 }
-.slider-btn:hover{
+.search-dropdown .slider-btn:hover{
     background-color: inherit;
     background-position: 102% 0;
     transition: all 0.4s ease-in-out;
     transform: translateY(-2px);
 }
-.warp-course{
+.search-dropdown .warp-course{
     display: flex;
-    font-size: 1.6em;
     color: white;
     position: relative;
     font-weight: 600;
+    left: 0;
 }
-.warp-course span{
+.search-dropdown .warp-course span{
     display: inline-block;
     transition: transform 0.6s 0.125s cubic-bezier(0.1, 0.75, 0.25, 1);
     margin-inline-start: 0;
 }
-.slider-btn:hover span{
+.search-dropdown .slider-btn:hover span{
     transition-delay: 0.1s;
     transform: translateY(0);
     color: white;
 }
-.form-search{
+.search-dropdown .form-search{
     display: flex;
     margin: 3em 0;
     position: relative;
