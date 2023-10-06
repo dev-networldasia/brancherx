@@ -1,0 +1,119 @@
+
+.home-banner-area.banner1{
+    font-size: 1rem;
+    background-image: url(../img/banner-1-1.webp);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    color: var(--white2);
+    overflow: hidden;
+}
+.home-banner-area.banner2{
+    font-size: 1rem;
+    background-image: url(../img/banner-2-2.webp);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    color: var(--white2);
+    display: none;
+    overflow: hidden;
+}
+.home-banner-text-area h2{
+    font-size: 6em;
+    line-height: 1em;
+    font-weight: 800;
+    padding-top: 0.3em;
+    transition: all 0.8s linear;
+    opacity: 0;
+    position: relative;
+    display: flex;
+    transform: translateY(15px);
+}
+.home-banner-text-area .slogan-area{
+    font-size: 4em;
+    margin-bottom: 0.5em;
+    transition: all 0.8s linear;
+    transition-delay: 0.5s;
+    opacity: 0;
+    position: relative;
+    display: flex;
+    transform: translateY(15px);
+}
+.hightlight-text-area{
+    padding: 1em 3em;
+    background: var(--bg-highlight);
+    display: block;
+    width: fit-content;
+    margin-top: 1em;
+    border-radius: 3em;
+    transition: all 0.8s linear;
+    transition-delay: 1s;
+    opacity: 0;
+    position: relative;
+    display: flex;
+    transform: translateY(15px);
+}
+.hightlight-text-area h4{
+    color: var(--main-color);
+    font-size: 2em;
+}
+.button-area{
+    padding: 1em 2em;
+    background: var(--main-color);
+    display: block;
+    width: fit-content;
+    margin-top: 1.5em;
+    border-radius: 3em;
+    transition: all 0.8s linear;
+    transition-delay: 1.5s;
+    opacity: 0;
+    position: relative;
+    display: flex;
+    transform: translateY(15px);
+}
+.brancherx-btn-main{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.button-area .button-text {
+    font-size: 1.8em;
+    
+}
+.button-area .button-icon{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5em;
+}
+.slider--el.active {
+    z-index: 10;
+}
+
+.slider--el.next .slider--el-bg {
+    transform: scale(0.834);
+}
+.slider--el.active .title-area{
+    opacity: 1;
+    transform: translateY(0);
+}
+.slider--el.active .slogan-area{
+    opacity: 1;
+    transform: translateY(0);
+}
+.slider--el.active .hightlight-text-area{
+    opacity: 1;
+    transform: translateY(0);
+}
+.slider--el.active .button-area{
+    opacity: 1;
+    transform: translateY(0);
+}

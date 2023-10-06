@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrancherX</title>
+    <link rel="stylesheet" href="../../css/icons.css">
+    <link rel="stylesheet" href="../../css/icons.min.css">
+    <link rel="stylesheet" href="../../css/default.css">
+    <link rel="stylesheet" href="../../css/style-homebanner.css">
+    <link rel="stylesheet" href="../../css/style-menu-pc.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+</head>
+<body>
+<section>
+    <div class="home-banner-area banner1 slider--el slider--el-1 active">
+        <div class="home-banner-text-area container">
+            <!-- Home Banner Title -->
+            <h2 class="slider--el-heading title-area">The No. 1</h2>
+        
+            <!-- Home Banner Description -->
+            <div class="slogan-area">
+                <h4>Fastest Growing Advertising Agency <span class="mobile-textbreak">in VietNam</span></h4>
+            </div>
+        
+            <!-- Home Banner Text Hightlight -->
+            <div class="hightlight-text-area">
+                <h4>RANKED BY RECMA 2022</h4>
+            </div>
+        
+            <div class="button-area">
+                <a href="#"
+                    class="brancherx-btn-main">
+                    <div class="button-text">
+                        Learn More
+                    </div>
+                    <div class="button-icon">
+                        <i class="ri-arrow-right-circle-line"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="home-banner-area slider--el slider--el-2 banner2">
+        <div class="home-banner-text-area container">
+            <!-- Home Banner Title -->
+            <h2 class="title-area">The No. 1</h2>
+
+            <!-- Home Banner Description -->
+            <div class="slogan-area">
+                <h4>Fastest Growing Advertising Agency <span class="mobile-textbreak">in VietNam</span></h4>
+            </div>
+
+            <!-- Home Banner Text Hightlight -->
+            <div class="hightlight-text-area">
+                <h4>RANKED BY RECMA 2022</h4>
+            </div>
+
+            <div class="button-area">
+                <a href="#"
+                    class="brancherx-btn-main">
+                    <div class="button-text">
+                        Learn More
+                    </div>
+                    <div class="button-icon">
+                        <i class="ri-arrow-right-circle-line"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="../../js/jquery.min.js"></script>
+<script>
+    $(document).ready(function ($) {
+
+var sliding = false,
+    curSlide = 1,
+    numOfSlides = $(".slider--el").length;
+
+setInterval(function () {
+
+    curSlide++;
+    if (sliding) return;
+    sliding = true;
+    if (curSlide < 1) curSlide = numOfSlides;
+    if (curSlide > numOfSlides) curSlide = 1;
+
+    $(".slider--el").show();
+    $(".slider--el").css("top");
+    $(".slider--el.active").addClass("removed");
+
+    $(".slider--el.removed").hide();
+    $(".slider--el").removeClass("active removed");
+    $(".slider--el-" + curSlide).addClass("active");
+    sliding = false;
+
+}, 5000);
+
+});
+</script>
+</body>
+</html>
