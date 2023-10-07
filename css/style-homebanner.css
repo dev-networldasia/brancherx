@@ -66,12 +66,14 @@
     font-size: 2em;
 }
 .button-area{
-    padding: 1em 2em;
+    padding: 1em 3em;
     background: var(--main-color);
     display: block;
     width: fit-content;
     margin-top: 1.5em;
     border-radius: 3em;
+}
+.home-banner-area{
     transition: all 0.8s linear;
     transition-delay: 1.5s;
     opacity: 0;
