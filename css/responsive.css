@@ -100,8 +100,17 @@
         display: none;
     }
     /* Home Section Your Business */
+    .img-business{
+        width: 100%;
+    }
     .inner-business{
-        padding: 2em;
+        width: 100%;
+    }
+    .inner-business{
+        padding: 3em;
+    }
+    .home-your-business-up {
+        flex-direction: column-reverse;
     }
     .inner-business .title span {
         font-size: 2em;
@@ -110,7 +119,7 @@
         font-size: 2.5em;
     }
     .down-box-under{
-        width: 80%;
+        width: 100%;
         flex-wrap: wrap;
     }
     .down-box-under .icon-area {
