@@ -70,6 +70,27 @@
         width: 50%;
         margin-top: 2em;
     }
+     /* Our - Service */
+     .our-serivce__down{
+        gap: 1em;
+    }
+    .flip-card{
+        width: 100%;
+        padding: 2em 3em;
+    }
+    .our-serivce__up{
+        flex-direction: column;
+        padding: 0 3em;
+        text-align: center;
+    }
+    .our-serivce__up .bg-title{
+        margin-right: 0;
+    }
+    .our-service__disc{
+        border-left: none;
+        padding: 0;
+        margin: 1em auto;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px){
     html{
@@ -126,6 +147,27 @@
         width: 50%;
         margin-top: 2em;
     }
+    /* Our - Service */
+    .our-serivce__down{
+        gap: 1em;
+    }
+    .flip-card{
+        width: 100%;
+        padding: 2em 3em;
+    }
+    .our-serivce__up{
+        flex-direction: column;
+        padding: 0 3em;
+        text-align: center;
+    }
+    .our-serivce__up .bg-title{
+        margin-right: 0;
+    }
+    .our-service__disc{
+        border-left: none;
+        padding: 0;
+        margin: 1em auto;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     html{
@@ -166,6 +208,13 @@
         width: 50%;
         margin-top: 2em;
     }
+      /* Our - Service */
+    .our-serivce__down{
+        gap: 1em;
+    }
+    .flip-card{
+        width: 48%;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     html{
@@ -187,6 +236,10 @@
     /* Home Section Your Business */
     .inner-business{
         padding: 5em;
+    }
+    /* Our - Service */
+    .flip-card{
+        width: 49%;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
