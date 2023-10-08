@@ -50,7 +50,7 @@
     justify-content: space-around;
 }
 .flip-card{
-    width: 23%;
+    width: 24%;
     position: relative;
 }
 .flip-card__inner{
@@ -72,6 +72,7 @@
 .flip-card__front{
     margin-top: 5em;
     height: 40em;
+    text-align: center;
 }
 .flip-card__front img{
     width: 100%;
@@ -85,7 +86,7 @@
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 2.5em;
+    font-size: 2.2em;
     color: var(--white2);
     font-weight: 700;
     line-height: 0.8em;
