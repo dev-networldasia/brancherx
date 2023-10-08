@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrancherX</title>
+    <link rel="stylesheet" href="../../css/icons.css">
+    <link rel="stylesheet" href="../../css/icons.min.css">
+    <link rel="stylesheet" href="../../css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../../css/default.css">
+    <link rel="stylesheet" href="../../css/style-homebanner.css">
+    <link rel="stylesheet" href="../../css/style-home-our-service.css">
+    <link rel="stylesheet" href="../../css/style-home-case-studies.css">
+    <link rel="stylesheet" href="../../css/style-menu-pc.css">
+    <link rel="stylesheet" href="../../css/odometer.css">
+    <link rel="stylesheet" href="../../css/responsive.css">
+</head>
+<body>
+    <section class="case-studies bg__right" style="background-image: url(../../img/case-studies-bg.svg) ;">
+        <div class="case-studies__up container">
+            <div class="bg-title">
+                <h2>CASE STUDIES</h2>
+            </div>
+            <p class="our-service__disc">
+                Numerous local and global brands have chosen, trusted, and accompanied Brancher.X. Together, we have built success!
+            </p>
+        </div>
+        <div class="case-studies__down container">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="flip-card__inner">
+                            <div class="flip-card-up">
+                                <div class="flip-card__front">
+                                    <img src="../../img/maybeline.webp" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                            <div class="flip-card-down">
+                                <div class="flip-card__front">
+                                    <img src="../../img/maybeline2.webp" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front" style="height: 31em;">
+                                <img style="height: 100%;" src="../../img/phlipps-floorcare-teasersimple-300x96.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flip-card__inner">
+                            <div class="flip-card-up">
+                                <div class="flip-card__front">
+                                    <img src="../../img/melanocc_n-1-300x114.webp" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                            <div class="flip-card-down">
+                                <div class="flip-card__front">
+                                    <img src="../../img/decolgen_n-2-e1696248370741-300x156.webp" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flip-card__inner">
+                            <div class="flip-card-up">
+                                <div class="flip-card__front">
+                                    <img src="../../img/danone-c-section-4-scaled-1-1-300x300.webp" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                            <div class="flip-card-down">
+                                <div class="flip-card__front">
+                                    <img src="../../img/kia-motors-7-1-300x169.jpg" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flip-card__inner">
+                            <div class="flip-card__front" style="height: 31em;">
+                                <img style="height: 100%;" src="../../img/phlipps-floorcare-teasersimple-300x96.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flip-card__inner">
+                            <div class="flip-card-up">
+                                <div class="flip-card__front">
+                                    <img src="../../img/melanocc_n-1-300x114.webp" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                            <div class="flip-card-down">
+                                <div class="flip-card__front">
+                                    <img src="../../img/decolgen_n-2-e1696248370741-300x156.webp" alt="">
+                                </div>
+                                <div class="flip-card__back"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+                <div class="autoplay-progress">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       const progressCircle = document.querySelector(".autoplay-progress svg");
+       const progressContent = document.querySelector(".autoplay-progress span");
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 20,
+        //  centeredSlides: true,
+         loop: true,
+         autoplay: {
+           delay: 2500,
+           disableOnInteraction: false
+         },
+         breakpoints: {
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 10,
+                },
+                991: {
+                    slidesPerView: 3,
+                    spaceBetween: 10,
+                },
+            },
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev"
+         },
+         on: {
+           autoplayTimeLeft(s, time, progress) {
+             progressCircle.style.setProperty("--progress", 1 - progress);
+             progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+           }
+         }
+       });
+     </script>
+</body>
+</html>
