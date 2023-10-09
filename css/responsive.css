@@ -43,6 +43,29 @@
     .search-dropdown{
         display: none;
     }
+    .top-content-courses{
+        background: var(--color-darker);
+    }
+    .nav-elements{
+        flex-direction: column;
+    }
+    .mainmenu-nav .panel li a{
+        display: flex;
+    }
+    .img-inner-blog{
+        width: 100%;
+    }
+    .popup-mobile-menu li{
+        padding: 0;
+        font-size: 1em;
+    }
+    .popup-mobile-menu li>a{
+        border-bottom: 1px solid var(--gray-hover-bg);
+        color: var(--color-body);
+    }
+    .popup-mobile-menu .mainmenu-nav .panel2 li a {
+        font-size: 1em;
+    }
     /* Home Section Your Business */
     .img-business{
         width: 100%;
@@ -152,6 +175,29 @@
     }
     .search-dropdown{
         display: none;
+    }
+    .top-content-courses{
+        background: var(--color-darker);
+    }
+    .nav-elements{
+        flex-direction: column;
+    }
+    .mainmenu-nav .panel li a{
+        display: flex;
+    }
+    .img-inner-blog{
+        width: 100%;
+    }
+    .popup-mobile-menu li{
+        padding: 0;
+        font-size: 1em;
+    }
+    .popup-mobile-menu li>a{
+        border-bottom: 1px solid var(--gray-hover-bg);
+        color: var(--color-body);
+    }
+    .popup-mobile-menu .mainmenu-nav .panel2 li a {
+        font-size: 1em;
     }
     /* Home Section Your Business */
     .img-business{

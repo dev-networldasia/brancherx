@@ -98,6 +98,7 @@
 }
 .slider--el.active {
     z-index: 10;
+    opacity: 1;
 }
 
 .slider--el.next .slider--el-bg {

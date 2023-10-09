@@ -14,6 +14,7 @@ footer{
     display: flex;
     position: relative;
     margin-top: 2em;
+    flex-wrap: wrap;
 }
 .located-disc{
     padding: 0 1em;
@@ -60,6 +61,7 @@ footer{
     width: 100%;
     display: flex;
     margin-top: 3em;
+    flex-wrap: wrap;
 }
 .side-map-main {
     flex: 4;
@@ -99,6 +101,7 @@ footer{
     justify-content: space-between;
     margin-top: 1em;
     align-items: center;
+    flex-wrap: wrap;
 }
 .social .tele{
     display: flex;
