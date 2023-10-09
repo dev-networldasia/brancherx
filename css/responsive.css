@@ -107,6 +107,23 @@
     .info-career img{
         max-height: 20em;
     }
+    /* FORM - MASTER */
+    .form-master{
+        flex-direction: column;
+        margin: 2em auto;
+        width: 100%;
+        text-align: center;
+        padding: 2em 5em;
+    }
+    .talk-form{
+        padding-right: 0;
+    }
+    .talk-to-us{
+        font-size: 3.2em;
+    }
+    .talk-form h2{
+        font-size: 2.5em;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px){
     html{
@@ -193,6 +210,17 @@
     }
     .info-career img{
         max-height: 24em;
+    }
+    /* FORM - MASTER */
+    .form-master{
+        flex-direction: column;
+        margin: 2em auto;
+        width: 100%;
+        text-align: center;
+        padding: 2em 5em;
+    }
+    .talk-form{
+        padding-right: 0;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
