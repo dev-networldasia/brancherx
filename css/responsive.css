@@ -91,6 +91,22 @@
         padding: 0;
         margin: 1em auto;
     }
+    .tab {
+        gap: 2em;
+        padding: 0;
+        margin-top: 1em;
+        text-align: center;
+    }
+    /* News - Career */
+    .info-career__disc a h2{
+        font-size: 2em;
+    }
+    .info-career__disc p{
+        font-size: 1.4em;
+    }
+    .info-career img{
+        max-height: 20em;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px){
     html{
@@ -168,6 +184,16 @@
         padding: 0;
         margin: 1em auto;
     }
+     /* News - Career */
+     .info-career__disc a h2{
+        font-size: 2.2em;
+    }
+    .info-career__disc p{
+        font-size: 1.6em;
+    }
+    .info-career img{
+        max-height: 24em;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     html{
@@ -214,6 +240,13 @@
     }
     .flip-card{
         width: 48%;
+    }
+    /* News - Career */
+    .info-career__disc a h2{
+        font-size: 2.2em;
+    }
+    .info-career__disc p{
+        font-size: 1.6em;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
