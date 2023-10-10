@@ -74,6 +74,10 @@
     border-radius: 3em;
 }
 .home-banner-area{
+    transition: opacity 0.4s linear;
+    opacity: 0;
+}
+.home-banner-area .button-area{
     transition: all 0.8s linear;
     transition-delay: 1.5s;
     opacity: 0;

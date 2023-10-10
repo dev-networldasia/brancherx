@@ -125,17 +125,24 @@
     display: none;
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-    border: 2px solid var(--bg-highlight);
+    border: 2px solid var(--main-color);
     width: 3em;
     height: 3em;
     border-radius: 50%;
 }
 .swiper-button-next:after, .swiper-button-prev:after {
     font-size: 1.5em;
+    color: var(--main-color);
+}
+.swiper-button-next:hover{
+    border: 2px solid var(--bg-highlight);
+    background: var(--color-white-off);
+}
+.swiper-button-next:hover:after{
     color: var(--bg-highlight);
 }
 .swiper-button-next, .swiper-button-prev{
-    border: 2px solid var(--bg-highlight);
+    border: 2px solid var(--main-color);
     width: 3em;
     height: 3em;
     border-radius: 50%;

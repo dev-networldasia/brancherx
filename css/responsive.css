@@ -120,6 +120,15 @@
         margin-top: 1em;
         text-align: center;
     }
+    /* Case Studies */
+    .case-studies__up{
+        flex-direction: column;
+        padding: 0 2em;
+        text-align: center;
+    }
+    .case-studies .bg-title{
+        margin-right: 0;
+    }
     /* News - Career */
     .info-career__disc a h2{
         font-size: 2em;
@@ -130,10 +139,10 @@
     .info-career img{
         max-height: 20em;
     }
-    /* FORM - MASTER */
+   /* FORM - MASTER */
     .form-master{
         flex-direction: column;
-        margin: 2em auto;
+        margin: 0 auto;
         width: 100%;
         text-align: center;
         padding: 2em 5em;
@@ -143,9 +152,27 @@
     }
     .talk-to-us{
         font-size: 3.2em;
+        padding: 0; 
     }
     .talk-form h2{
         font-size: 2.5em;
+    }
+    /* footer */
+    .social .tele i{
+        font-size: 3.5em;
+    }
+    .social .tele a{
+        font-size: 1.5em;
+    }
+    .social {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon-social a{
+        margin-right: 0;
+    }
+    .icon-social{
+        gap: 2em;
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
@@ -247,6 +274,15 @@
         padding: 0;
         margin: 1em auto;
     }
+    /* Case Studies */
+    .case-studies__up{
+        flex-direction: column;
+        padding: 0 2em;
+        text-align: center;
+    }
+    .case-studies .bg-title{
+        margin-right: 0;
+    }
      /* News - Career */
      .info-career__disc a h2{
         font-size: 2.2em;
@@ -255,7 +291,10 @@
         font-size: 1.6em;
     }
     .info-career img{
-        max-height: 24em;
+        max-height: 20em;
+    }
+    .tabcontent {
+        padding: 0.6em 2.2em;
     }
     /* FORM - MASTER */
     .form-master{
@@ -267,6 +306,10 @@
     }
     .talk-form{
         padding-right: 0;
+    }
+    .talk-to-us{
+        font-size: 3.2em;
+        padding: 0; 
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

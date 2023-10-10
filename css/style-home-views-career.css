@@ -108,8 +108,15 @@
   font-size: 1.5em;
   color: var(--main-color);
 }
+.news-career__down .swiper-button-next:hover:after, .swiper-button-prev:hover:after {
+  color: var(--bg-highlight);
+}
 .news-career__down .swiper-button-next, .swiper-button-prev{
   border: 2px solid var(--main-color);
+}
+.news-career__down .swiper-button-next:hover, .swiper-button-prev:hover{
+  border: 2px solid var(--bg-highlight);
+  background-color: var(--color-white-off);
 }
 .news-career__down{
   display: flex;
