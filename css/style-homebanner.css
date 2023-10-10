@@ -1,4 +1,17 @@
 
+.home-banner{
+    font-size: 1rem;
+    background-image: var(--black);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    font-size: 1rem;
+    color: var(--white2);
+    overflow: hidden;   
+}
 .home-banner-area.banner1{
     font-size: 1rem;
     background-image: url(../img/banner-1-1.webp);
@@ -73,10 +86,10 @@
     margin-top: 1.5em;
     border-radius: 3em;
 }
-.home-banner-area{
-    transition: opacity 0.4s linear;
+/* .home-banner-area{
+    transition: opacity 5s ease;
     opacity: 0;
-}
+} */
 .home-banner-area .button-area{
     transition: all 0.8s linear;
     transition-delay: 1.5s;
