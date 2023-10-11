@@ -102,7 +102,7 @@
     margin-bottom: 1em;
     z-index: 97;
 }
-.flip-front-overlay{
+.our-service .flip-front-overlay{
     position: absolute;
     left: 0%;
     right: 0%;
@@ -112,7 +112,7 @@
     border-radius: 50px;
     margin-top: 5em;
 }
-.flip-back-overlay{
+.our-service .flip-back-overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -131,7 +131,7 @@
     transform-origin: center;
     margin-top: 5em;
 }
-.flip-card__back{
+.our-service .flip-card__back{
     position: absolute;
     width: 100%;
     height: 40em;
@@ -145,7 +145,7 @@
     transform: scaleY(0);
     opacity: 0;
 }
-.flip-card__back img{
+.our-service .flip-card__back img{
     object-fit: cover;
     width: 100%;
     border-radius: 5em;
@@ -171,7 +171,7 @@
     transform: translateX(-50%);
     margin-top: 3em;
 }
-.flip-card__back-overlay{
+.our-service .flip-card__back-overlay{
     position: absolute;
     left: 0%;
     right: 0%;
@@ -183,15 +183,15 @@
     height: 40em;
     opacity: 0.9;
 }
-.flip-back-disc h4{
+.our-service .flip-back-disc h4{
     color: var(--white2);
     font-size: 1.6em;
     font-weight: 400;
 }
-.flip-card:hover .flip-back-overlay{
+.our-service .flip-card:hover .flip-back-overlay{
     opacity: 1;
 }
-.flip-card:hover .flip-card__back{
+.our-service .flip-card:hover .flip-card__back{
     transform: scaleY(1) !important;
     -webkit-transform: scaleY(1) !important;
     -ms-transform: scaleY(1) !important;

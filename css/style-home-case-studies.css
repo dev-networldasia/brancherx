@@ -118,7 +118,7 @@
     object-fit: cover;
     width: 100%;
 }
-.flip-card__front img{
+.flip-card_up img{
     border-radius: 4em;
     object-fit: cover;
     height: 14em;
