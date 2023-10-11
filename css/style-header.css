@@ -242,11 +242,12 @@ header{
 }
 .menu-child-item>a{
     font-size: 1.6em;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     align-items: center;
     height: 5em;
     transition: 0.3s;
+    color: var(--main-color);
 }
 .menu-child-item a:hover{
     color: var(--blue-hover);

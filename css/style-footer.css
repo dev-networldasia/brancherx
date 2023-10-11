@@ -86,15 +86,16 @@ footer{
     font-weight: 400;
 }
 .logo-area-footer{
-    width: 100%;
     position: relative;
     display: flex;
     justify-content: flex-end;
     margin-top: 1em;
+    max-height: 8em;
 }
 .logo-area-footer img{
     position: relative;
     right: 0;
+    max-height: 8em;
 }
 .social{
     display: flex;
