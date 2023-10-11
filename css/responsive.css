@@ -43,6 +43,29 @@
     .search-dropdown{
         display: none;
     }
+    .top-content-courses{
+        background: var(--color-darker);
+    }
+    .nav-elements{
+        flex-direction: column;
+    }
+    .mainmenu-nav .panel li a{
+        display: flex;
+    }
+    .img-inner-blog{
+        width: 100%;
+    }
+    .popup-mobile-menu li{
+        padding: 0;
+        font-size: 1em;
+    }
+    .popup-mobile-menu li>a{
+        border-bottom: 1px solid var(--gray-hover-bg);
+        color: var(--color-body);
+    }
+    .popup-mobile-menu .mainmenu-nav .panel2 li a {
+        font-size: 1em;
+    }
     /* Home Section Your Business */
     .img-business{
         width: 100%;
@@ -75,8 +98,8 @@
         gap: 1em;
     }
     .flip-card{
-        width: 100%;
-        padding: 2em 3em;
+        width: 47%;
+        padding: 2em 0.5em;
     }
     .our-serivce__up{
         flex-direction: column;
@@ -90,6 +113,75 @@
         border-left: none;
         padding: 0;
         margin: 1em auto;
+    }
+    .tab {
+        gap: 1em;
+        padding: 0;
+        margin-top: 1em;
+        text-align: center;
+    }
+    /* Case Studies */
+    .case-studies__up{
+        flex-direction: column;
+        padding: 0 2em;
+        text-align: center;
+    }
+    .case-studies .bg-title{
+        margin-right: 0;
+    }
+    .swiper-button-prev1{
+        left: 0;
+    }
+    .swiper-button-next1{
+        right: 0;
+    }
+    .case-studies__down{
+        margin-top: 2em;
+    }
+    /* News - Career */
+    .info-career__disc a h2{
+        font-size: 2em;
+    }
+    .info-career__disc p{
+        font-size: 1.4em;
+    }
+    .info-career img{
+        max-height: 20em;
+    }
+   /* FORM - MASTER */
+    .form-master{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        padding: 2em 5em;
+    }
+    .talk-form{
+        padding-right: 0;
+    }
+    .talk-to-us{
+        font-size: 3.2em;
+        padding: 0; 
+    }
+    .talk-form h2{
+        font-size: 2.5em;
+    }
+    /* footer */
+    .social .tele i{
+        font-size: 3.5em;
+    }
+    .social .tele a{
+        font-size: 1.5em;
+    }
+    .social {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon-social a{
+        margin-right: 0;
+    }
+    .icon-social{
+        gap: 2em;
     }
 }
 @media (min-width: 576px) and (max-width: 767px){
@@ -119,6 +211,29 @@
     }
     .search-dropdown{
         display: none;
+    }
+    .top-content-courses{
+        background: var(--color-darker);
+    }
+    .nav-elements{
+        flex-direction: column;
+    }
+    .mainmenu-nav .panel li a{
+        display: flex;
+    }
+    .img-inner-blog{
+        width: 100%;
+    }
+    .popup-mobile-menu li{
+        padding: 0;
+        font-size: 1em;
+    }
+    .popup-mobile-menu li>a{
+        border-bottom: 1px solid var(--gray-hover-bg);
+        color: var(--color-body);
+    }
+    .popup-mobile-menu .mainmenu-nav .panel2 li a {
+        font-size: 1em;
     }
     /* Home Section Your Business */
     .img-business{
@@ -152,7 +267,7 @@
         gap: 1em;
     }
     .flip-card{
-        width: 100%;
+        width: 48%;
         padding: 2em 3em;
     }
     .our-serivce__up{
@@ -167,6 +282,43 @@
         border-left: none;
         padding: 0;
         margin: 1em auto;
+    }
+    /* Case Studies */
+    .case-studies__up{
+        flex-direction: column;
+        padding: 0 2em;
+        text-align: center;
+    }
+    .case-studies .bg-title{
+        margin-right: 0;
+    }
+     /* News - Career */
+     .info-career__disc a h2{
+        font-size: 2.2em;
+    }
+    .info-career__disc p{
+        font-size: 1.6em;
+    }
+    .info-career img{
+        max-height: 20em;
+    }
+    .tabcontent {
+        padding: 0.6em 2.2em;
+    }
+    /* FORM - MASTER */
+    .form-master{
+        flex-direction: column;
+        margin: 2em auto;
+        width: 100%;
+        text-align: center;
+        padding: 2em 5em;
+    }
+    .talk-form{
+        padding-right: 0;
+    }
+    .talk-to-us{
+        font-size: 3.2em;
+        padding: 0; 
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -214,6 +366,13 @@
     }
     .flip-card{
         width: 48%;
+    }
+    /* News - Career */
+    .info-career__disc a h2{
+        font-size: 2.2em;
+    }
+    .info-career__disc p{
+        font-size: 1.6em;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
