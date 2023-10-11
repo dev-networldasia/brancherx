@@ -114,7 +114,7 @@
 }
 .news-career__down .swiper-button-next:hover, .swiper-button-prev:hover{
   border: 2px solid var(--bg-highlight);
-  background-color: var(--color-white-off);
+  background: var(--main-color);
 }
 .news-career__down{
   display: flex;
