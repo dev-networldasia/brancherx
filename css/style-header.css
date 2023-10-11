@@ -238,7 +238,7 @@ header{
 .mainmenu-nav .mainmenu{
     display: flex;
     justify-content: center;
-    gap: 1.2em;
+    gap: 2.5em;
 }
 .menu-child-item>a{
     font-size: 1.6em;
