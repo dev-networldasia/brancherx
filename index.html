@@ -1020,7 +1020,7 @@
             </div>
             <div id="tab2" class="tabcontent">
                 <!-- Swiper -->
-                <div class="swiper mySwiper1">
+                <div class="swiper mySwiper2">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="img/PhoneCall-1020x658-1-768x495.webp" />
@@ -1097,7 +1097,7 @@
             </div>
             <div id="tab3" class="tabcontent">
                 <!-- Swiper -->
-                <div class="swiper mySwiper1">
+                <div class="swiper mySwiper3">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="img/cover_1280x720-800-resize-768x432.webp" />
@@ -1481,6 +1481,7 @@ setInterval(function () {
  <script>
      document.querySelectorAll('.tablinks').forEach(function(itemclick) {
          itemclick.addEventListener("click", function(evt3) {
+
              var teacher = this.getAttribute("data-id");
              document.querySelectorAll('.tabcontent').forEach(function(evtre) {
                  console.log(teacher);
@@ -1496,7 +1497,12 @@ setInterval(function () {
  
  <!-- Initialize Swiper -->
  <script>
-     var swiper = new Swiper(".mySwiper1", {
+
+    swiperCareers(".mySwiper1");
+    swiperCareers(".mySwiper2");
+    swiperCareers(".mySwiper3");
+    function swiperCareers($class) {
+        var swiper = new Swiper($class, {
          observer: true,
          observeParents: true,
          initialSlide: 1,
@@ -1536,7 +1542,7 @@ setInterval(function () {
              prevEl: ".swiper-button-prev"
          },
      });
- 
+    };
  </script>
 </body>
 </html>
