@@ -394,6 +394,14 @@
     html{
         font-size: 55%;
     }
+    .container {
+        max-width: 879px !important;
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
     .top-wrapper__center{
         display: none;
     }
