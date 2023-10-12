@@ -138,6 +138,14 @@
     .case-studies__down{
         margin-top: 2em;
     }
+    .case-studies .tag-area{
+        flex-direction: column;
+        top: 8px;
+        left: 15px;
+    }
+    .case-studies .tag-area h4 {
+        width: fit-content ;
+    }
     /* News - Career */
     .info-career__disc a h2{
         font-size: 2em;

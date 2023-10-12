@@ -129,7 +129,6 @@
     -webkit-transform-origin: center;
     -ms-transform-origin: center;
     transform-origin: center;
-    margin-top: 5em;
 }
 .our-service .flip-card__back{
     position: absolute;
