@@ -68,7 +68,7 @@
         </div>
     </div>
     <!-- Header - Bot -->
-    <div class="header-bot">
+    <div class="header-bot" id="navbar">
         <div class="container mainbar">
             <div class="btn-menu-mobile">
                 <i class="ri-menu-line"></i>
@@ -79,16 +79,6 @@
                         <a href="#">
                             <img src="img/BrancherX x WorldWide.png" alt="BrancherX">
                         </a>
-                    </div>
-                </div>
-                <div class="header__info">
-                    <div class="category-menu__wrapper">
-                        <div class="category__activation">
-                            <div class="category-icon">
-                                <i class=" ri-function-line"></i>
-                            </div>
-                            <span>Category</span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -129,23 +119,10 @@
                 </nav>
             </div>
             <div class="header-right">
-                <div class="search">
-                    <i class="feather-search"></i>
-                </div>
                 <div class="lag">
                     <div class="swap-lag">
-                        <img src="img/en-us.png" alt="">
-                        <span class="english">English</span>
-                        <i class="ri-arrow-down-s-line"></i>
+                        <img src="img/flag-vietnam.png" alt="">
                     </div>
-                    <ul class="sub-menu-lag">
-                        <li class="lag">
-                            <img src="img/Flag_of_Vietnam.svg" alt="">
-                            <div class="swap-lag">
-                                <span>Vietnam</span>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -1334,6 +1311,14 @@
         </div>
     </div>
 </footer>
+<script>
+        window.onscroll = function () { myFunction() };
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop; function myFunction() { 
+            console.log(sticky);
+            if (window.pageYOffset >= sticky) { navbar.classList.add("sticky") } 
+            else { navbar.classList.remove("sticky"); } }
+</script>
 <!-- Search -->
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 <script>

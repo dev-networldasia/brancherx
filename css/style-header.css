@@ -11,6 +11,7 @@ header{
     color: var(--color-white-off);
     overflow: hidden;
     z-index: 10;
+    display: none;
 }
 .top-wrapper{
     font-size: 1em;
@@ -98,9 +99,9 @@ header{
     margin-left: 0.5em;
 }
 .lag img{
-    width: 2em;
-    margin-right: 0.6em;
-    border: 1px solid var(--black-opacity);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
 }
 .swap-lag{
     display: flex;
@@ -202,17 +203,13 @@ header{
     width: 100%;
 }
 .header__info .logo img{
-    max-height: 6em;
-    object-fit: cover;
     width: 100%;
-}
-.header__info{
-    padding: 0 12px;
 }
 .mainbar__left{
     display: flex;
     align-items: center;
     width: 20% !important;
+    padding: 0 12px;
 }
 .category-menu__wrapper{
     display: none;
@@ -239,8 +236,8 @@ header{
 }
 .main-navigation{
     display: flex;
-    width: 64% !important;
-    padding: 10px 2% 0;
+    width: 71.666667% !important;
+    padding: 1em 0.2em 0 0;
     position: unset;
 }
 .mainmenu-nav .mainmenu{
@@ -252,7 +249,7 @@ header{
 .mainmenu-nav::after{
     content: "";
     position: absolute;
-    bottom: -1px;
+    bottom: -0.1em;
     left: 0;
     width: 100%;
     height: 1.5px;
@@ -268,7 +265,7 @@ header{
 .home-menu::after{
     content: "";
     position: absolute;
-    bottom: -10px;
+    bottom: -0.9em;
     left: 0;
     width: 100%;
     height: 4px;
@@ -299,7 +296,9 @@ header{
 .header-right{
     display: flex;
     align-items: center;
-    width: 16%;
+    flex: 0 0 auto;
+    width: 8.33333333%;
+    justify-content: flex-end;
 }
 .header-right .search{
     cursor: pointer;
@@ -355,3 +354,9 @@ header{
     font-size: 3em;
     padding: 0.5em 0;
 }
+/* Scroll Header */
+/* .header-bot.sticky{
+    width: 100%;
+    position: fixed;
+    top: 0;
+} */
