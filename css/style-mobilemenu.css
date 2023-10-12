@@ -197,9 +197,10 @@
     font-size: 1.4em;
     padding-top: 0.5em;
 }
-.mainmenu-nav{
+.popup-mobile-menu .mainmenu-nav{
     font-size: 1rem;
     color: var(--color-heading);
+    display: block;
 }
 .mainmenu-nav .panel{
     position: relative;
