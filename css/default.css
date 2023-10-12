@@ -126,33 +126,67 @@ p:last-child{
 	padding-left: 10px;
     margin: 0 auto;
 }
-@media (min-width: 767px) {
-    .container {
-        width: 750px;	
-        padding-right: 10px;
-		padding-left: 10px;	
+/* Container */
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 90% !important;
     }
 }
 
 @media (min-width: 992px) {
-    .container {
-        width: 970px;
-        
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 879px !important;
+    }
+}
+@media (min-width: 1199px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1100px !important;
     }
 }
 
-@media (min-width: 1200px) {
-    .container {
-        width: 1190px;
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1100px !important;
     }
 }
 
-@media (min-width: 1366px) {
-	.container {
-        width: 90%;
-        margin: 0 auto;
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-	
+@media (min-width: 1600px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1200px !important;
+    }
 }
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px !important;
+    }
+}
+
+
+
+
+
+
+/* Container */

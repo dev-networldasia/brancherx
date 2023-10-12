@@ -14,6 +14,9 @@
 .menu-child-item{
     position: relative;
 }
+.header-bot .mainmenu .home-menu{
+    font-weight: 600;
+}
 .menu-child-item .courses-dropdown{
     display: flex;
     position: absolute;
@@ -36,9 +39,6 @@
     opacity: 1;
     clip: rect(0px, 100vw, 200vh, -50px);
     transition: clip 0.6s linear, opacity 0.4s linear;
-}
-.menu-child-item:hover>a{
-    color: var(--blue-hover);
 }
 .top-content-courses{
     background-image: url(https://rainbowit.net/html/histudy/assets/images/course/category-10.png);
@@ -258,10 +258,6 @@
 .menu-child-item:hover>a>i
 {
     transform: rotate(180deg);
-    color: var(--blue-hover);
-}
-.menu-child-item:hover>a
-{
     color: var(--blue-hover);
 }
 
