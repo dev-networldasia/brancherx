@@ -96,7 +96,7 @@
                 <nav class="mainmenu-nav">
                     <ul class="mainmenu">
                         <li class="menu-child-item">
-                            <a href="#">
+                            <a href="#" class="home-menu">
                                 Home
                             </a>
                         </li>
@@ -1538,11 +1538,11 @@ setInterval(function () {
     if (curSlide < 1) curSlide = numOfSlides;
     if (curSlide > numOfSlides) curSlide = 1;
 
-    $(".slider--el").show();
+    // $(".slider--el").show();
     $(".slider--el").css("top");
     $(".slider--el.active").addClass("removed");
 
-    $(".slider--el.removed").hide();
+    // $(".slider--el.removed").hide();
     $(".slider--el").removeClass("active removed");
     $(".slider--el-" + curSlide).addClass("active");
     sliding = false;

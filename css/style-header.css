@@ -239,19 +239,36 @@ header{
     display: flex;
     justify-content: center;
     gap: 2.5em;
+    border-bottom: 1px solid var(--main-color);
+}
+.mainmenu-nav {
+    display: flex;
+    align-items: center;
+}
+.home-menu::after{
+    content: '';
+    width: 100%;
+    display: block;
+    height: 3px;
+    position: absolute;
+    background: var(--bg-highlight);
+    bottom: -2px;
+}
+.menu-child-item {
+    position: relative;
 }
 .menu-child-item>a{
     font-size: 1.6em;
     font-weight: 400;
     display: flex;
     align-items: center;
-    height: 5em;
+    line-height: 2em;
     transition: 0.3s;
     color: var(--main-color);
 }
-.menu-child-item a:hover{
+/* .menu-child-item a:hover{
     color: var(--blue-hover);
-}
+} */
 .menu-child-item a i{
     transition: 0.3s;
 }

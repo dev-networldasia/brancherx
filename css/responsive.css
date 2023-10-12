@@ -329,11 +329,14 @@
         display: none;
     }
     .mainmenu-nav .mainmenu {
-        gap: 0.5em;
+        gap: 1.5em;
     }
     .img-inner-blog{
         padding: 0;
         padding-top: 2em;
+    }
+    .menu-child-item>a {
+        font-size: 1.4em;
     }
     /* Search - dropdown */
     .list-course .card-slide.wiper-mid{
