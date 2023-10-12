@@ -115,7 +115,7 @@ header{
     background: #ffffff;
     position: absolute;
     display: none;
-    transform: translateY(65%) translateX(-20%);
+    transform: translateY(85%) translateX(-25%);
     flex-direction: column;
     color: var(--color-body);
     box-shadow: var(--shadow-1);
