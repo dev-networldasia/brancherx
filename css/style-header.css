@@ -209,7 +209,8 @@ header{
     display: flex;
     align-items: center;
     width: 20% !important;
-    padding: 0 12px;
+    padding: 0 1.2em;
+    flex: 0 0 auto;
 }
 .category-menu__wrapper{
     display: none;

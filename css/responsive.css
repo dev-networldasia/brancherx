@@ -193,7 +193,7 @@
         gap: 2em;
     }
 }
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 768px){
     html{
         font-size: 50%;
     }
