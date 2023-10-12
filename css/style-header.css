@@ -198,8 +198,8 @@ header{
     justify-content: space-between;
     display: flex;
     position: relative;
-    justify-content: space-between;
     margin: 0 auto;
+    width: 100%;
 }
 .header__info .logo img{
     max-height: 6em;
@@ -239,19 +239,21 @@ header{
 }
 .main-navigation{
     display: flex;
-    width: 71.666667% !important;
+    width: 64% !important;
     padding: 10px 2% 0;
     position: unset;
 }
 .mainmenu-nav .mainmenu{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2.5em;
     border-bottom: 1.5px solid var(--main-color);
+    flex-grow: 1;
 }
 .mainmenu-nav {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 .home-menu::after{
     content: '';
@@ -286,7 +288,7 @@ header{
 .header-right{
     display: flex;
     align-items: center;
-    width: 8.33333333%;
+    width: 16%;
 }
 .header-right .search{
     cursor: pointer;
