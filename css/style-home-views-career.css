@@ -87,13 +87,14 @@
   border-left: 3px solid var(--bg-highlight);
   margin-top: 0.5em;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 1.5;
   color: var(--white-color);
   margin: 0;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
+  margin-top: 0.5em;
 }
 .disc-news{
   overflow: hidden;
