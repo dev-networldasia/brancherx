@@ -179,6 +179,7 @@
 .swiper-button-next1:hover{
     color: var(--bg-highlight);
     border-color: var(--bg-highlight);
+    background: var(--main-color);
 }
 .swiper-button-prev1{
     width: 3em;
@@ -200,6 +201,7 @@
 .swiper-button-prev1:hover{
     color: var(--bg-highlight);
     border-color: var(--bg-highlight);
+    background: var(--main-color);
 }
 .case-studies__down .content-flip{
     z-index: 11;

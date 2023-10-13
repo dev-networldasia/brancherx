@@ -893,8 +893,12 @@
                 <span></span>
             </div>
         </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next1">
+            <i class=" ri-arrow-right-s-line"></i>
+        </div>
+        <div class="swiper-button-prev1">
+            <i class=" ri-arrow-left-s-line"></i>
+        </div>
     </div>
 </section>
 
@@ -1319,25 +1323,6 @@
             if (window.pageYOffset >= sticky) { navbar.classList.add("sticky") } 
             else { navbar.classList.remove("sticky"); } }
 </script>
-<!-- Search -->
-<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
-<script>
-    var root = document.documentElement;
-    const searchBtn = document.querySelector(".search");
-    const dropdownsearch = document.querySelector(".search-dropdown");
-    document.querySelector('.search').addEventListener("click", function(search) {
-        document.querySelector('.feather-search').classList.toggle('active');
-        document.querySelector('.search-dropdown').classList.toggle('active');
-        root.classList.toggle('side-nav-opened');
-    });
-    document.addEventListener("click", function(evt) {
-        if (!searchBtn.contains(evt.target) && !dropdownsearch.contains(evt.target)) {
-            document.querySelector('.feather-search').classList.remove('active');
-            document.querySelector('.search-dropdown').classList.remove('active');
-            root.classList.remove('side-nav-opened');
-        };
-    });
-</script>
 <!-- JS Mobile-Menu -->
 <script>
     const bgmenu = document.querySelector('.inner-wrapper');
@@ -1455,8 +1440,8 @@ setInterval(function () {
       clickable: true
     },
     navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev"
+      nextEl: ".swiper-button-next1",
+      prevEl: ".swiper-button-prev1"
     },
     on: {
       autoplayTimeLeft(s, time, progress) {
