@@ -192,6 +192,9 @@
     .icon-social{
         gap: 2em;
     }
+    .mainbar__left{
+        width: 50% !important;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     html{
@@ -329,6 +332,12 @@
         font-size: 3.2em;
         padding: 0; 
     }
+    .form-row{
+        flex-direction: column;
+    }
+    .mainbar__left{
+        width: 40% !important;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     html{
@@ -388,6 +397,15 @@
     }
     .info-career__disc p{
         font-size: 1.6em;
+    }
+    .mainbar__left {
+        width: 20% !important;
+    }
+    .main-navigation{
+        width: 66.66666667% !important;
+    }
+    .mainmenu-nav::after{
+        bottom: -0.3em;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -458,5 +476,14 @@
         padding-left: var(--bs-gutter-x,.75rem);
         margin-right: auto;
         margin-left: auto;
+    }
+    .mainbar__left {
+        width: 25% !important;
+    }
+    .main-navigation{
+        width: 66.66666667% !important;
+    }
+    .mainmenu-nav::after{
+        bottom: 0.7em;
     }
 }

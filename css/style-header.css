@@ -106,6 +106,7 @@ header{
 .swap-lag{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .swap-lag i{
     margin-left: 0.4em;
