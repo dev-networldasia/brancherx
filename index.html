@@ -1323,13 +1323,10 @@
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
     let mybutton = document.getElementById("scrolltopBtn");
-    console.log(mybutton);
     window.onscroll = function() {scrollFunction()};
-    
+    console.log(sticky);
     function scrollFunction() {
-        console.log(window.pageYOffset);
-        console.log("1",document.body.scrollTop);
- 
+        
       if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         mybutton.style.display = "block";
         navbar.classList.add("sticky");
