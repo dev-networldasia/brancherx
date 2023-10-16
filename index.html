@@ -1327,7 +1327,7 @@
     console.log(sticky);
     function scrollFunction() {
         
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         mybutton.style.display = "block";
         navbar.classList.add("sticky");
       } else {
@@ -1341,6 +1341,25 @@
       document.documentElement.scrollTop = 0;
     }
 </script>
+<!-- <script>
+    window.addEventListener('scroll', function() {
+    const body = document.querySelector('body');
+    const stickyPlaceHolder = document.querySelector('.rbt-sticky-placeholder');
+    const headerContainer = document.querySelector('.rbt-header-wrapper');
+    const headerContainerH = headerContainer.offsetHeight;
+    const targetScroll = 200;
+  
+    if (body.classList.contains('rbt-header-sticky')) {
+      if (window.scrollY > targetScroll) {
+        headerContainer.classList.add('rbt-sticky');
+        stickyPlaceHolder.style.height = `${headerContainerH}px`;
+      } else {
+        headerContainer.classList.remove('rbt-sticky');
+        stickyPlaceHolder.style.height = '0px';
+      }
+    }
+  });
+</script> -->
 
 <!-- Scroll Navbar Menu -->
 <!-- <script>
