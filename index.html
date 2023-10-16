@@ -407,7 +407,7 @@
         </div>
         <div class="trust-us__title">
             <div class="bg-title">
-                <h2>INTERNATIONAL QUALITY</h2>
+                <h2>BRANDS THAT TRUST US</h2>
             </div>
             <div class="border-scroll">
                 <div class="scroll-animation-wrapper">
@@ -1315,14 +1315,47 @@
         </div>
     </div>
 </footer>
+<!-- Scroll top -->
+<button onclick="topFunction()" id="scrolltopBtn">
+    <i class=" ri-arrow-up-fill"></i>
+</button>
 <script>
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    let mybutton = document.getElementById("scrolltopBtn");
+    console.log(mybutton);
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        console.log(window.pageYOffset);
+        console.log("1",document.body.scrollTop);
+ 
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+        navbar.classList.add("sticky");
+      } else {
+        mybutton.style.display = "none";
+        navbar.classList.remove("sticky");
+      }
+    };
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<!-- Scroll Navbar Menu -->
+<!-- <script>
         window.onscroll = function () { myFunction() };
         var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop; function myFunction() { 
+        var sticky = navbar.offsetTop;
+        function myFunction() { 
             console.log(sticky);
             if (window.pageYOffset >= sticky) { navbar.classList.add("sticky") } 
-            else { navbar.classList.remove("sticky"); } }
-</script>
+            else { navbar.classList.remove("sticky"); } 
+        }
+</script> -->
 <!-- JS Mobile-Menu -->
 <script>
     const bgmenu = document.querySelector('.inner-wrapper');
