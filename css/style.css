@@ -184,8 +184,10 @@ html{
     border: none;
     outline: none;
     transition: 0.3s;
+    width: fit-content;
 }
 .box-support .icon-support{
+    flex: 0 0 auto;
     margin: 1em 1em 1.5em 1em;
 }
 .box-support .icon-support:last-child{
@@ -195,10 +197,7 @@ html{
     width: 45px;
     object-fit: cover;
 }
-#scrolltopBtn i{
-    font-size: 35px;
-    font-weight: 800;
-}
+
 /* Contact Button */
 .contact-btn{
     display: block;

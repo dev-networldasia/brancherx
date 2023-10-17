@@ -203,9 +203,12 @@
         opacity: 1;
         background: var(--white2);
     }
+    .contact-btn{
+        bottom: 80px;
+    }
      /* Box Support */
      .box-support{
-        bottom: 40px;
+        bottom: 20px;
         display: flex;
         flex-direction: row-reverse;
         left: 50%;
@@ -213,10 +216,10 @@
         transform: translateX(-50%);
     }
     .box-support .icon-support{
-        margin: 1em 1.5em 1em 1em;
+        margin: 1em 1em 1em 1em;
     }
-    .box-support .icon-support:last-child{
-        margin-right: 1em;
+    .box-support img{
+        width: 35px;
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -367,7 +370,7 @@
     }
     /* Box Support */
     .box-support{
-        bottom: 40px;
+        bottom: 20px;
         display: flex;
         flex-direction: row-reverse;
         left: 50%;
@@ -375,10 +378,7 @@
         transform: translateX(-50%);
     }
     .box-support .icon-support{
-        margin: 1em 1.5em 1em 1em;
-    }
-    .box-support .icon-support:last-child{
-        margin-right: 1em;
+        margin: 1em 1em 1em 1em;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
