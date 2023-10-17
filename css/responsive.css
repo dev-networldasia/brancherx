@@ -203,6 +203,21 @@
         opacity: 1;
         background: var(--white2);
     }
+     /* Box Support */
+     .box-support{
+        bottom: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+    .box-support .icon-support{
+        margin: 1em 1.5em 1em 1em;
+    }
+    .box-support .icon-support:last-child{
+        margin-right: 1em;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     html{
@@ -349,6 +364,21 @@
     .header-bot.sticky{
         opacity: 1;
         background: var(--white2);
+    }
+    /* Box Support */
+    .box-support{
+        bottom: 40px;
+        display: flex;
+        flex-direction: row-reverse;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+    .box-support .icon-support{
+        margin: 1em 1.5em 1em 1em;
+    }
+    .box-support .icon-support:last-child{
+        margin-right: 1em;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

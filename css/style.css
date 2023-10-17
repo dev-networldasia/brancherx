@@ -193,6 +193,7 @@ html{
 }
 .box-support img{
     width: 45px;
+    object-fit: cover;
 }
 #scrolltopBtn i{
     font-size: 35px;
