@@ -190,11 +190,11 @@ header{
     font-size: 1rem;
     background: var(--white2);
     box-shadow: 0px 20px 34px #0000000d;
-    z-index: 10;
+    z-index: 9999;
     height: 8em;
     display: flex;
     align-items: center;
-    transition: 1s all;
+    transition: 0.65s all;
 }
 .mainbar{
     display: flex;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BrancherX</title>
-
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/icons.min.css">
     <link rel="stylesheet" href="css/default.css">
@@ -285,12 +285,12 @@
     <!-- Home Section Your Business -->
     <div class="brancherx-home-your-business">
         <div class="home-your-business-up">
-            <div class="img-business">
+            <div class="wow fadeInLeftBig img-business">
                 <!-- Get Field Home Business Image Up-->
                 <img src="img/home-your-business.webp"
                     alt="home-your-business-2-3">
             </div>
-            <div class="inner-business">
+            <div class="wow fadeInRightBig inner-business">
                 <div class="title">
                     <!-- Get Field Home Business Title Up-->
                     <h2>WHAT WE DO</h2>
@@ -322,7 +322,7 @@
             <!-- Get Field Home Business Title Down -->
             <h2 class="box-above">WE HELP YOUR BUSINESS</h2>
             <div class="down-box-under">
-                <div class="icon-area">
+                <div class="wow fadeInUp icon-area">
                     <div class="icon-circle">
                         <!-- Get Field Home Business Icon Down -->
                         <img src="img/home-your-business-1.svg"
@@ -331,7 +331,7 @@
                     <!-- Get Field Home Business Description Down -->
                     <h4 class="icon-description">Create meaningful branding</h4>
                 </div>
-                <div class="icon-area">
+                <div class="wow fadeInUp icon-area" data-wow-delay="0.5s">
                     <div class="icon-circle">
                         <!-- Get Field Home Business Icon Down -->
                         <img src="img/home-your-business-2.svg"
@@ -340,7 +340,7 @@
                     <!-- Get Field Home Business Description Down -->
                     <h4 class="icon-description">Drive growth sustainably</h4>
                 </div>
-                <div class="icon-area">
+                <div class="wow fadeInUp icon-area" data-wow-delay="1s">
                     <div class="icon-circle">
                         <!-- Get Field Home Business Icon Down -->
                         <img src="img/home-your-business-3.svg"
@@ -349,7 +349,7 @@
                     <!-- Get Field Home Business Description Down -->
                     <h4 class="icon-description">Help brands engage with their audience</h4>
                     </div>
-                <div class="icon-area">
+                <div class="wow fadeInUp icon-area" data-wow-delay="1.5s">
                     <div class="icon-circle">
                         <!-- Get Field Home Business Icon Down -->
                         <img src="img/home-your-business-4.svg"
@@ -546,7 +546,7 @@
             We offer all-inclusive communication services. We are always dedicated to find the best solution for each client.
         </p>
     </div>
-    <div class="our-serivce__down container">
+    <div class="wow fadeInUp our-serivce__down container" data-wow-duration="1.5s">
         <div class="flip-card">
             <div class="flip-card__inner">
                 <div class="flip-icon">
@@ -704,7 +704,7 @@
             Numerous local and global brands have chosen, trusted, and accompanied Brancher.X. Together, we have built success!
         </p>
     </div>
-    <div class="case-studies__down container">
+    <div class="wow fadeInUp case-studies__down container">
         <!-- Swiper -->
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -909,7 +909,7 @@
             <h2>NEWS & CAREERS</h2>
         </div>
     </div>
-    <div class="news-career__down container">
+    <div class="wow fadeInUpBig news-career__down container">
         <div class="tab">
             <div data-id="tab1" class="tablinks active">
                 <span>Company News</span>
@@ -1162,10 +1162,10 @@
 <!-- FORM MASTER -->
 <section class="form-master">
     <div class="container form-row">
-        <div class="talk-to-us">
+        <div class="wow fadeInLeft talk-to-us">
             <span>COME TALK TO US</span>
         </div>
-        <div class="talk-form">
+        <div class="wow fadeInRight talk-form">
             <h2>HOTLINE: (+84) 287 303 0568</h2>
             <form action="#">
                 <div class="form">
@@ -1341,26 +1341,6 @@
       document.documentElement.scrollTop = 0;
     }
 </script>
-<!-- <script>
-    window.addEventListener('scroll', function() {
-    const body = document.querySelector('body');
-    const stickyPlaceHolder = document.querySelector('.rbt-sticky-placeholder');
-    const headerContainer = document.querySelector('.rbt-header-wrapper');
-    const headerContainerH = headerContainer.offsetHeight;
-    const targetScroll = 200;
-  
-    if (body.classList.contains('rbt-header-sticky')) {
-      if (window.scrollY > targetScroll) {
-        headerContainer.classList.add('rbt-sticky');
-        stickyPlaceHolder.style.height = `${headerContainerH}px`;
-      } else {
-        headerContainer.classList.remove('rbt-sticky');
-        stickyPlaceHolder.style.height = '0px';
-      }
-    }
-  });
-</script> -->
-
 <!-- Scroll Navbar Menu -->
 <!-- <script>
         window.onscroll = function () { myFunction() };
@@ -1372,6 +1352,22 @@
             else { navbar.classList.remove("sticky"); } 
         }
 </script> -->
+<!-- WOW - slide -->
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script>
+     window.addEventListener('load',(event)=>{
+				new WOW(
+				{
+					 animateClass: 'animated',
+					  offset:       100,
+					  mobile:true
+				}
+				).init();
+			});
+</script>
 <!-- JS Mobile-Menu -->
 <script>
     const bgmenu = document.querySelector('.inner-wrapper');
