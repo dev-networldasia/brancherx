@@ -158,11 +158,15 @@
     }
    /* FORM - MASTER */
     .form-master{
+        display: flex;
         flex-direction: column;
         margin: 0 auto;
         width: 100%;
         text-align: center;
         padding: 2em 5em;
+    }
+    .form-row{
+        flex-direction: column;
     }
     .talk-form{
         padding-right: 0;
@@ -194,6 +198,10 @@
     }
     .mainbar__left{
         width: 50% !important;
+    }
+    .header-bot.sticky{
+        opacity: 1;
+        background: var(--white2);
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -320,7 +328,7 @@
     /* FORM - MASTER */
     .form-master{
         flex-direction: column;
-        margin: 2em auto;
+        margin: 0em auto;
         width: 100%;
         text-align: center;
         padding: 2em 5em;
@@ -337,6 +345,10 @@
     }
     .mainbar__left{
         width: 40% !important;
+    }
+    .header-bot.sticky{
+        opacity: 1;
+        background: var(--white2);
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -407,6 +419,20 @@
     .mainmenu-nav::after{
         bottom: -0.3em;
     }
+    /* Scroll Header */
+    .header-bot.sticky{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: transparent;
+    }
+    .header-bot.sticky:hover{
+    opacity: 1;
+    background: var(--white2);
+    animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
     html{
@@ -451,6 +477,20 @@
     .flip-card{
         width: 49%;
     }
+    .header-bot.sticky{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        background: transparent;
+    }
+    .header-bot.sticky:hover{
+        opacity: 1;
+        background: var(--white2);
+        /* transition: 1s all; */
+        animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
     html{
@@ -463,6 +503,20 @@
         padding-left: var(--bs-gutter-x,.75rem);
         margin-right: auto;
         margin-left: auto;
+    }
+    .header-bot.sticky{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        background: transparent;
+    }
+    .header-bot.sticky:hover{
+        opacity: 1;
+        background: var(--white2);
+        /* transition: 1s all; */
+        animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
     }
 }
 @media (min-width: 1400px){
@@ -485,5 +539,19 @@
     }
     .mainmenu-nav::after{
         bottom: 0.7em;
+    }
+    .header-bot.sticky{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        background: transparent;
+    }
+    .header-bot.sticky:hover{
+        opacity: 1;
+        background: var(--white2);
+        /* transition: 1s all; */
+        animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
     }
 }

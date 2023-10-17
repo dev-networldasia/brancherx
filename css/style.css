@@ -169,17 +169,15 @@ html{
     color: var(--blue-hover);
 }
 /* Scroll Top */
-#scrolltopBtn{
-    display: none;
+.box-support{
+    display: block;
     position: fixed;
     z-index: 1000;
     color: var(--white2);
-    width: 45px;
-    height: 45px;
-    background: var( --bg-highlight);
+    background: var( --color-white-off);
     justify-content: center;
     align-items: center;
-    border-radius: 4px;
+    border-radius: 8px;
     bottom: 90px;
     right: 20px;
     cursor: pointer;
@@ -187,7 +185,152 @@ html{
     outline: none;
     transition: 0.3s;
 }
+.box-support .icon-support{
+    margin: 1em 1em 1.5em 1em;
+}
+.box-support .icon-support:last-child{
+    margin-bottom: 1em;
+}
+.box-support img{
+    width: 45px;
+}
 #scrolltopBtn i{
     font-size: 35px;
     font-weight: 800;
+}
+/* Contact Button */
+.contact-btn{
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    bottom: 60px;
+    left: 20px;
+}
+.contact-btn button{
+    font-size: 2em;
+    padding: 0.5em 1em;
+    color: var(--bg-highlight);
+    background: var(--white2);
+    font-weight: 600;
+    border-radius: 1em;
+    border: 2px solid var(--bg-highlight);
+    align-items: center;
+    display: flex;
+}
+.contact-btn button i{
+    margin-left: 0.2em;
+    font-size: 1.2em;
+}
+.contact-btn button:hover{
+    background: var(--blue-hover);
+    color: var(--white2);
+    border-color: var(--blue-hover);
+}
+.bg-form{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+}
+.bg-form.active{
+    display: block;
+}
+.overlay-form{
+    top: 0;
+    left: 0;
+    outline: 0;
+    background: var(--black-opacity2);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.diablog{
+    max-width: 500px;
+    height: auto;
+    background: var(--white2);
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    z-index: 10000;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.bg-form.active .diablog{
+    opacity: 1;
+    top: 50%;
+}
+.top-form{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-border);
+    padding: 1.5em;
+}
+.top-form h2 {
+    font-size: 2.4em;
+    font-weight: 400;
+}
+.top-form .close-btn-form{
+    font-size: 2.5em;
+}
+.bot-form{
+    padding: 1.5em;
+    color: var(--main-color);
+}
+.bot-form .form{
+    width: 100%;
+    display: flex;
+    flex: 0 0 auto;
+}
+.bot-form .form input{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    margin: 0.6em 0;
+    color: var(--main-color);
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 1.6em;
+    width: 100%;
+    border: 1px solid var(--color-border);
+    font-weight: 500;
+    line-height: 1.5;
+}
+.bot-form .form input::placeholder{
+    color: var(--main-color);
+    font-weight: 400;
+}
+.bot-form .form-label .label-contactus{
+    font-size: 1.6em;
+}
+.bot-form .form-control{
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 2px;
+    margin: 0.6em 0;
+    color: var(--main-color);
+    padding: 0.5em 0 0.5em 1em;
+    font-size: 1.6em;
+    width: 100%;
+    border: 1px solid var(--color-border);
+    font-weight: 400;
+    line-height: 1.5;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    margin: none    ;
+}
+.bot-form .btn-form{
+    background: var(--blue-hover);
+    border-radius: 2px;
+    left: 0;
+    transform: translateX(0);
+    margin-top: 1em;
+}
+.bot-form .btn-form span{
+    color: var(--white2);
 }

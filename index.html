@@ -27,46 +27,6 @@
 <body>
    <!-- Header -->
    <header>
-    <!-- Header - Top -->
-    <div class="header-top">
-        <div class="container top-wrapper">
-            <div class="wrapper-social">
-                <div class="wrapper-social__item">
-                    <a href="#">
-                        <i class="ri-instagram-line"></i>
-                        <span>100k Followers</span>
-                    </a>
-                </div>
-                <div class="wrapper-social__item">
-                    <a href="#">
-                        <i class="ri-facebook-box-fill"></i>
-                        <span>500k Followers</span>
-                    </a>
-                </div>
-                <div class="wrapper-social__item">
-                    <a href="#">
-                        <i class="ri-phone-line"></i>
-                        <span>+84-287-303-0568</span>
-                    </a>
-                </div>
-            </div>
-            <div class="top-wrapper__center">
-                <span class="hot">Hot</span>
-                <span class="news-text">
-                    <img src="img/hand-emojji.svg">
-                    Intro price. Get BrancherX for Big Sale -50% off
-                </span>
-            </div>
-            <div class="top-wrapper__right">
-                <div class="icon">
-                    <a href="#"><i class=" ri-facebook-fill"></i></a>
-                    <!-- <a href="#"><i class=" ri-twitter-fill"></i></a> -->
-                    <a href="#"><i class=" ri-linkedin-fill"></i></a>
-                    <a href="#"><i class=" ri-instagram-line"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Header - Bot -->
     <div class="header-bot" id="navbar">
         <div class="container mainbar">
@@ -77,7 +37,7 @@
                 <div class="header__info">
                     <div class="logo">
                         <a href="#">
-                            <img src="img/BrancherX x WorldWide.png" alt="BrancherX">
+                            <img src="img/brancherx-logo-300x81.png" alt="BrancherX">
                         </a>
                     </div>
                 </div>
@@ -1181,9 +1141,9 @@
                     <input type="number" placeholder="Phone *">
                 </div>
                 <div class="form form-label">
-                    <label for="post-start-date" class="label-contactus">
+                    <span for="post-start-date" class="label-contactus">
                         Choose your service that you interest:
-                    </label>
+                    </span>
                     <select name="brancherx_page_contact_form_service" class="form-control">
                         <option valuvalue="Integrated Marketing Communication">Integrated Marketing Communication</option>
                         <option valuvalue="Marketing & Business Solution">Marketing & Business Solution</option>
@@ -1206,7 +1166,6 @@
         </div>
     </div>
 </section>
-
 <!-- FOOTER -->
 <footer>
     <div class="container footer-row">
@@ -1315,10 +1274,83 @@
         </div>
     </div>
 </footer>
+<!-- Contact Button -->
+<div class="contact-btn">
+    <button>
+        CONTACT US
+        <i class="ri-arrow-right-s-line"></i>
+    </button>
+</div>
+<div class="bg-form">
+    <div class="diablog">
+        <div class="top-form">
+            <h2>Contact with Us</h2>
+            <div class="close-btn-form">
+                <i class="ri-close-line"></i>
+            </div>
+        </div>
+        <div class="bot-form">
+            <form action="#">
+                <div class="form">
+                    <input type="text" placeholder="Company name *">
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Job title *">
+                </div>
+                <div class="form">
+                    <input type="email" placeholder="E - mail *">
+                </div>
+                <div class="form">
+                    <input type="number" placeholder="Phone *">
+                </div>
+                <div class="form form-label">
+                    <span for="post-start-date" class="label-contactus">
+                        Choose your service that you interest:
+                    </span>
+                    <select name="brancherx_page_contact_form_service" class="form-control">
+                        <option valuvalue="Integrated Marketing Communication">Integrated Marketing Communication</option>
+                        <option valuvalue="Marketing & Business Solution">Marketing & Business Solution</option>
+                        <option valuvalue="Creative Communication">Creative Communication</option>
+                        <option valuvalue="Media Planning & Media Buying">Media Planning & Media Buying</option>
+                        <option valuvalue="PR Planning & Buying">PR Planning & Buying</option>
+                        <option valuvalue="Digital Marketing & Performance">Digital Marketing & Performance</option>
+                        <option valuvalue="Social Content Management">Social Content Management</option>
+                        <option valuvalue="KOL,KOC, Seeding">KOL,KOC, Seeding</option>
+                        <option valuvalue="Others">Others</option>
+                    </select>
+                </div>
+                <div class="form">
+                    <input type="text" placeholder="Message *">
+                </div>
+                <div class="btn-form">
+                    <span>SEND</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="overlay-form"></div>
+</div>
 <!-- Scroll top -->
-<button onclick="topFunction()" id="scrolltopBtn">
-    <i class=" ri-arrow-up-fill"></i>
-</button>
+<div class="box-support">
+    <div class="icon-support" onclick="topFunction()" id="scrolltopBtn">
+        <img src="img/icon-go-top.png" alt="">
+    </div>
+    <div class="icon-support">
+        <a href="#">
+            <img src="img/icon-mess.png" alt="">
+        </a>
+    </div>
+    <div class="icon-support">
+        <a href="#">
+            <img src="img/icon-phone-red.png" alt="">
+        </a>
+    </div>
+    <div class="icon-support">
+        <a href="#">
+            <img src="img/icon-zalo.png" alt="">
+        </a>
+    </div>
+</div>
 <script>
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
@@ -1565,5 +1597,18 @@ setInterval(function () {
      });
     };
  </script>
+ <!-- JS Contact Form -->
+<script>
+    const bgform = document.querySelector('.diablog');
+    document.querySelector('.contact-btn').addEventListener("click", function() {
+        document.querySelector('.bg-form').classList.toggle('active');
+    });
+    document.querySelector('.close-btn-form').addEventListener("click", function() {
+        document.querySelector('.bg-form').classList.remove('active');
+    });
+    document.querySelector('.overlay-form').addEventListener("click", function() {
+        document.querySelector('.bg-form').classList.remove('active');
+    });
+</script>
 </body>
 </html>
