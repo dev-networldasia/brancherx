@@ -42,8 +42,7 @@
     <body>
         <!-- Header -->
         <header>
-            <!-- Header - Bot -->
-            <!-- <div class="header-bot" id="navbar">
+            <div class="header-bot" id="navbar">
                 <div class="container mainbar">
                     <div class="btn-menu-mobile">
                         <i class="ri-menu-line"></i>
@@ -102,20 +101,92 @@
                     </div>
                 </div>
             </div>
-            <div class="search-dropdown">
-                <form class="form-search" action="#">
-                    <input type="text" placeholder="What are you looking for?">
-                    <div class="slider-btn">
-                        <a href="#" class="warp-course">
-                            <span>Search</span>
-                        </a>
+        </header>
+        <!-- Mobile Menu -->
+        <div class="popup-mobile-menu">
+            <div class="inner-wrapper">
+                <div class="inner-top">
+                    <div class="content-mobile">
+                        <div class="logo">
+                            <img src="img/logo-branch/large-logo.png" alt="">
+                        </div>
+                        <div class="close-btn">
+                            <i class="ri-close-line"></i>
+                        </div>
                     </div>
-                </form>
+                    <p>We use the power of idea, creativity, media and data, to drive growth and to drive change, helping brands
+                        engage with their audiences and businesses grow sustainably.</p>
+                    <div class="search-mobile">
+                        <form class="form-letter" action="#">
+                            <input type="email" placeholder="Enter Keywords">
+                            <div class="slider-btn">
+                                <a href="#" class="warp-course">
+                                    <span>Search</span>
+                                    <span class="wrap-icon">
+                                        <i class="ri-arrow-right-line"></i>
+                                    </span>
+                                    <span class="wrap-icon">
+                                        <i class="ri-arrow-right-line"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="contact">
+                        <li>
+                            <i class=" ri-mail-line"></i>
+                            <span>hello@brancherx.com</span>
+                        </li>
+                        <li>
+                            <i class="ri-phone-line"></i>
+                            <span>(+84) 287 303 0568</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mainmenu-nav">
+                    <li class="accordion">
+                        <a href="#" class="mobile mobile-menu1">
+                            <span>Home</span>
+                            <div class="close-btn"></div>
+                        </a>
+                    <li class="accordion">
+                        <a href="#" class="mobile mobile-menu1">
+                            <span>About Us</span>
+                            <div class="close-btn"></div>
+                        </a>
+                    </li>
+                    <li class="accordion">
+                        <a href="#" class="mobile mobile-menu1">
+                            <span>What We Do</span>
+                            <div class="close-btn"></div>
+                        </a>
+                    </li>
+                    <li class="accordion">
+                        <a href="#" class="mobile mobile-menu1">
+                            <span>Case Studies</span>
+                            <div class="close-btn"></div>
+                        </a>
+                    </li>
+                    <li class="accordion">
+                        <a href="#" class="mobile mobile-menu1">
+                            <span>News & Careers</span>
+                            <div class="close-btn"></div>
+                        </a>
+                    </li>
+                    <li class="accordion">
+                        <a href="#" class="mobile mobile-menu1">
+                            <span>Contact Us</span>
+                            <div class="close-btn"></div>
+                        </a>
+                    </li>
+                </div>
+                <div class="mobile-menu-btn"></div>
             </div>
-        </header> -->
-        
+            <div class="overlay"></div>
+        </div>
+
         <div id="fullpage">
-            <div class="section " id="section0">
+            <div class="section" id="section0">
                 <section class="home-banner">
                     <div class="home-banner-area banner1 slider--el slider--el-1 active">
                         <div class="home-banner-text-area container">
@@ -175,7 +246,7 @@
                     </div>
                 </section>
             </div>
-            <div class="section" id="section2">
+            <div class="section" id="section1">
                 <!-- YOUR BUSINESS -->
                 <section class="your-business">
                     <!-- Home Section Your Business -->
@@ -255,7 +326,7 @@
                 </section>
 
             </div>
-            <div class="section" id="section3">
+            <div class="section" id="section2">
                 <!-- ABOUT US -->
                 <section class="about-us bg__left" style="background-image: url(img/about-us-count-nummber-bg.svg) ;">
                     <div class="container">
@@ -429,7 +500,7 @@
                     </div>
                 </section>
             </div>
-            <div class="section" id="section4">
+            <div class="section" id="section3">
                 <section class="our-service">
                     <div class="our-serivce__up container">
                         <div class="bg-title">
@@ -1217,13 +1288,105 @@
                 </footer>
             </div>
         </div>
+        <!-- Contact Button -->
+        <div class="contact-btn">
+            <button>
+                CONTACT US
+                <i class="ri-arrow-right-s-line"></i>
+            </button>
+        </div>
+        <div class="bg-form">
+            <div class="diablog">
+                <div class="top-form">
+                    <h2>Contact with Us</h2>
+                    <div class="close-btn-form">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="bot-form">
+                    <form action="#">
+                        <div class="form">
+                            <input type="text" placeholder="Company name *">
+                        </div>
+                        <div class="form">
+                            <input type="text" placeholder="Job title *">
+                        </div>
+                        <div class="form">
+                            <input type="email" placeholder="E - mail *">
+                        </div>
+                        <div class="form">
+                            <input type="number" placeholder="Phone *">
+                        </div>
+                        <div class="form form-label">
+                            <span for="post-start-date" class="label-contactus">
+                                Choose your service that you interest:
+                            </span>
+                            <select name="brancherx_page_contact_form_service" class="form-control">
+                                <option valuvalue="Integrated Marketing Communication">Integrated Marketing Communication
+                                </option>
+                                <option valuvalue="Marketing & Business Solution">Marketing & Business Solution</option>
+                                <option valuvalue="Creative Communication">Creative Communication</option>
+                                <option valuvalue="Media Planning & Media Buying">Media Planning & Media Buying</option>
+                                <option valuvalue="PR Planning & Buying">PR Planning & Buying</option>
+                                <option valuvalue="Digital Marketing & Performance">Digital Marketing & Performance</option>
+                                <option valuvalue="Social Content Management">Social Content Management</option>
+                                <option valuvalue="KOL,KOC, Seeding">KOL,KOC, Seeding</option>
+                                <option valuvalue="Others">Others</option>
+                            </select>
+                        </div>
+                        <div class="form">
+                            <input type="text" placeholder="Message *">
+                        </div>
+                        <div class="btn-form">
+                            <span>SEND</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="overlay-form"></div>
+        </div>
+        <!-- Scroll top -->
+        <div class="box-support">
+            <div class="icon-support scrolltop" id="scrolltopBtn">
+                <img src="img/icon-go-top.png" alt="">
+            </div>
+            <div class="icon-support">
+                <a href="#">
+                    <img src="img/icon-mess.png" alt="">
+                </a>
+            </div>
+            <div class="icon-support">
+                <a href="#">
+                    <img src="img/icon-phone-red.png" alt="">
+                </a>
+            </div>
+            <div class="icon-support">
+                <a href="#">
+                    <img src="img/icon-zalo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <!-- JS Contact Form -->
+        <script>
+            const bgform = document.querySelector('.diablog');
+            document.querySelector('.contact-btn').addEventListener("click", function () {
+                document.querySelector('.bg-form').classList.toggle('active');
+            });
+            document.querySelector('.close-btn-form').addEventListener("click", function () {
+                document.querySelector('.bg-form').classList.remove('active');
+            });
+            document.querySelector('.overlay-form').addEventListener("click", function () {
+                document.querySelector('.bg-form').classList.remove('active');
+            });
+        </script>
     <!-- Navbar Menu -->
-    <script>
+    <!-- <script>
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
         let mybutton = document.getElementById("scrolltopBtn");
-        window.onscroll = function() {scrollFunction()};
-        console.log(sticky);
+        window.onscroll = function() {
+            scrollFunction()};
+        console.log(window.onscroll);
         function scrollFunction() {
           if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
             mybutton.style.display = "block";
@@ -1233,25 +1396,29 @@
             navbar.classList.remove("sticky");
           }
         };
-        
         function topFunction() {
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
         }
-    </script>
+    </script> -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/fullpage.js"></script>
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
     <script>
         var myFullpage = new fullpage('#fullpage', {
             responsiveWidth: 1200,
-			anchors: ['firstPage', 'secondPage', '3rdPage'],
+			// anchors: ['firstPage', 'secondPage', '3rdPage', '4stPage', '5stPage', '6stPage', '7stPage'],
 			navigation: true,
 			navigationPosition: 'left',
 			navigationTooltips: ['Home', 'What We Do', 'About Us' , 'Our Service', 'Case Studies', 'News & Careers' , 'Form' , 'Contact'],
-			onLeave: function (index, direction, nextIndex, destination) {
-                console.log(direction.anchor);
-				if (direction.anchor == "3rdPage") {
+			onLeave: function (index, nextIndex, direction, destination) {
+                if(nextIndex.index == 1){
+                    $('.header-bot').addClass('fixed');
+                }
+                if(nextIndex.index == 0){
+                    $('.header-bot').removeClass('fixed');
+                }
+				if (nextIndex.index == 2) {
 					$('.odometer').each(function () {
                         // var odo = $('.odometer');
                         // odo.each(function () {
@@ -1287,6 +1454,9 @@
 				}
 			},
 		});
+        document.querySelector('.scrolltop').addEventListener("click", function() {
+            myFullpage.moveTo(1, 0);
+        });
     </script>
     <!-- HOME BANNER - SCRIPT -->
     <script src="js/jquery.min.js"></script>
@@ -1319,21 +1489,9 @@
         });
     </script>
     <!-- COUNTER NUMBER -->
-    <script src="js/jquery.min.js"></script>
     <script src="js/jquery-appear.js"></script>
     <script src="js/odometer.js"></script>
-    <script>
-        window.odometerOptions = {
-            duration: 4000, // Change how long the javascript expects the CSS animation to take
-        };
-        var odo = $('.odometer');
-        odo.each(function () {
-            $('.odometer').appear(function (e) {
-                var countNumber = $(this).attr('data-count');
-                $(this).html(countNumber);
-            });
-        });
-    </script>
+
     <!-- Swiper JS  CASE STUDIES -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     
@@ -1449,6 +1607,42 @@
                 },
             });
         };
+    </script>
+    <!-- JS Mobile-Menu -->
+    <script>
+        const bgmenu = document.querySelector('.inner-wrapper');
+        document.querySelector('.btn-menu-mobile').addEventListener("click", function () {
+            document.querySelector('.popup-mobile-menu').classList.toggle('active');
+        });
+        document.querySelector('.close-btn').addEventListener("click", function () {
+            document.querySelector('.popup-mobile-menu').classList.remove('active');
+        });
+        document.querySelector('.overlay').addEventListener("click", function () {
+            document.querySelector('.popup-mobile-menu').classList.remove('active');
+        });
+    </script>
+    <!-- Mobile - openTab-->
+    <script>
+        var list = document.querySelectorAll('.mobile');
+        list.forEach(function (item) {
+            item.addEventListener("click", function (evt2) {
+
+                var flag = evt2.currentTarget.parentElement.classList.contains('active');
+                if (flag) {
+                    console.log(evt2.currentTarget.parentElement.querySelector('.child-menu'));
+                    evt2.currentTarget.parentElement.classList.remove('active');
+                    $(evt2.currentTarget.parentElement.querySelector('.child-menu')).slideUp(300);
+
+                }
+                else {
+                    document.querySelectorAll('.accordion').forEach(function (re) {
+                        re.classList.remove('active');
+                    });
+                    evt2.currentTarget.parentElement.classList.add('active');
+                    $(evt2.currentTarget.parentElement.querySelector('.child-menu')).slideDown(300);
+                }
+            })
+        });
     </script>
     </body>
 </html>

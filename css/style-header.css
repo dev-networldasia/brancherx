@@ -194,7 +194,14 @@ header{
     height: 8em;
     display: flex;
     align-items: center;
-    transition: 0.65s all;
+    -webkit-transition: all 0.7s ease;  
+    -moz-transition: all 0.7s ease;  
+      -o-transition: all 0.7s ease; 
+         transition: all 0.7s ease; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .mainbar{
     display: flex;
@@ -358,13 +365,18 @@ header{
     padding: 0.5em 0;
 }
 /* Scroll Header */
-.header-bot.sticky{
-    width: 100%;
+.header-bot.fixed{
+    bottom:auto;
+    top:0;
+    margin-top: 0;
     position: fixed;
-    top: 0;
-    left: 0;
     opacity: 0;
-    background: transparent;
+}
+.header-bot.fixed:hover{
+    opacity: 1;
+}
+.header-bot.fixed:hover .mainbar{
+    animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
 }
 @keyframes stickySlideDown {
     0% {

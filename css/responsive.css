@@ -626,20 +626,7 @@
     .mainmenu-nav::after{
         bottom: 0.7em;
     }
-    .header-bot.sticky{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        opacity: 0;
-        background: transparent;
-    }
-    .header-bot.sticky:hover{
-        opacity: 1;
-        background: var(--white2);
-        /* transition: 1s all; */
-        animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
-    }
+ 
     /* Your Business */
     .img-business,
     .talk-to-us
