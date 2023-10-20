@@ -174,7 +174,7 @@ html{
     position: fixed;
     z-index: 1000;
     color: var(--white2);
-    background: var( --color-white-off);
+    background: var(--bg-highlight);
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -188,11 +188,14 @@ html{
 }
 .box-support .icon-support{
     flex: 0 0 auto;
-    margin: 1em 1em 1.5em 1em;
+    margin: 0.5em 1em;
 }
-.box-support .icon-support:last-child{
+.box-support .icon-support i{
+    font-size: 2.5em;
+}
+/* .box-support .icon-support:last-child{
     margin-bottom: 1em;
-}
+} */
 .box-support img{
     width: 45px;
     object-fit: cover;

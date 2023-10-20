@@ -10,6 +10,9 @@
     font-size: 1rem;
     padding: 4em 0em;
     overflow: hidden;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .our-service .container{
     width: 80%;
