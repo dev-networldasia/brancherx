@@ -9,6 +9,7 @@
     background-position: right;
     background-attachment: fixed;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    overflow: hidden;
 }
 .home-your-business-up .button-area{
     background: var(--bg-highlight);
@@ -63,7 +64,7 @@
 .home-your-business-down .box-above{
     font-size: 3em;
     color: var(--white2);
-    margin-top: 2em;
+    margin-top: 1em;
 }
 .down-box-under{
     display: flex;

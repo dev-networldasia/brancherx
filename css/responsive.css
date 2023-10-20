@@ -66,6 +66,9 @@
     .popup-mobile-menu .mainmenu-nav .panel2 li a {
         font-size: 1em;
     }
+    .brancherx-home-your-business{
+        height: auto;
+    }
     /* Home Section Your Business */
     .img-business{
         width: 100%;
@@ -93,7 +96,13 @@
         width: 50%;
         margin-top: 2em;
     }
-     /* Our - Service */
+    .home-your-business-up img{
+        padding-right: 0;
+    }
+    /* Our - Service */
+    .our-service{
+        height: auto;
+    }
      .our-serivce__down{
         gap: 1em;
     }
@@ -273,6 +282,9 @@
     .popup-mobile-menu .mainmenu-nav .panel2 li a {
         font-size: 1em;
     }
+    .brancherx-home-your-business{
+        height: auto;
+    }
     /* Home Section Your Business */
     .img-business{
         width: 100%;
@@ -300,7 +312,13 @@
         width: 50%;
         margin-top: 2em;
     }
+    .home-your-business-up img{
+        padding-right: 0;
+    }
     /* Our - Service */
+    .our-service{
+        height: auto;
+    }
     .our-serivce__down{
         gap: 1em;
     }
@@ -412,6 +430,9 @@
         font-size: 0.7em;
     }
     /* Home Section Your Business */
+    .brancherx-home-your-business{
+        height: auto;
+    }
     .inner-business{
         padding: 4em;
     }
@@ -426,12 +447,12 @@
         width: 50%;
         margin-top: 2em;
     }
-      /* Our - Service */
+    /* Our - Service */
     .our-serivce__down{
         gap: 1em;
     }
     .flip-card{
-        width: 48%;
+        width: 24%;
     }
     /* News - Career */
     .info-career__disc a h2{
@@ -505,7 +526,7 @@
     }
     /* Our - Service */
     .flip-card{
-        width: 49%;
+        width: 23%;
     }
     .header-bot.sticky{
         width: 100%;
@@ -548,6 +569,41 @@
         /* transition: 1s all; */
         animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
     }
+    /* Your Business */
+    .img-business,
+    .talk-to-us
+    {
+        opacity: 0;
+        width: 50%;
+        flex: 0 0 auto;
+        transform: translateX(calc(-100% - 3rem));
+        transition: all 0.65s;
+    }
+    .inner-business,
+    .talk-form
+    {
+        opacity: 0;
+        width: 50%;
+        padding: 2.5em;
+        transform: translateX(calc(100% + 8rem));
+        transition: all 0.65s ;
+    }
+    .icon-area{
+        opacity: 0;
+        transform: translateY(calc(100% + 1rem));
+        transition: all 0.45s ease-out;
+    }
+    .about-us__title,
+    .about-us__counter,
+    .trust-us__title,
+    .our-serivce__down,
+    .case-studies__down,
+    .news-career__down
+    {
+        opacity: 0;
+        transform: translateY(calc(100% + 1rem));
+        transition: all 0.65s ease-out;
+    }
 }
 @media (min-width: 1400px){
     html{
@@ -583,5 +639,40 @@
         background: var(--white2);
         /* transition: 1s all; */
         animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
+    }
+    /* Your Business */
+    .img-business,
+    .talk-to-us
+    {
+        opacity: 0;
+        width: 50%;
+        flex: 0 0 auto;
+        transform: translateX(calc(-100% - 3rem));
+        transition: all 0.65s;
+    }
+    .inner-business,
+    .talk-form
+    {
+        opacity: 0;
+        width: 50%;
+        padding: 2.5em;
+        transform: translateX(calc(100% + 8rem));
+        transition: all 0.65s ;
+    }
+    .icon-area{
+        opacity: 0;
+        transform: translateY(calc(100% + 1rem));
+        transition: all 0.45s ease-out;
+    }
+    .about-us__title,
+    .about-us__counter,
+    .trust-us__title,
+    .our-serivce__down,
+    .case-studies__down,
+    .news-career__down
+    {
+        opacity: 0;
+        transform: translateY(calc(100% + 1rem));
+        transition: all 0.65s ease-out;
     }
 }

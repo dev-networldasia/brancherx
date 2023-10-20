@@ -334,3 +334,39 @@ html{
 .bot-form .btn-form span{
     color: var(--white2);
 }
+/* Page Effect */
+.section.active .img-business,
+.section.active .inner-business,
+.section.active .talk-to-us
+{
+    transform: translateX(0);
+    opacity: 1;
+}
+.section.active .icon-area,
+.section.active .talk-form
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+.section.active .about-us__title,
+.section.active .about-us__counter,
+.section.active .trust-us__title,
+.section.active .our-serivce__down,
+.section.active .case-studies__down,
+.section.active .news-career__down
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span{
+    background: var(--bg-highlight);
+}
+#fp-nav ul li .fp-tooltip{
+    color: var(--bg-highlight);
+    font-size: 2em;
+    font-weight: 500;
+    top: -8px;
+}
+#fp-nav ul li, .fp-slidesNav ul li{
+    margin: 10px;
+}

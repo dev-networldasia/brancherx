@@ -9,7 +9,7 @@
     height: 100vh;
     font-size: 1rem;
     padding: 4em 0em;
-    margin-top: 2em;
+    overflow: hidden;
 }
 .our-service .container{
     width: 80%;

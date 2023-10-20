@@ -20,7 +20,7 @@
     .case-studies__down .swiper{
         width: 90%;
     }
-  .swiper-slide {
+    .case-studies .swiper-slide {
     font-size: 1rem;
     background: transparent;
     display: flex;
@@ -28,7 +28,7 @@
     height: 31em;
   }
 
-  .autoplay-progress {
+  .case-studies .autoplay-progress {
     position: absolute;
     right: 16px;
     bottom: 16px;
@@ -42,7 +42,7 @@
     color: var(--swiper-theme-color);
   }
 
-  .autoplay-progress svg {
+  .case-studies .autoplay-progress svg {
     --progress: 0;
     position: absolute;
     left: 0;
@@ -57,13 +57,14 @@
     stroke-dasharray: 125.6;
     transform: rotate(-90deg);
   }
-  .swiper-wrapper{
+  .case-studies .swiper-wrapper{
     display: flex;
   }
 /* END - Swiper Slider */
 .case-studies__down{
     position: relative;
     padding: 5em 0;
+    margin-top: 3em;
 }
 .bg__right{
     background: linear-gradient(0deg, #fff 25.52%, rgba(0, 69, 129, 0) 100%), url(../img/about-us-count-nummber-bg.svg);

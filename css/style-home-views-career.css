@@ -161,6 +161,13 @@
   border-radius: 1em;
   object-fit: cover;
 }
+.news-career__down .swiper-slide {
+  font-size: 1rem;
+  background: transparent;
+  display: flex;
+  width: 34em;
+  height: 31em;
+}
 .swiper-3d .swiper-slide-shadow, .swiper-3d .swiper-slide-shadow-bottom, .swiper-3d .swiper-slide-shadow-left, .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-top {
   border-radius: 1em;
 }
