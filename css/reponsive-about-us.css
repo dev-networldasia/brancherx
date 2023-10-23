@@ -1,0 +1,237 @@
+@media (max-width: 575px){
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    /* Well Build */
+    .brancherx-about-us-well-build{
+        height: 100%;
+        padding-top: 3em;
+    }
+    .bg-title h2{
+        font-size: 3.8em;
+    }
+    .about-us-weel-build__down {
+        flex-direction: column;
+    }
+    
+    .about-us-weel-build__down {
+        margin: auto;
+    }
+    .about-us-weel-build__down .box-left{
+        width: 100%;
+        padding: 0 0.5em;
+    }
+    .about-us-weel-build__down .box-right{
+        width: auto;
+        margin-top: 3em;
+    }
+     .box-left .title-area h2{
+        font-size: 3em;
+    }
+    .box-left .title-area h4{
+        font-size: 2.6em;
+    }
+    .box-left .hightlight-text-area h4{
+        font-size: 2.4em;
+    }
+    .about-us-weel-build__down .box-left>h4{
+        font-size: 1.6em;
+        padding-left: 1.5em;
+    }
+    .about-us-weel-build__down .box-left{
+        margin-top: 6em;
+    }
+    .about-us-weel-build__down .box-right{
+        padding: 2em;
+    }
+    .about-us-weel-build__down .box-right img{
+        height: 45vh;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+     /* Well Build */
+     .brancherx-about-us-well-build{
+        height: 100%;
+        padding-top: 3em;
+    }
+    .bg-title h2{
+        font-size: 3.8em;
+    }
+    .about-us-weel-build__down{
+        margin: auto;
+    }
+    .brancherx-about-us-well-build{
+        height: 100%;
+    }
+    .about-us-weel-build__down{
+        flex-direction: column;
+     }
+    .about-us-weel-build__down .box-left{
+        width: 100%;
+        padding: 0 0.5em;
+    }
+    .about-us-weel-build__down .box-right{
+        width: auto;
+        margin-top: 3em;
+    }
+     .box-left .title-area h2{
+        font-size: 3em;
+    }
+    .box-left .title-area h4{
+        font-size: 2.6em;
+    }
+    .box-left .hightlight-text-area h4{
+        font-size: 2.4em;
+    }
+    .about-us-weel-build__down .box-left>h4{
+        font-size: 1.6em;
+    }
+    .about-us-weel-build__down .box-left{
+        margin-top: 6em;
+    }
+    .about-us-weel-build__down .box-right{
+        padding: 2em;
+    }
+    .about-us-weel-build__down .box-right img{
+        height: 45vh;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    html{
+        font-size: 50%;
+    }
+    /* Well Build */
+    .box-left .title-area h2{
+        font-size: 3em;
+    }
+    .box-left .title-area h4{
+        font-size: 2.6em;
+    }
+    .box-left .hightlight-text-area h4{
+        font-size: 2.4em;
+    }
+    .about-us-weel-build__down .box-left>h4{
+        font-size: 1.6em;
+        padding-left: 1em;
+    }
+    .about-us-weel-build__down .box-left{
+        margin-top: 6em;
+    }
+    .about-us-weel-build__down .box-right{
+        padding: 2em;
+    }
+    .about-us-weel-build__down .box-right img{
+        height: 45vh;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    html{
+        font-size: 55%;
+    }
+    .container {
+        max-width: 879px !important;
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+     /* Well Build */
+     .box-left .title-area h2{
+        font-size: 3em;
+    }
+    .box-left .title-area h4{
+        font-size: 2.6em;
+    }
+    .box-left .hightlight-text-area h4{
+        font-size: 2.4em;
+    }
+    .about-us-weel-build__down .box-left>h4{
+        font-size: 1.6em;
+    }
+    .about-us-weel-build__down .box-left{
+        margin-top: 6em;
+    }
+    .about-us-weel-build__down .box-right{
+        padding: 2em;
+    }
+    .about-us-weel-build__down .box-right img{
+        height: 45vh;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    html{
+        font-size: 62.5%;
+    }
+    .container {
+        max-width: 1100px !important;
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+     /* Well Build */
+     .box-left .title-area h2{
+        font-size: 3em;
+    }
+    .box-left .title-area h4{
+        font-size: 2.6em;
+    }
+    .box-left .hightlight-text-area h4{
+        font-size: 2.4em;
+    }
+    .about-us-weel-build__down .box-left>h4{
+        font-size: 1.6em;
+    }
+    .about-us-weel-build__down .box-left{
+        margin-top: 6em;
+    }
+    .about-us-weel-build__down .box-right{
+        padding: 2em;
+    }
+    .about-us-weel-build__down .box-right img{
+        height: 45vh;
+    }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px){
+    html{
+        font-size: 62.5%;
+    }
+    /* Well Build */
+    .box-left .title-area h2{
+        font-size: 3em;
+    }
+    .box-left .title-area h4{
+        font-size: 2.6em;
+    }
+    .box-left .hightlight-text-area h4{
+        font-size: 2.4em;
+    }
+    .about-us-weel-build__down .box-left>h4{
+        font-size: 1.6em;
+    }
+    .about-us-weel-build__down .box-left{
+        margin-top: 6em;
+    }
+    .about-us-weel-build__down .box-right{
+        padding: 2em;
+    }
+    .about-us-weel-build__down .box-right img{
+        height: 45vh;
+    }
+}
+@media (min-width: 1600px){
+    .container {
+        max-width: 1200px !important;
+        width: 100%;
+        padding-right: var(--bs-gutter-x,.75rem);
+        padding-left: var(--bs-gutter-x,.75rem);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
