@@ -680,4 +680,13 @@
     .flip-card {
         width: 22%;
     }
+    .about-us__counter{
+        justify-content: space-between;
+    }
+    .content-counter .counter{
+        font-size: 7.6em;
+    }
+    .counter_disc {
+        font-size: 2.4em;
+    }
 }

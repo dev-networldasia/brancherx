@@ -153,6 +153,7 @@
 .tablinks{
   border-bottom: 3px solid transparent;
   transition: all 0.3s linear;
+  cursor: pointer;
 }
 .tablinks.active{
   border-bottom: 3px solid var(--main-color);

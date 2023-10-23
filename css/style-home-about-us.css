@@ -46,7 +46,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     margin: 0 auto;
     margin-top: 2.5em;
@@ -56,7 +56,7 @@
 }
 .content-counter .counter {
     color: var(--main-color);
-    font-size: 7.6em;
+    font-size: 4em;
     display: flex;
     justify-content: center;
 }
@@ -68,7 +68,7 @@
 }
 .counter_disc{
     font-weight: 600;
-    font-size: 2.4em;
+    font-size: 1.4em;
     line-height: 1.8em;
     padding: 0.3em 2.5em;
     border-radius: 37px;
