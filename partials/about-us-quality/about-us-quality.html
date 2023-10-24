@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BrancherX</title>
+        <link rel="stylesheet" type="text/css" href="../../css/fullpage.css">
+        <link rel="stylesheet" href="../../css/icons.css">
+        <link rel="stylesheet" href="../../css/icons.min.css">
+        <link rel="stylesheet" href="../../css/default.css">
+        <link rel="stylesheet" href="../../css/animate.css">
+        <link rel="stylesheet" href="../../css/odometer.css">
+        <link rel="stylesheet" href="../../css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="../../css/style.css">
+        <link rel="stylesheet" href="../../css/style-header.css">
+        <link rel="stylesheet" href="../../css/about-us-well-build.css">
+        <link rel="stylesheet" href="../../css/style-home-about-us.css">
+        <link rel="stylesheet" href="../../css/about-us-quality.css">
+        <link rel="stylesheet" href="../../css/style-footer.css">
+        <link rel="stylesheet" href="../../css/style-menu-pc.css">
+        <link rel="stylesheet" href="../../css/style-mobilemenu.css">
+        <!-- <link rel="stylesheet" href="../../css/responsive.css"> -->
+        <link rel="stylesheet" href="../../css/reponsive-about-us.css">
+    </head>
+    
+    <body>
+         <!-- ABOUT US -->
+        <section>
+            <div class="about-us bg__left" style="background-image: url(../../img/about-us-count-nummber-bg.svg) ;">
+                <div class="container">
+                    <div class="about-us__title">
+                        <div class="bg-title">
+                            <h2>INTERNATIONAL QUALITY</h2>
+                        </div>
+                        <h4>LOCAL UNDERSTANDING</h4>
+                    </div>
+                    <div class="about-us__counter">
+                        <div class="count-box box1">
+                            <div class="content-counter">
+                                <h3 class="counter"><span class="odometer" data-count="50">00</span>
+                                </h3>
+                            </div>
+                            <span class="counter_disc">
+                                USD REVENUE
+                            </span>
+                        </div>
+                        <div class="count-box box2">
+                            <div class="content-counter">
+                                <h3 class="counter">
+                                    <span class="odometer odometer-auto-theme" data-count="300">000
+                                    </span>
+                                </h3>
+                            </div>
+                            <span class="counter_disc">
+                                EMPLOYEES
+                            </span>
+                        </div>
+                        <div class="count-box box2">
+                            <div class="content-counter">
+                                <h3 class="counter">
+                                    <span class="odometer odometer-auto-theme" data-count="13">00
+                                    </span>
+                                </h3>
+                            </div>
+                            <span class="counter_disc">
+                                YEARS' EXPERIENCE
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brancherx-section-icon">
+                <div class="container">
+                    <div class="down-box-under">
+                        <div class="content-area">
+                            <img src="../../img/about-us-section-4-icon-1.svg" alt="">
+                            <h2 class="title-area">
+                                Strong Growth
+                            </h2>
+                            <h4>Brancher.X (Ex Havas) has been growing its client portfolio by 250% over the last 3 years. More clients are awarding business to Brancher.X than any other agency.</h4>
+                        </div>
+                        <div class="content-area">
+                            <img src="../../img/about-us-section-4-icon-2.svg" alt="">
+                            <h2 class="title-area">
+                                Consistency
+                            </h2>
+                            <h4>Brancher.X has a good track record of retaining its key clients. On average clients retain Brancher.X as their agency for 3.6 years.</h4>
+                        </div>
+                        <div class="content-area">
+                            <img src="../../img/about-us-section-4-icon-3.svg" alt="">
+                            <h2 class="title-area">
+                                Stable  Leadership
+                            </h2>
+                            <h4>The CEO has been consistently leading this agency for the last 6 years, with an approach of steady and measured growth based on capabilities and market needs.</h4>
+                        </div>
+                        <div class="content-area">
+                            <img src="../../img/about-us-section-4-icon-4.svg" alt="">
+                            <h2 class="title-area">
+                                Digital at-the-core
+                            </h2>
+                            <h4>Brancher.X has transformed into a digitally-skewed agency with 75% of talent resource and business activities in the digital space. Traditional media and advertising account for only about 20% of Brancher.X's business</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript" src="../../js/jquery.min.js"></script>
+        <script>
+            $('.odometer').each(function () {
+            // var odo = $('.odometer');
+            // odo.each(function () {
+            //     // $('.odometer').appear(function (e) {
+            //         var countNumber = $(this).attr('data-count');
+            //         $(this).html(countNumber);
+            //     // });
+            // });
+            var $this = $(this)
+                , counter = {
+                    time: 3000,
+                    delay: 10,
+                    beginAt: 0,
+                    context: $(this)[0].dataset.count,
+                };
+            if (counter.context) {
+                $({
+                    countNum: counter.beginAt
+                }).animate({
+                    countNum: counter.context
+                }, {
+                    duration: counter.time,
+                    easing: 'swing',
+                    step: function () {
+                        $this.html(Math.floor(this.countNum))
+                    },
+                    complete: function () {
+                        $this.html(this.countNum)
+                    }
+                })
+            }
+        })
+        </script>
+        
+    </body>
+</html>

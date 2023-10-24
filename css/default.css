@@ -126,6 +126,7 @@ p:last-child{
     padding-right: 10px;
 	padding-left: 10px;
     margin: 0 auto;
+    width: 100%;
 }
 /* Container */
 
@@ -136,7 +137,12 @@ p:last-child{
         max-width: 90% !important;
     }
 }
-
+@media (min-width: 768px) {
+    .container {
+        padding: 0 10px !important;
+        max-width: 720px !important;
+    }
+}
 @media (min-width: 992px) {
 
     .container,
@@ -176,12 +182,6 @@ p:last-child{
     .container-sm,
     .container-xl {
         max-width: 1200px !important;
-    }
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 0 10px !important;
     }
 }
 

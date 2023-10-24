@@ -1,0 +1,50 @@
+.about-us {
+    height: 50vh;
+    padding-bottom: 5em;
+}
+.brancherx-section-icon{
+    background: #1F4889;
+    background-image: url(../img/about-us-section-icon-bg-2.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+.brancherx-section-icon .content-area>img{
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    filter: drop-shadow(0px 0px 1px var(--bg-highlight));
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.down-box-under{
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.down-box-under .content-area{
+    margin: 0 1%;
+    width: 23%;
+    position: relative;
+}
+.brancherx-section-icon .content-area>h2{
+    padding-top: 55px;
+    color: var(--bg-highlight);
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    letter-spacing: 0.028em;
+    margin-bottom: 10px;
+}
+.brancherx-section-icon .content-area>h4{
+    color: var(--white2);
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    letter-spacing: 0.028em;
+}
