@@ -162,8 +162,8 @@
     .info-career__disc p{
         font-size: 1.4em;
     }
-    .info-career img{
-        max-height: 20em;
+    .news-career__down .swiper-slide{
+        height: auto;
     }
    /* FORM - MASTER */
     .form-master{
@@ -400,10 +400,16 @@
         font-size: 1.6em;
     }
     .info-career img{
-        max-height: 20em;
+        max-height: 30em;
     }
     .tabcontent {
         padding: 0.6em 2.2em;
+    }
+    .news-career__down .swiper-slide{
+        height: auto;
+    }
+    .info-career{
+        height: auto;
     }
     /* FORM - MASTER */
     .form-master{
