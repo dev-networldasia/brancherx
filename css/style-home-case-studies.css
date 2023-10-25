@@ -6,6 +6,7 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 /* Swiper Slider */

@@ -35,6 +35,7 @@
   background-size: auto;
   background-repeat: no-repeat;
   background-position: left top;
+  overflow: hidden;
 }
 .news-career__up{
   display: flex;
