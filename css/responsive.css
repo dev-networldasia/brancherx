@@ -689,4 +689,10 @@
     .counter_disc {
         font-size: 2.4em;
     }
+    .form-master{
+        padding-top: 10em;
+    }
+    footer{
+        padding-top: 10em;
+    }
 }
