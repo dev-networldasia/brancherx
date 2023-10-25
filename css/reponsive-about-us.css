@@ -191,7 +191,9 @@
         height: 45vh;
     }
     /* <!-- COMPANY HISTORY --> */
-    
+     .history-box__front .img-area img{
+        height: 6em;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
     html{
@@ -227,6 +229,11 @@
     .about-us-weel-build__down .box-right img{
         height: 45vh;
     }
+    /* <!-- COMPANY HISTORY --> */
+    .history-box__front .img-area img{
+        height: 6em;
+    }
+
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
     html{
