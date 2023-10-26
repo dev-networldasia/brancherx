@@ -10,6 +10,8 @@
     height: 100vh;
     color: var(--white2);
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 .form-row{
     display: flex;
