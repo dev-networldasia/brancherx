@@ -258,7 +258,8 @@
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
     }
-    .icon-area{
+    .icon-area,
+    .content-area{
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.45s ease-out;
@@ -496,7 +497,8 @@
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
     }
-    .icon-area{
+    .icon-area,
+    .content-area{
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.45s ease-out;
@@ -627,7 +629,8 @@
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
     }
-    .icon-area{
+    .icon-area,
+    .content-area{
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.45s ease-out;
@@ -737,7 +740,8 @@
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
     }
-    .icon-area{
+    .icon-area,
+    .content-area{
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.45s ease-out;
@@ -799,7 +803,8 @@
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
     }
-    .icon-area{
+    .icon-area,
+    .content-area{
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.45s ease-out;
@@ -857,7 +862,8 @@
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
     }
-    .icon-area{
+    .icon-area,
+    .content-area{
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.45s ease-out;
