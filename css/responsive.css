@@ -274,6 +274,23 @@
         transform: translateY(calc(100% + 1rem));
         transition: all 0.65s ease-out;
     }
+    /* Page - Contact US */
+    .form-master{
+        height: auto;
+        padding-top: 5em !important;
+    }
+    .inner-business, .talk-form{
+        width: auto;
+    }
+    .talk-to-us{
+        width: auto;
+    }
+    .fp-overflow{
+        max-height: fit-content;
+    }
+    .title-about-us h2{
+        font-size: 4em;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     html{
@@ -489,6 +506,20 @@
         transform: translateY(calc(100% + 1rem));
         transition: all 0.65s ease-out;
     }
+    /* Page - Contact US */
+    .form-master{
+        height: auto;
+        padding-top: 5em !important;
+    }
+    .inner-business, .talk-form{
+        width: auto;
+    }
+    .talk-to-us{
+        width: auto;
+    }
+    .fp-overflow{
+        max-height: fit-content;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     html{
@@ -599,6 +630,20 @@
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.65s ease-out;
+    }
+    /* Page - Contact US */
+    .form-master{
+        height: auto;
+        padding-top: 5em !important;
+    }
+    .inner-business, .talk-form{
+        width: auto;
+    }
+    .talk-to-us{
+        width: auto;
+    }
+    .fp-overflow{
+        max-height: fit-content;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){

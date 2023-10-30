@@ -1,0 +1,68 @@
+#fullpage{
+    height: auto !important;
+}
+.brancherx-about-us-banner{
+    overflow: hidden;
+}
+.about-us-banner .title-about-us{
+    bottom: 15vh;
+}
+.about-us-banner .title-about-us{
+    display: flex;
+    justify-content: center;
+}
+.title-about-us h2{
+    border-bottom: 5px solid var(--bg-highlight);
+    width: fit-content;
+}
+.talk-form h2 {
+    font-size: 4.2em;
+}
+.bg-title{
+    background-color: var(--white2);
+}
+.form-master{
+    padding-top: 0 !important;
+    background: linear-gradient(180deg,#7ac8e7 -18.83%,#fff 100%);
+}
+.talk-form .form input{
+    background: #a1a8b787;
+}
+.form-control{
+    background: #a1a8b787;
+}
+.form-label .label-contactus{
+    color: var(--main-color);
+}
+.btn-form{
+    background: var(--bg-highlight);
+    padding: 1em 6em;
+}
+.btn-form span{
+    font-size: 1.6em;
+    font-weight: 800;
+}
+.talk-to-us{
+    padding: 0;
+    text-align: center;
+}
+.talk-to-us h2{
+    font-weight: 900;
+    font-size: 3.4rem;
+    line-height: 1em;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+}
+.img-contact-us {
+    padding: 0 1.5em;
+}
+.talk-to-us .img-contact-us img{
+    height: 65vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 45px;
+}
+.talk-form, .talk-to-us{
+    opacity: 1 !important;
+    transform: none !important;
+}
