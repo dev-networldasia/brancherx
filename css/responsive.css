@@ -294,6 +294,9 @@
     footer{
         height: auto;
     }
+    .talk-form .form input{
+        padding: 1em 0 1em 1.5em;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     html{
@@ -525,6 +528,9 @@
     }
     footer{
         height: auto;
+    }
+    .talk-form .form input{
+        padding: 1em 0 1em 1.5em;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
