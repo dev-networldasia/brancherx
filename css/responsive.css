@@ -216,14 +216,14 @@
         bottom: 80px;
     }
      /* Box Support */
-     .box-support{
+     /* .box-support{
         bottom: 20px;
         display: flex;
         flex-direction: row-reverse;
         left: 50%;
         right: auto;
         transform: translateX(-50%);
-    }
+    } */
     .box-support .icon-support{
         margin: 1em 1em 1em 1em;
     }
@@ -290,6 +290,9 @@
     }
     .title-about-us h2{
         font-size: 4em;
+    }
+    footer{
+        height: auto;
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -453,7 +456,7 @@
         opacity: 1;
         background: var(--white2);
     }
-    /* Box Support */
+    Box Support
     .box-support{
         bottom: 20px;
         display: flex;
@@ -519,6 +522,9 @@
     }
     .fp-overflow{
         max-height: fit-content;
+    }
+    footer{
+        height: auto;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -644,6 +650,9 @@
     }
     .fp-overflow{
         max-height: fit-content;
+    }
+    footer{
+        height: auto;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
