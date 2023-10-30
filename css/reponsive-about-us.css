@@ -988,6 +988,9 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .home-menu::after{
+        bottom: -0.7em;
+    }
      /* Well Build */
      .box-left .title-area h2{
         font-size: 3em;
@@ -1018,6 +1021,9 @@
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
     html{
         font-size: 62.5%;
+    }
+    .home-menu::after{
+        bottom: -0.7em;
     }
     /* Well Build */
     .box-left .title-area h2{
