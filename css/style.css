@@ -346,6 +346,7 @@ html{
     opacity: 1;
 }
 .section.active .icon-area,
+.section.active .content-area,
 .section.active .talk-form
 {
     opacity: 1;
