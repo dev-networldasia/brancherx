@@ -837,12 +837,26 @@
     .our-service .bg-title h2{
         font-size: 3em;
     }
+    /* FORM MASTER */
+    .form-master{
+        height: 100%;
+        padding: 3em 0;
+    }
+    .talk-form .form input{
+        padding: 1em 0 1em 2.5em;
+    }
+    .btn-form{
+        padding: 0.8em 8em;
+    }
+    .talk-form h2{
+        font-size: 3.2em;
+    }
     /* Your Business */
     .img-business,
     .talk-to-us
     {
         opacity: 0;
-        width: 50%;
+        width: 42%;
         flex: 0 0 auto;
         transform: translateX(calc(-100% - 3rem));
         transition: all 0.65s;
@@ -851,7 +865,7 @@
     .talk-form
     {
         opacity: 0;
-        width: 50%;
+        width: 58%;
         padding: 2.5em;
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
@@ -894,21 +908,38 @@
     }
     .mainmenu-nav::after{
         bottom: 0.7em;
-    }
+    }   
     .home-menu::after{
         bottom: -0.7em;
+    }
+    .fp-overflow{
+        max-height: fit-content;
     }
      /* Our Service */
      .our-service .bg-title h2{
         font-size: 3.6em;
     }
- 
+    
+    /* FORM MASTER */
+    .form-master{
+        height: 100%;
+        padding: 3em 0;
+    }
+    .talk-form .form input{
+        padding: 1em 0 1em 2.5em;
+    }
+    .btn-form{
+        padding: 0.8em 8em;
+    }
+    .talk-form h2{
+        font-size: 3.2em;
+    }
     /* Your Business */
     .img-business,
     .talk-to-us
     {
         opacity: 0;
-        width: 50%;
+        width: 42%;
         flex: 0 0 auto;
         transform: translateX(calc(-100% - 3rem));
         transition: all 0.65s;
@@ -917,7 +948,7 @@
     .talk-form
     {
         opacity: 0;
-        width: 50%;
+        width: 58%;
         padding: 2.5em;
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
