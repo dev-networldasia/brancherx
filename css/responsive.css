@@ -298,6 +298,9 @@
     .talk-form .form input{
         padding: 1em 0 1em 1.5em;
     }
+    .form-control{
+        padding: 1em 0 1em 1.5em;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px){
     html{
@@ -534,6 +537,9 @@
     .talk-form .form input{
         padding: 1em 0 1em 1.5em;
     }
+    .form-control{
+        padding: 1em 0 1em 1.5em;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     html{
@@ -617,6 +623,9 @@
     }
     .talk-form .form input{
         padding: 1em 0 1em 2.5em;
+    }
+    .form-control{
+        padding: 1em 0 1em 1.5em;
     }
     .btn-form{
         padding: 0.8em 8em;
@@ -761,6 +770,9 @@
     .talk-form .form input{
         padding: 1em 0 1em 2.5em;
     }
+    .form-control{
+        padding: 1em 0 1em 2.5em;
+    }
     .btn-form{
         padding: 0.8em 8em;
     }
@@ -843,6 +855,9 @@
         padding: 3em 0;
     }
     .talk-form .form input{
+        padding: 1em 0 1em 2.5em;
+    }
+    .form-control{
         padding: 1em 0 1em 2.5em;
     }
     .btn-form{
@@ -928,6 +943,9 @@
     .talk-form .form input{
         padding: 1em 0 1em 2.5em;
     }
+    .form-control{
+        padding: 1em 0 1em 2.5em;
+    }
     .btn-form{
         padding: 0.8em 8em;
     }
@@ -1002,12 +1020,22 @@
     .our-service .bg-title h2{
         font-size: 4.8em;
     }
+    /* FORM MAster */
+    .talk-form .form input{
+        padding: 1em 0 1em 2.5em;
+    }
+    .form-control{
+        padding: 1em 0 1em 2.5em;
+    }
+    .btn-form{
+        padding: 0.8em 8em;
+    }
     /* Your Business */
     .img-business,
     .talk-to-us
     {
         opacity: 0;
-        width: 50%;
+        width: 42%;
         flex: 0 0 auto;
         transform: translateX(calc(-100% - 3rem));
         transition: all 0.65s;
@@ -1016,7 +1044,7 @@
     .talk-form
     {
         opacity: 0;
-        width: 50%;
+        width: 58%;
         padding: 2.5em;
         transform: translateX(calc(100% + 8rem));
         transition: all 0.65s ;
