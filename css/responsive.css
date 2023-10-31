@@ -784,6 +784,9 @@
         /* transition: 1s all; */
         animation: stickySlideDown 0.65s cubic-bezier(0.23, 1, 0.32, 1) both;
     }
+    .home-menu::after{
+        bottom: -0.7em;
+    }
     /* Your Business */
     .img-business,
     .talk-to-us
@@ -841,6 +844,9 @@
     }
     .mainmenu-nav::after{
         bottom: 0.7em;
+    }
+    .home-menu::after{
+        bottom: -0.7em;
     }
  
     /* Your Business */
