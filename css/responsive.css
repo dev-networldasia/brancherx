@@ -867,6 +867,18 @@
         font-size: 3.2em;
     }
     /* Your Business */
+    .inner-business .title h2{
+        font-size: 3em;
+    }
+    .inner-business .title span{
+        font-size: 2em;
+    }
+    .inner-business .description-content{
+        font-size: 1.4em;
+    }
+    .home-your-business-down{
+        padding: 2em;
+    }
     .img-business,
     .talk-to-us
     {
