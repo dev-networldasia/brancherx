@@ -26,16 +26,22 @@
     justify-content: center;
 }
 
-.bg__left{
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
-  background: linear-gradient(0deg, rgba(143, 210, 238, 0.8) 0%, rgba(0, 69, 129, 0) 100%), url(../../image/master-section/new-career/new-career-bg.svg);
+.news-career.bg__left {
+  background: linear-gradient(0deg, rgba(143, 210, 238, 0.8) 0%, rgba(0, 69, 129, 0) 100%), url(../img/new-career-bg.svg);
   background-blend-mode: multiply;
+  overflow-x: hidden;
   background-size: auto;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position: left top;
-  overflow: hidden;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 .news-career__up{
   display: flex;
