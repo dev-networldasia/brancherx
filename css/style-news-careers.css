@@ -1,3 +1,16 @@
+.news-career.bg__left{
+    background-image: url(../img/news-career-bg.svg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,.05));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 .word-area h2{
     font-style: normal;
     font-weight: 500;
@@ -17,10 +30,6 @@ body {
 }
 
 body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
 }
@@ -36,10 +45,44 @@ body {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  height: calc((100% - 30px) / 2) !important;
+  /* height: calc((100% - 30px) / 2) !important; */
 
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.info-career {
+  padding: 0em;
+  background: var(--main-color);
+  color: var(--white2);
+  border-radius: 4em;
+  overflow: hidden;
+}
+.inner__info-career {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 1em 1em 2em;
+}
+.info-career__disc a h2{
+  color: var(--bg-highlight);
+  text-align: left;
+}
+.info-career__disc p{
+  -webkit-line-clamp: 2;
+  border-left: 3px solid var(--white2);
+  text-align: left;
+}
+.news-career .swiper{
+  padding: 0;
+}
+.tab{
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 2.4em;
+}
+.tablinks{
+  padding-bottom: 0.5em;
 }
