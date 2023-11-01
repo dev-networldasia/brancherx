@@ -851,15 +851,14 @@
     }
     /* FORM MASTER */
     .form-master{
-        height: 100%;
         padding: 3em 0;
     }
-    .talk-form .form input{
+    /* .talk-form .form input{
         padding: 1em 0 1em 2.5em;
     }
     .form-control{
         padding: 1em 0 1em 2.5em;
-    }
+    } */
     .btn-form{
         padding: 0.8em 8em;
     }
