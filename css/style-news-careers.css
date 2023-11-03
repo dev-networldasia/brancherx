@@ -68,6 +68,9 @@ body {
   height: 9em;
   align-items: flex-start;
 }
+.news-careers-page .list-tab{
+  max-width: 115em;
+}
 .news-careers-page .news-careers-page .info-career img{
   max-height: 14em;
 }
@@ -121,10 +124,13 @@ body {
   position: absolute;
   top: 0;
   z-index: 999;
-  opacity: 1;
+  opacity: 0;
   transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
+}
+.news-careers-page .info-career:hover .bg-overlay-news{
+  opacity: 1;
 }
 .news-careers-page .button-area{
   position: absolute;
@@ -139,15 +145,23 @@ body {
   right: 0;
   text-align: center;
   z-index: 1000;
-  opacity: 1;
+  opacity: 0;
   visibility: visible;
   transition: visibility 0.5s, opacity 0.5s ease-in-out;
   -moz-transition: visibility 0.5s, opacity 0.5s ease-in-out;
   -webkit-transition: visibility 0.5s, opacity 0.5s ease-in-out;
+}
+.news-careers-page .info-career:hover .button-area{
+  opacity: 1;
+  visibility: visible;
 }
 .news-careers-page .news-career__down .button-icon{
   color: var(--main-color);
 }
 .news-careers-page .button-area .button-text{
   font-weight: 600;
+  font-size: 1.6em;
+}
+.news-career__down .button-icon{
+  font-size: 2.8em;
 }

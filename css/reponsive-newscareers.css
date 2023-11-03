@@ -1,22 +1,192 @@
 @media (max-width: 575px){
-
-}
-@media (min-width: 576px) and (max-width: 767px){
-
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px){
     /* News - Careers */
-    .news-careers-page .tab{
+    .news-career.bg__left{
+        height: 100%;
+        padding: 10em 0;
+    }
+     .news-careers-page .tab{
         padding: 0;
     }
     .news-career .swiper{
-        height: 66vh;
+        height: 50vh;
+        padding-bottom: 1.5em;
+    }
+    .news-careers-page .swiper-slide img{
+        max-height: 12em;
+    }
+    .news-careers-page .inner__info-career{
+        height: 9em;
+        padding: 0 0.5em 0.5em 1.5em;
+    }
+    .news-careers-page .tab{
+        font-size: 1.5em;
+    }
+    .swiper-grid-column>.swiper-wrapper .swiper-slide{
+        padding: 5px;
+    }
+    .news-careers-page .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: -0.3em;
+    }
+    .info-career__disc a h2{
+        font-size: 1.6em;
+    }
+    .info-career__disc p{
+        font-size: 1.4em;
+    }
+    .news-careers-page .swiper-button-next, .news-careers-page .swiper-button-prev{
+        width: 25px;
+        height: 25px;
+    }
+    .news-career__down .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 1.3em;
+    }
+    .news-careers-page .info-career{
+        border-radius: 2em;
+        padding-bottom: 1em;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    /* News - Careers */
+    .news-career.bg__left{
+        height: 100%;
+        padding: 15em 0;
+    }
+     .news-careers-page .tab{
+        padding: 0;
+    }
+    .news-career .swiper{
+        height: 50vh;
+        padding-bottom: 1.5em;
+    }
+    .news-careers-page .swiper-slide img{
+        max-height: 14em;
+    }
+    .news-careers-page .inner__info-career{
+        height: 12em;
+    }
+    .news-careers-page .tab{
+        font-size: 2em;
+    }
+    .swiper-grid-column>.swiper-wrapper .swiper-slide{
+        padding: 10px;
+    }
+    .news-careers-page .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: -0.3em;
+    }
+    .info-career__disc a h2{
+        font-size: 1.6em;
+    }
+    .info-career__disc p{
+        font-size: 1.4em;
+    }
+    .news-careers-page .swiper-button-next, .news-careers-page .swiper-button-prev{
+        width: 25px;
+        height: 25px;
+    }
+    .news-career__down .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+     /* News - Careers */
+     .news-career.bg__left{
+        height: 100%;
+        padding: 15em 0;
+    }
+     .news-careers-page .tab{
+        padding: 0;
+    }
+    .news-career .swiper{
+        height: 40vh;
+        padding-bottom: 1.5em;
+    }
+    .news-careers-page .swiper-slide img{
+        max-height: 14em;
+    }
+    .news-careers-page .inner__info-career{
+        height: 12em;
+    }
+    .news-careers-page .tab{
+        font-size: 2em;
+    }
+    .swiper-grid-column>.swiper-wrapper .swiper-slide{
+        padding: 5px;
+    }
+    .news-careers-page .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: -0.3em;
+    }
+    .info-career__disc a h2{
+        font-size: 1.6em;
+    }
+    .info-career__disc p{
+        font-size: 1.4em;
+    }
+    .news-careers-page .swiper-button-next, .news-careers-page .swiper-button-prev{
+        width: 25px;
+        height: 25px;
+    }
+    .news-career__down .swiper-button-next:after, .swiper-button-prev:after{
+        font-size: 1.3em;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    /* News - Careers */
+    .news-career.bg__left{
+        height: 100%;
+        padding: 15em 0;
+    }
+    .news-careers-page .tab{
+        padding: 0;
+        padding-bottom: 1em;
+    }
+    .news-career__down{
+        min-height: 55em;
+    }
+    .news-careers-page .swiper-grid-column>.swiper-wrapper{
+        max-height: 50em;
+    }
+    .news-careers-page .list-tab{
+        height: 25em;
+    }
+    .news-career .swiper{
+        height: 72vh;
+        padding-bottom: 1.5em;
+    }
+    .news-careers-page .swiper-slide img{
+        max-height: 12em;
+    }
+    .news-careers-page .tab{
+        font-size: 2.5em;
+    }
+    .swiper-grid-column>.swiper-wrapper .swiper-slide{
+        padding: 8px;
+    }
+    .news-careers-page .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+        bottom: -0.3em;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+    /* News - Careers */
+    .news-career.bg__left{
+        height: 100%;
+        padding: 12em 0;
+    }
+    .news-careers-page .tab{
+        padding: 0;
+        padding-bottom: 1em;
+    }
+    .news-career__down{
+        min-height: 48em;
+    }
+    .news-careers-page .list-tab{
+        height: 20em;
+    }
+    .news-careers-page .swiper-grid-column>.swiper-wrapper {
+{
+    max-height: 48em;
+}
+    .news-career .swiper{
+        height: 72vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
@@ -26,7 +196,7 @@
         font-size: 2em;
     }
     .swiper-grid-column>.swiper-wrapper .swiper-slide{
-        padding: 5px;
+        padding: 8px;
     }
     .news-careers-page .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
         bottom: -0.3em;
