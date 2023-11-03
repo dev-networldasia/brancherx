@@ -164,12 +164,16 @@
     .news-careers-page .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
         bottom: -0.3em;
     }
+    .news-careers-page .swiper-button-next, .news-careers-page .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
     /* News - Careers */
     .news-career.bg__left{
-        height: 100%;
-        padding: 12em 0;
+        height: 100vh;
+        padding: 5em 0;
     }
     .news-careers-page .tab{
         padding: 0;
@@ -181,16 +185,15 @@
     .news-careers-page .list-tab{
         height: 20em;
     }
-    .news-careers-page .swiper-grid-column>.swiper-wrapper {
-{
-    max-height: 48em;
-}
     .news-career .swiper{
         height: 72vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
-        max-height: 10em;
+        max-height: 12.5em;
+    }
+    .news-careers-page .inner__info-career{
+        height: 7.5em;
     }
     .news-careers-page .tab{
         font-size: 2em;
@@ -200,6 +203,20 @@
     }
     .news-careers-page .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
         bottom: -0.3em;
+    }
+    .news-careers-page .swiper-button-next, .news-careers-page .swiper-button-prev{
+        width: 30px;
+        height: 30px;
+    }
+    .news-careers-page .inner__info-career{
+        padding: 0 1.5em 1em 3em;
+    }
+    /* Form Master */
+    .talk-form .form input{
+        margin: 1em 0;
+    }
+    .form-control{
+        margin: 1em 0;
     }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px){

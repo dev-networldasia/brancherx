@@ -638,7 +638,7 @@
     .talk-to-us
     {
         opacity: 0;
-        width: 42%;
+        width: auto;
         flex: 0 0 auto;
         transform: translateX(calc(-100% - 3rem));
         transition: all 0.65s;
@@ -952,10 +952,11 @@
     }
     .talk-form .form input{
         padding: 1em 0 1em 2.5em;
-        margin: 0.9em 0;
+        margin: 1em 0;
     }
     .form-control{
         padding: 1em 0 1em 2.5em;
+        margin: 1em 0;
     }
     .btn-form{
         padding: 0.8em 8em;

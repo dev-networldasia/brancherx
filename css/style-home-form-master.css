@@ -37,7 +37,7 @@
     flex: 0 0 auto;
 }
 .talk-form .form input{
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 4em;
     margin: 1.2em 0;
     color: var(--main-color);
@@ -52,7 +52,7 @@
     font-weight: 600;
 }
 .form-control{
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 4em;
     margin: 20px 0;
     color: var(--main-color);
