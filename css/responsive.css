@@ -282,6 +282,7 @@
     }
     .inner-business, .talk-form{
         width: auto;
+        padding: 0;
     }
     .talk-to-us{
         width: auto;
