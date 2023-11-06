@@ -1017,6 +1017,16 @@
     .history-box__front .img-area img{
         height: 5em;
     }
+    /* FORM MASTER */
+    .talk-to-us{
+        margin-top: 1em;
+    }
+    .talk-form .form input{
+        margin: 0.9em 0;
+    }
+    .form-control{
+        margin: 0.9rem 0;
+    }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
     html{
