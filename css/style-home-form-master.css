@@ -22,6 +22,7 @@
     font-size: 4em;
     font-weight: 500;
     padding: 0 2em 0 1em;
+    margin-top: 1em;
 }
 .talk-form{
     flex: 6;
