@@ -785,7 +785,7 @@
     }
     /* <!-- COMPANY HISTORY --> */
     .history-box__front .img-area img{
-        height: 5em;
+        height: 6em;
     }
     .history__line{
         height: 120px;
@@ -793,9 +793,13 @@
     .history__down .history-box::before{
         top: -82px;
         left: 39%;
+        width: 35px;
+        height: 35px;
     }
     .history__up .history-box::before{
         bottom: -77px;
+        width: 35px;
+        height: 35px;
     }
     .history__up .history-box::after{
         width: 55px !important;
@@ -1016,6 +1020,38 @@
     /* <!-- COMPANY HISTORY --> */
     .history-box__front .img-area img{
         height: 5em;
+    }
+    .history__line{
+        height: 120px;
+    }
+    .history__down .history-box::before{
+        top: -82px;
+        left: 39%;
+        width: 35px;
+        height: 35px;
+    }
+    .history__up .history-box::before{
+        bottom: -77px;
+        width: 35px;
+        height: 35px;
+    }
+    .history__up .history-box::after{
+        width: 55px !important;
+        bottom: -30px !important;
+    }
+    .history__down .history-box::after{
+        width: 55px;
+        top: -30px;
+    }
+    .history__up .year-area{
+        bottom: -104px !important;
+    }
+    .history__down .year-area{
+        top: -104px !important;
+    }
+    .history-box__after h4{
+        font-size: 1.2em;
+        padding: 1em;
     }
     /* FORM MASTER */
     .talk-to-us{
