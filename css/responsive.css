@@ -952,7 +952,7 @@
         padding: 3em 0;
     }
     .talk-form .form input{
-        padding: 1em 0 1em 2.5em;
+        padding: 0.5em 0 0.5em 1.5em;
         margin: 1em 0;
     }
     .form-control{
@@ -974,6 +974,7 @@
         flex: 0 0 auto;
         transform: translateX(calc(-100% - 3rem));
         transition: all 0.65s;
+        margin-top: 1em;
     }
     .inner-business,
     .talk-form
