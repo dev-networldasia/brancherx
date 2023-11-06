@@ -139,7 +139,7 @@
     .history__line{
         transform: rotate(90deg);
         position: absolute;
-        width: 80vh;
+        width: 88vh;
     }
     .history__line .hr {
         height: 4px;
@@ -171,6 +171,9 @@
         gap: 100px;
         flex: 1 0 50%;
         height: 100%;
+    }
+    .history__up .history-box__after{
+        bottom: auto;
     }
     .history__down{
         flex-direction: column;
@@ -570,6 +573,9 @@
         flex: 1 0 50%;
         height: 100%;
     }
+    .history__up .history-box__after{
+        bottom: auto;
+    }
     .history__down{
         flex-direction: column;
         align-items: flex-start;
@@ -940,7 +946,35 @@
         top: 40%;
     }
     .history-box__front .img-area img{
-        height: 5em;
+        height: 6em;
+    }
+    .history__line{
+        height: 120px;
+    }
+    .history__down .history-box::before{
+        top: -82px;
+        left: 39%;
+        width: 35px;
+        height: 35px;
+    }
+    .history__up .history-box::before{
+        bottom: -77px;
+        width: 35px;
+        height: 35px;
+    }
+    .history__up .history-box::after{
+        width: 55px !important;
+        bottom: -30px !important;
+    }
+    .history__down .history-box::after{
+        width: 55px;
+        top: -30px;
+    }
+    .history__up .year-area{
+        bottom: -104px !important;
+    }
+    .history__down .year-area{
+        top: -104px !important;
     }
     .history-box__after h4{
         font-size: 1.4em;
@@ -1050,8 +1084,8 @@
         top: -104px !important;
     }
     .history-box__after h4{
-        font-size: 1.2em;
-        padding: 1em;
+        font-size: 1.4em;
+        padding: 2em;
     }
     /* FORM MASTER */
     .talk-to-us{
