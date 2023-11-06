@@ -8,11 +8,11 @@
         padding: 0;
     }
     .news-career .swiper{
-        height: 50vh;
+        height: 54vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
-        max-height: 12em;
+        max-height: 9.5em;
     }
     .news-careers-page .inner__info-career{
         height: 9em;
@@ -55,7 +55,7 @@
         padding: 0;
     }
     .news-career .swiper{
-        height: 50vh;
+        height: 70vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
@@ -97,7 +97,7 @@
         padding: 0;
     }
     .news-career .swiper{
-        height: 40vh;
+        height: 88vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
@@ -149,7 +149,7 @@
         height: 25em;
     }
     .news-career .swiper{
-        height: 72vh;
+        height: 88vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
@@ -186,7 +186,7 @@
         height: 20em;
     }
     .news-career .swiper{
-        height: 80vh;
+        height: 74vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
