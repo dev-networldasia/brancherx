@@ -210,7 +210,7 @@ html{
     left: 20px;
 }
 .contact-btn button{
-    font-size: 2em;
+    font-size: 1.4em;
     padding: 0.5em 1em;
     color: var(--bg-highlight);
     background: var(--white2);

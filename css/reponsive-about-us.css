@@ -1027,6 +1027,35 @@
     .form-control{
         margin: 0.9rem 0;
     }
+    /* VISION MISSION */
+    .vision-mission{
+        height: 100vh;
+        padding: 2em 0;
+    }
+    .vision-mission .bg-title h2{
+        font-size: 3em;
+    }
+    .vision-mission .bg-title{
+        padding: 1.5em 3em;
+    }
+    .about-us__title .slogan-area h4{
+        font-size: 2.4em;
+    }
+    .about-us__title .slogan-area h2{
+        font-size: 2.6em;
+    }
+    .vision-mission .about-us__title{
+        margin-bottom: 5em;
+    }
+    .vision-mission__left h4{
+        font-size: 1.4em;
+    }
+    .vision-mission__right h2{
+        font-size: 1.4em;
+    }
+    .vision-mission__right h4{
+        font-size: 1.4em;
+    }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
     html{
@@ -1060,6 +1089,35 @@
     /* <!-- COMPANY HISTORY --> */
     .history-box__front .img-area img{
         height: 5.5em;
+    }
+     /* VISION MISSION */
+     .vision-mission{
+        height: 100vh;
+        padding: 2em 0;
+    }
+    .vision-mission .bg-title h2{
+        font-size: 3em;
+    }
+    .vision-mission .bg-title{
+        padding: 1.5em 3em;
+    }
+    .about-us__title .slogan-area h4{
+        font-size: 2.4em;
+    }
+    .about-us__title .slogan-area h2{
+        font-size: 2.6em;
+    }
+    .vision-mission .about-us__title{
+        margin-bottom: 5em;
+    }
+    .vision-mission__left h4{
+        font-size: 1.4em;
+    }
+    .vision-mission__right h2{
+        font-size: 1.4em;
+    }
+    .vision-mission__right h4{
+        font-size: 1.4em;
     }
 }
 @media (min-width: 1600px){
