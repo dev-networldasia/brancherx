@@ -1,0 +1,369 @@
+.media{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../img/what-we-do-service-box1-bg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+.bg-wwd-2{
+    background: linear-gradient(180deg, rgba(143, 210, 238, 0.2) 0%, rgba(255, 255, 255, 0.2) 180.14%), linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), url(../img/what-we-do-service-box2-bg.svg);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.fix-pos{
+    flex-direction: row-reverse;
+}
+.media-inner {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: stretch;
+    width: 100%;
+    margin: 0;
+}
+.about-us-banner .title-about-us{
+    bottom: auto;
+    top: 50%;
+}
+.media .bg-title h2{
+    font-size: 4.8em;
+}
+.media .bg-title{
+    background-color: var(--bg-highlight);
+}
+.word-area h1{
+    font-weight: 700;
+    font-size: 4.4em;
+    line-height: 1.2em;
+    text-align: center;
+    font-style: normal;
+    color: var(--white2);
+    margin-bottom: 0.5rem;
+    color: var(--bg-highlight);
+    text-transform: uppercase;
+}
+.about-us__title{
+    margin-top: 0;
+}
+.word-area h2{
+    font-style: unset;
+    font-style: 2.4em;
+}
+.media__down{
+    display: flex;
+    position: relative;
+    margin-top: 3em;
+}
+.media__left{
+    width: 50%;
+}
+.media__right{
+    width: 50%;
+    padding: 1em 10em;
+}
+.media__title{
+    margin-bottom: 2.5em;
+}
+.media__left img{
+    width: 100%;
+    object-fit: cover;
+    height: 55vh;
+}
+.media__title h2{
+    font-weight: 700;
+    font-size: 3.4em;
+    line-height: 1em;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.media__disc {
+    padding: 1em 0 1em 4em;
+    border-left: 5px solid var(--main-color);
+}
+.media__disc h4{
+    font-weight: 500;
+    font-size: 2.4em;
+    line-height: 1.5em;
+    color: var(--text-color);
+    text-align: justify;
+}
+.media__under {
+    padding-left: 4em;
+    margin-top: 4em;
+}
+.media__under ul{
+    list-style: disc;
+}
+.media__under li{
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 2.6rem;
+    color: var(--main-color);
+}
+/* OUR TECHNOLOGY */
+.technology{
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(143, 210, 238, 0.86) 91.98%), url(../img/what-we-do-our-technology-bg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.technology .bg-title{
+    background: var(--bg-highlight);
+}
+.technology .description-area{
+    width: 80%;
+    margin: 0 auto;
+}
+.technology .description-area h4{
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 3rem;
+    text-align: center;
+    color: var(--main-color);
+    padding-top: 1em;
+}
+.technology .img-tech{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3em;
+}
+/* POWER-X */
+.power-x{
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 31.98%, rgba(217, 217, 217, 0) 100%), url(../img/what-we-do-power-x.webp);
+}
+.powerx-inner{
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.powerx-title h2{
+    font-weight: 700;
+    font-size: 4.4em;
+    line-height: 5rem;
+    color: var(--main-color);
+}
+.powerx-title h2 span{
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 0.9em;
+    display: block;
+}
+.powerx-disc{
+    padding-left: 40px;
+    border-left: 5px solid var(--main-color);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.powerx-disc h4{
+    font-weight: 700;
+    font-size: 2.8em;
+    line-height: 1.5em;
+    color: var(--main-color);
+    width: 100%;
+    display: inline-block;
+}
+.powerx-text h4{
+    font-weight: 400;
+    font-size: 2.2em;
+    line-height: 3rem;
+    color: var(--main-color);
+    width: 90%;
+    display: inline-block;
+    text-align: justify;
+    margin: 1.5rem 0;
+}
+/* OUR DASHBOARD */
+.dashboard .bg-title {
+    background: var(--bg-highlight);
+}
+
+.dashboard .bg-title h2 {
+    text-transform: uppercase;
+}
+.po-dashboard{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.dashboard .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dashboard .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dashboard .swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dashboard .swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard .pagination-bottom {
+    font-size: 0px;
+}
+
+.dashboard .pagination-top {
+    position: relative;
+    top: 0%;
+    transform: translateY(0%);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dashboard .pagination-top .swiper-pagination-bullet {
+    width: auto;
+    border-radius: 0px;
+    height: auto;
+    background-color: transparent;
+    padding: 0.5rem 0.5rem 0.2rem 0;
+    color: var(--main-color);
+    opacity: 1;
+    border-bottom: 2px solid transparent;
+    font-size: 2.2em;
+    font-weight: 300;
+}
+
+.dashboard .pagination-top .swiper-pagination-bullet-active {
+    border-bottom: 2px solid var(--main-color);
+    width: fit-content;
+    font-weight: 700;
+}
+
+.dashboard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.dashboard-swiper{
+    position: relative;
+    width: 100%;
+    height: 65vh;
+}
+.dashboard .swiper-left {
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dashboard .swiper-right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dashboard .swiper-pagination.pagination-top {
+    position: relative;
+}
+
+.dashboard .swiper-pagination.pagination-bottom {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dashboard .swiper-pagination.pagination-bottom .swiper-pagination-bullet {
+    margin: 0 3px;
+}
+
+.dashboard .swiper-button-next-dashboard {
+    width: 3em;
+    height: 3em;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -3.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.dashboard .swiper-button-next-dashboard i {
+    width: 100%;
+    font-size: 2em;
+}
+
+.dashboard .swiper-button-next-dashboard:hover {
+    color: var(--bg-highlight);
+    border-color: var(--bg-highlight);
+    background: var(--main-color);
+}
+
+.dashboard .swiper-button-prev-dashboard {
+    width: 3em;
+    height: 3em;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -3.5em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.dashboard .swiper-button-prev-dashboard i {
+    font-size: 2em;
+}
+
+.dashboard .swiper-button-prev-dashboard:hover {
+    color: var(--bg-highlight);
+    border-color: var(--bg-highlight);
+    background: var(--main-color);
+}
+.dashboard .swiper-pagination{
+    text-align: left;
+}

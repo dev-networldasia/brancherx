@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.pagination-bottom{
+font-size:0px;
+}
+
+.pagination-top {
+	position: relative;
+	top: 0%;
+    transform: translateY(0%);
+    height: 100%;
+    width: 100%;
+	margin: 0;
+    display: flex;
+    flex-direction: column;
+} 
+.pagination-top .swiper-pagination-bullet{
+    width: auto;
+    border-radius: 0px;
+    height: auto;
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0,0,0,0.2);
+    }
+.pagination-top .swiper-pagination-bullet-active {
+	color:#fff;
+	background: #007aff;
+}
+.dashboard{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.swiper-left{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.swiper-right{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.swiper-pagination.pagination-top {
+    position: relative;
+} 
+.swiper-pagination.pagination-bottom{
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.swiper-pagination.pagination-bottom .swiper-pagination-bullet{
+    margin: 0 3px;
+}
+.swiper-button-next-dashboard{
+    width: 3em;
+    height: 3em;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+.swiper-button-next-dashboard i{
+  width: 100%;
+    font-size: 2em;
+    color: var(--main-color);
+}
+.swiper-button-next-dashboard:hover{
+    color: var(--bg-highlight);
+    border-color: var(--bg-highlight);
+    background: var(--main-color);
+}
+.swiper-button-prev-dashboard{
+    width: 3em;
+    height: 3em;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+}
+.swiper-button-prev-dashboard i{
+    font-size: 2em;
+}
+.swiper-button-prev-dashboard:hover{
+    color: var(--bg-highlight);
+    border-color: var(--bg-highlight);
+    background: var(--main-color);
+}
+  </style>
+</head>
+
+<body>
+<!-- Swiper -->
+<div class="dashboard">
+  <div class="swiper-left">
+    <!-- If we need pagination -->
+    <div class="swiper-pagination pagination-top"></div>
+  </div>
+  <div class="swiper-right">
+    <div class="swiper mySwiper-dashboard">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-pagination pagination-bottom"></div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev-dashboard">
+    <i class=" ri-arrow-left-s-line"></i>
+  </div>
+  <div class="swiper-button-next-dashboard">
+    <i class=" ri-arrow-right-s-line"></i>
+  </div>
+</div>
+
+  <!-- Swiper JS -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css" rel="stylesheet"/>  
+  <!-- Initialize Swiper -->
+  <script>
+    var menu = ['Slide 1', 'Slide 2', 'Slide 3', 'Slide 4', 'Slide 5', 'Slide 6',]
+    var swiper = new Swiper(".mySwiper-dashboard", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination.pagination-bottom, .swiper-pagination.pagination-top',
+        clickable: true,
+      renderBullet: function (index, className) {
+        console.log(className);
+          return '<span class="' + className + '">' + (menu[index]) + '</span>';
+        },
+      },
+      navigation: {
+        nextEl: ".swiper-button-next-dashboard",
+        prevEl: ".swiper-button-prev-dashboard",
+      },
+    });
+  </script>
+</body>
+
+</html>
