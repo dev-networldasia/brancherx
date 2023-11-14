@@ -45,6 +45,10 @@
         width: 100%;
     }
     /* TECHNOLOGY */
+    .technology{
+        height: 100%;
+        padding: 4em 0;
+    }
     .technology .description-area h4{
         font-size: 1.4em;
     }
@@ -152,6 +156,10 @@
         width: 100%;
     }
     /* TECHNOLOGY */
+    .technology{
+        height: 100%;
+        padding: 4em 0;
+    }
     .technology .description-area h4{
         font-size: 1.4em;
     }
@@ -218,6 +226,10 @@
         font-size: 1.4em;
     }
     /* TECHNOLOGY */
+    .technology{
+        height: 100%;
+        padding: 4em 0;
+    }
     .technology .description-area h4{
         font-size: 1.6em;
     }
@@ -280,7 +292,6 @@
         height: 100%;
         padding: 4em 0;
     }
-    /* TECHNOLOGY */
     .technology .description-area h4{
         font-size: 1.6em;
     }
@@ -344,6 +355,13 @@
     }
     .powerx-text h4{
         font-size: 1.6em;
+    }
+    /* MEDIA COVERAGE */
+    .coverage .swiper-slide .coverage-logo img{
+        height: 70px;
+    }
+    .coverage .swiper-slide .coverage-logo.ooh img{
+        height: 140px;
     }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
