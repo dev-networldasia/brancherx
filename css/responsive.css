@@ -69,6 +69,9 @@
     .brancherx-home-your-business{
         height: auto;
     }
+    .inner-business .description-content{
+        font-size: 1.4em;
+    }
     /* Home Section Your Business */
     .img-business{
         width: 100%;
@@ -357,6 +360,9 @@
     .brancherx-home-your-business{
         height: auto;
     }
+    .inner-business .description-content{
+        font-size: 1.4em;
+    }
     /* Home Section Your Business */
     .img-business{
         width: 100%;
@@ -562,6 +568,38 @@
     .header-right .search{
         display: none;
     }
+    .inner-business .description-content{
+        font-size: 1.6em;
+    }
+    .img-business{
+        width: 100%;
+    }
+    .inner-business{
+        width: 100%;
+    }
+    .inner-business{
+        padding: 3em;
+    }
+    .home-your-business-up {
+        flex-direction: column-reverse;
+    }
+    .inner-business .title span {
+        font-size: 2em;
+    }
+    .inner-business .title h2 {
+        font-size: 2.5em;
+    }
+    .down-box-under{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .down-box-under .icon-area {
+        width: 50%;
+        margin-top: 2em;
+    }
+    .home-your-business-up img{
+        padding-right: 0;
+    }
     /* Search - dropdown */
     .list-course .card-slide.wiper-mid{
         padding: 0.3em;
@@ -719,7 +757,7 @@
         font-size: 2em;
     }
     .inner-business .description-content{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     .home-your-business-down{
         padding: 2em;
@@ -829,6 +867,9 @@
         margin-right: auto;
         margin-left: auto;
     }
+    .inner-business .description-content{
+        font-size: 1.8em;
+    }
     .header-bot.sticky{
         width: 100%;
         position: fixed;
@@ -872,9 +913,6 @@
     }
     .inner-business .title span{
         font-size: 2em;
-    }
-    .inner-business .description-content{
-        font-size: 1.4em;
     }
     .home-your-business-down{
         padding: 2em;
@@ -941,6 +979,9 @@
     }
     .fp-overflow{
         max-height: fit-content;
+    }
+    .inner-business .description-content{
+        font-size: 2em;
     }
      /* Our Service */
      .our-service .bg-title h2{
@@ -1011,6 +1052,9 @@
         padding-left: var(--bs-gutter-x,.75rem);
         margin-right: auto;
         margin-left: auto;
+    }
+    .inner-business .description-content{
+        font-size: 2em;
     }
     .flip-card {
         width: 22%;
