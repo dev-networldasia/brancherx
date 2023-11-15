@@ -385,7 +385,7 @@
     justify-content: center;
 }
 .coverage .bg-title {
-    background: var(--bg-highlight);
+    background: var(--white2);
 }
 
 .coverage .bg-title h2 {
@@ -468,6 +468,7 @@
     position: relative;
     width: 100%;
     height: 100%;
+    margin-top: 2em;
 }
 .coverage .swiper-left {
     width: 100%;
