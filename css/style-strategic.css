@@ -113,7 +113,18 @@
 }
 /* IMC */
 .imc{
-
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25);
+    background-image: url(../img/what-we-do-service-box2-bg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0;
 }
 .imc .about-us__title{
     opacity: 1;
@@ -121,8 +132,8 @@
     text-transform: uppercase;
 }
 .title-imc {
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: 400;
+    font-size: 1.6em;
     line-height: 3em;
     color: var(--main-color);
     position: relative;
@@ -138,7 +149,7 @@
     justify-content: space-evenly;
 }
 .imc-box{
-    width: 43%;
+    width: 35%;
 }
 .ribbon {
     width: 100%;
@@ -146,7 +157,7 @@
     border-radius: 6px;
     margin: 5% auto;
     background: linear-gradient(to bottom, rgb(63, 231, 253) 0%, rgb(0, 31, 207) 100%);
-    min-height: 34em;
+    min-height: 39em;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 .ribbon-wrapper {
@@ -268,4 +279,19 @@
     text-align: center;
     color: var(--white2);
     font-weight: 400;
+}
+/* CASE STUDIES */
+.case-studies__down {
+    opacity: 1 !important;
+    transform: translatey(0) !important;
+}
+.our-service__disc{
+    flex: 7;
+    padding-right: 10%;
+    font-size: 1.6em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    color: var(--main-color);
+    border-left: 5px solid var(--main-color);
 }

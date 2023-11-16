@@ -231,8 +231,8 @@
     display: none;
 }
 
-.case-studies .flip-card-up,
-.case-studies .flip-card-down
+.case-studies .flip-card-up .cover,
+.case-studies .flip-card-down .cover
 {
     -webkit-transition: 1s;
     -webkit-transform-style: preserve-3d;
@@ -281,15 +281,15 @@
     object-fit: cover;
     border-radius: 4em;
 }
-.case-studies .flip-card-up:hover ,
+.case-studies .flip-card-up:hover .cover,
 .case-studies .flip-card-up.hover {
     -webkit-transform: rotateY(180deg);
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
-.case-studies .flip-card-down:hover,
+.case-studies .flip-card-down:hover .cover,
 .case-studies .flip-card-down.hover {
     -webkit-transform: rotateY(180deg);
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
 
 .flip-card__front, 
