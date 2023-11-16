@@ -290,6 +290,7 @@ html{
     width: 100%;
     display: flex;
     flex: 0 0 auto;
+    flex-direction: column;
 }
 .bot-form .form input{
     background: rgba(255, 255, 255, 0.8);
