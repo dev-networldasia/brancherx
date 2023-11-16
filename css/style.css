@@ -89,7 +89,6 @@ html{
     border-left: 1px solid var(--color-white-off);
 }
 .lag img{
-    width: 2em;
     margin-right: 0.6em;
 }
 .swap-lag{
