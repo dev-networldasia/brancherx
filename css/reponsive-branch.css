@@ -1,0 +1,230 @@
+@media (max-width: 575px) {
+    /* BRANCH */
+    .inner-branch{
+        flex-direction: column;
+    }
+    .inner-branch__left{
+        width: 100%;
+    }
+    .inner-branch__right{
+        width: 100%;
+    }
+    .challenge-branch h2,
+    .cap h2 {
+        font-size: 2.6em;
+        margin-top: 0.2em;
+    }
+
+    .challenge-branch p,
+    .cap p {
+        font-size: 1.8em;
+    }
+
+    .branch-result .result span {
+        font-size: 2.2em;
+    }
+
+    .branch-result .result-disc ul li {
+        font-size: 1.8em;
+    }
+    .branch-result{
+        flex-direction: column;
+    }
+    .branch-result .result-disc ul{
+        margin-left: 3em;
+    }
+    /* RELATED */
+    .related__img{
+        height: 4em;
+    }
+    .related__title h2{
+        font-size: 0.8em;
+    }
+    .related__title p{
+        font-size: 0.6em;
+    }
+    .related .swiper-button-next-related{
+        width: 2.5em;
+        height: 2.5em;
+        right: -1em;
+        z-index: 999;
+    }
+    .related .swiper-button-prev-related{
+        width: 2.5em;
+        height: 2.5em;
+        left: -1em;
+        z-index: 999;
+    }
+    .related .swiper{
+        width: 95%;
+    }
+    .inner-related{
+        padding: 3em 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    /* BRANCH */
+    .inner-branch{
+        flex-direction: column;
+    }
+    .inner-branch__left{
+        width: 100%;
+    }
+    .inner-branch__right{
+        width: 100%;
+    }
+    .challenge-branch h2,
+    .cap h2 {
+        font-size: 2.6em;
+        margin-top: 0.2em;
+    }
+
+    .challenge-branch p,
+    .cap p {
+        font-size: 1.8em;
+    }
+
+    .branch-result .result span {
+        font-size: 2.2em;
+    }
+
+    .branch-result .result-disc ul li {
+        font-size: 1.8em;
+    }
+    .branch-result{
+        flex-direction: column;
+    }
+    /* RELATED */
+    .related__img{
+        height: 6em;
+    }
+    .related__title h2{
+        font-size: 0.9em;
+    }
+    .related__title p{
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    /* BRANCH */
+    .challenge-branch h2,
+    .cap h2 {
+        font-size: 2.2em;
+        margin-top: 0.2em;
+    }
+
+    .challenge-branch p,
+    .cap p {
+        font-size: 1.6em;
+    }
+
+    .branch-result .result span {
+        font-size: 2em;
+    }
+
+    .branch-result .result-disc ul li {
+        font-size: 1.6em;
+    }
+    /* RELATED */
+    .related__img{
+        height: 8em;
+    }
+    .related__title h2{
+        font-size: 1em;
+    }
+    .related__title p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* BRANCH */
+    .challenge-branch h2,
+    .cap h2 {
+        font-size: 2.4em;
+        margin-top: 0.2em;
+    }
+
+    .challenge-branch p,
+    .cap p {
+        font-size: 1.8em;
+    }
+
+    .branch-result .result span {
+        font-size: 2.2em;
+    }
+
+    .branch-result .result-disc ul li {
+        font-size: 1.8em;
+    }
+    /* RELATED */
+    .related__img{
+        height: 9em;
+    }
+    .related__title h2{
+        font-size: 1em;
+    }
+    .related__title p{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+
+    /* BRANCH */
+    .challenge-branch h2,
+    .cap h2 {
+        font-size: 2.6em;
+        margin-top: 0.2em;
+    }
+
+    .challenge-branch p,
+    .cap p {
+        font-size: 2em;
+    }
+
+    .branch-result .result span {
+        font-size: 2.2em;
+    }
+
+    .branch-result .result-disc ul li {
+        font-size: 1.8em;
+    }
+    /* RELATED */
+    .related__img{
+        height: 10em;
+    }
+    .related__title h2{
+        font-size: 1.2em;
+    }
+    .related__title p{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1599px) {
+
+    /* BRANCH */
+    .challenge-branch h2,
+    .cap h2 {
+        font-size: 2.6em;
+        margin-top: 0.2em;
+    }
+
+    .challenge-branch p,
+    .cap p {
+        font-size: 2em;
+    }
+
+    .branch-result .result span {
+        font-size: 2.2em;
+    }
+
+    .branch-result .result-disc ul li {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 1600px) {}

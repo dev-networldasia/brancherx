@@ -15,6 +15,21 @@
     .imc-box-disc p{
         font-size: 1.6em;
     }
+    /* STRATEGIC */
+    .title-strategic{
+        font-size: 1.6em;
+    }
+    .strategic__item.title{
+        padding: 0em;
+        font-size: 1.4em;
+    }
+    .strategic__item{
+        font-size: 1.2em;
+    }
+    .strategic-disc{
+        gap: 0.5em;
+        font-size: 0.7em;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     /* IMC */
@@ -29,6 +44,16 @@
     }
     .imc-box-disc p{
         font-size: 2em;
+    }
+    /* STRATEGIC */
+    .title-strategic{
+        font-size: 1.6em;
+    }
+    .strategic__item.title{
+        padding: 0.5em;
+    }
+    .strategic__item{
+        font-size: 1.4em;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {

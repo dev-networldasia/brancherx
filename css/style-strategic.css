@@ -99,11 +99,11 @@
     content: '';
     display: block;
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 1.5em;
+    height: 1.5em;
     border-radius: 50%;
     background: var(--main-color);
-    left: -6px;
+    left: -0.6em;
     top: 0em;
 }
 .strategic__item.line h4{

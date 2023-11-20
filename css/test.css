@@ -1,0 +1,80 @@
+.border{
+    border: 0px solid black;
+}
+.title-about-us h2 {
+    color: #fff;
+}
+.inner-branch{
+    display: flex;
+    position: relative;
+    gap: 1em;
+    padding: 1em 2em;
+    width: 80%;
+    margin: 0 auto;
+}
+.inner-branch__left{
+    width: 50%;
+    height: 100%;
+    flex: 0 0 auto;
+    position: relative;
+}
+.inner-branch__right{
+    width: 50%;
+    height: inherit;
+    position: relative;
+    overflow: auto;
+}
+.pic-branch{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic-branch .pic{
+    width: 24%;
+    height: 100%;
+    /* flex: 0 0 auto; */
+    aspect-ratio: 1.7777778;
+}
+.result-disc{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.challenge-branch{
+    border-top: 2px solid rgb(110, 110, 110, 0.7);
+}
+
+.pic-branch{
+    margin-bottom: 1em;
+}
+.pic-branch .pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.show-click {
+    width: 100%;
+    /* padding-top: 56.25%; */
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1.7777778;
+}
+.show-click img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.show-click iframe,
+.show-click video
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
