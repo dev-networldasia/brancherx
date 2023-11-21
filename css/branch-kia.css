@@ -39,6 +39,7 @@
     height: 100%;
     /* flex: 0 0 auto; */
     aspect-ratio: 1.7777778;
+    position: relative;
 }
 .result-disc{
     display: flex;
@@ -86,7 +87,7 @@
     width: fit-content;
     font-size: 2.8em;
     margin-top: 0.4em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: var(--main-color);
     border-bottom: 2px solid var(--bg-highlight);
 }
@@ -236,4 +237,31 @@
     display: block;
     width: 100%;
     height: 12em;
+}
+.overlay-pic{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(70, 122, 190, 0.8);
+    top: 0;
+    display: none;
+}
+.pic-branch .pic.active >.overlay-pic{
+    display: block;
+}
+.pic-branch .pic i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.8em;
+    z-index: 99;
+    opacity: 0;
+    margin-left: 1.5em;
+    transition: 0.3s;
+}
+.pic-branch .pic.active >i{
+    opacity: 1;
+    margin: 0;
 }

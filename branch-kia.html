@@ -213,15 +213,23 @@
                 <div class="pic-branch">
                     <div class="pic border" data-type="video" data-content="https://www.youtube.com/watch?v=q96KKjfwHEE">
                         <img src="img/kia-motors-7.jpg" alt="">
+                        <i class="ri-arrow-go-back-line"></i>
+                        <div class="overlay-pic"></div>
                     </div>
                     <div class="pic border" data-type="img" data-content="img/DIGITALMARKETINGcangi_1-768x427.webp">
                         <img src="img/DIGITALMARKETINGcangi_1-768x427.webp" alt="">
+                        <i class="ri-arrow-go-back-line"></i>
+                        <div class="overlay-pic"></div>
                     </div>
                     <div class="pic border" data-type="img" data-content="img/about-us-melanocc.jpg">
                         <img src="img/about-us-melanocc.jpg" alt="">
+                        <i class="ri-arrow-go-back-line"></i>
+                        <div class="overlay-pic"></div>
                     </div>
                     <div class="pic border" data-type="img" data-content="img/about-us-vietnamair.png">
                         <img src="img/about-us-vietnamair.png" alt="">
+                        <i class="ri-arrow-go-back-line"></i>
+                        <div class="overlay-pic"></div>
                     </div>
                 </div>
                 <div class="challenge-branch">
@@ -611,25 +619,28 @@
     <script>
         document.querySelectorAll('.pic').forEach(function (picclick) {
             picclick.addEventListener("click", function (evt) {
-              // alert(1);
-              var content = picclick.getAttribute('data-content');
-              var _type = picclick.getAttribute('data-type');
-              console.log(content);
-              if (_type == 'img') {
-                document.querySelector('.show-click').innerHTML = '<img src="'+ content +'">';
-              } else {
-                var videourl = get_video_id(content);
-                document.querySelector('.show-click').innerHTML = '<iframe src="https://www.youtube.com/embed/' + videourl + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>';
-              }
-              
+                var content = picclick.getAttribute('data-content');
+                var _type = picclick.getAttribute('data-type');
+                    console.log(picclick);
+                    document.querySelectorAll('.pic').forEach(function(evtre) {
+                    //    alert(1);
+                        evtre.classList.remove('active');
+                    });
+                    picclick.classList.add('active');
+                if (_type == 'img') {
+                    document.querySelector('.show-click').innerHTML = '<img src="' + content + '">';
+                } else {
+                    var videourl = get_video_id(content);
+                    document.querySelector('.show-click').innerHTML = '<iframe src="https://www.youtube.com/embed/' + videourl + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>';
+                }
             });
         });
-    
+
         function get_video_id(url) {
-                var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
-                var match = url.match(regExp);
-                return (match && match[7].length == 11) ? match[7] : false;
-            }
+            var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+            var match = url.match(regExp);
+            return (match && match[7].length == 11) ? match[7] : false;
+        }
     </script>
     <!-- RELATED SWIPER -->
      <!-- Swiper JS -->
