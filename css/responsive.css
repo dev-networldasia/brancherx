@@ -110,7 +110,7 @@
         gap: 1em;
     }
     .flip-card{
-        width: 47%;
+        width: 90%;
         padding: 2em 0.5em;
     }
     .our-serivce__up{
@@ -243,7 +243,7 @@
         font-size: 0.95rem;
     }
     /* Your Business */
-    .img-business,
+    /* .img-business,
     .talk-to-us
     {
         opacity: 0;
@@ -277,7 +277,7 @@
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.65s ease-out;
-    }
+    } */
     /* Page - Contact US */
     .form-master{
         height: auto;
@@ -285,7 +285,7 @@
     }
     .inner-business, .talk-form{
         width: auto;
-        padding: 0;
+        /* padding: 0; */
     }
     .talk-to-us{
         width: auto;
@@ -306,7 +306,7 @@
         padding: 1em 0 1em 1.5em;
     }
 }
-@media (min-width: 576px) and (max-width: 767px){
+@media (min-width: 576px) and (max-width: 768px){
     html{
         font-size: 50%;
     }
@@ -425,6 +425,9 @@
     }
     .case-studies .bg-title{
         margin-right: 0;
+        width: fit-content;
+        left: 50%;
+        transform: translateX(-50%);
     }
     /* News - Career */
      .info-career__disc a h2{
@@ -489,7 +492,7 @@
         max-height: fit-content;
     }
     /* Your Business */
-    .img-business,
+    /* .img-business,
     .talk-to-us
     {
         opacity: 0;
@@ -523,7 +526,7 @@
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.65s ease-out;
-    }
+    } */
     /* Page - Contact US */
     .form-master{
         height: auto;
@@ -548,7 +551,7 @@
         padding: 1em 0 1em 1.5em;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
     html{
         font-size: 50%;
     }
@@ -673,7 +676,7 @@
         font-size: 3.2em;
     }
     /* Your Business */
-    .img-business,
+    /* .img-business,
     .talk-to-us
     {
         opacity: 0;
@@ -708,7 +711,7 @@
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.65s ease-out;
-    }
+    } */
     /* Page - Contact US */
     .form-master{
         height: auto;
@@ -716,6 +719,7 @@
     }
     .inner-business, .talk-form{
         width: auto;
+        padding-right: 0;
     }
     .fp-overflow{
         max-height: fit-content;
@@ -822,37 +826,11 @@
     .img-business,
     .talk-to-us
     {
-        opacity: 0;
-        width: 41.66666667%;
-        flex: 0 0 auto;
-        transform: translateX(calc(-100% - 3rem));
-        transition: all 0.65s;
-    }
-    .inner-business,
-    .talk-form
-    {
-        opacity: 0;
-        width: 58.33333333%;
-        padding: 2.5em;
-        transform: translateX(calc(100% + 8rem));
-        transition: all 0.65s ;
-    }
-    .icon-area,
-    .content-area{
-        opacity: 0;
-        transform: translateY(calc(100% + 1rem));
-        transition: all 0.45s ease-out;
-    }
-    .about-us__title,
-    .about-us__counter,
-    .trust-us__title,
-    .our-serivce__down,
-    .case-studies__down,
-    .news-career__down
-    {
-        opacity: 0;
-        transform: translateY(calc(100% + 1rem));
-        transition: all 0.65s ease-out;
+        /* opacity: 0; */
+        /* width: 41.66666667%;
+        flex: 0 0 auto; */
+        /* transform: translateX(calc(-100% - 3rem)); */
+        /* transition: all 0.65s; */
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
@@ -920,37 +898,20 @@
     .img-business,
     .talk-to-us
     {
-        opacity: 0;
-        width: 42%;
-        flex: 0 0 auto;
-        transform: translateX(calc(-100% - 3rem));
-        transition: all 0.65s;
+        /* opacity: 0; */
+        /* width: 42%; */
+        /* flex: 0 0 auto; */
+        /* transform: translateX(calc(-100% - 3rem)); */
+        /* transition: all 0.65s; */
     }
     .inner-business,
     .talk-form
     {
-        opacity: 0;
-        width: 58%;
-        padding: 2.5em;
-        transform: translateX(calc(100% + 8rem));
-        transition: all 0.65s ;
-    }
-    .icon-area,
-    .content-area{
-        opacity: 0;
-        transform: translateY(calc(100% + 1rem));
-        transition: all 0.45s ease-out;
-    }
-    .about-us__title,
-    .about-us__counter,
-    .trust-us__title,
-    .our-serivce__down,
-    .case-studies__down,
-    .news-career__down
-    {
-        opacity: 0;
-        transform: translateY(calc(100% + 1rem));
-        transition: all 0.65s ease-out;
+        /* opacity: 0; */
+        /* width: 58%;
+        padding: 2.5em; */
+        /* transform: translateX(calc(100% + 8rem)); */
+        /* transition: all 0.65s ; */
     }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
@@ -997,7 +958,7 @@
         margin: 1em 0;
     }
     .form-control{
-        padding: 1em 0 1em 2.5em;
+        padding: 0.5em 0 0.5em 1.5em;
         margin: 1em 0;
     }
     .btn-form{
@@ -1010,38 +971,21 @@
     .img-business,
     .talk-to-us
     {
-        opacity: 0;
-        width: 42%;
-        flex: 0 0 auto;
-        transform: translateX(calc(-100% - 3rem));
-        transition: all 0.65s;
+        /* opacity: 0; */
+        /* width: 42%;
+        flex: 0 0 auto; */
+        /* transform: translateX(calc(-100% - 3rem)); */
+        /* transition: all 0.65s; */
         margin-top: 1em;
     }
     .inner-business,
     .talk-form
     {
-        opacity: 0;
-        width: 58%;
-        padding: 2.5em;
-        transform: translateX(calc(100% + 8rem));
-        transition: all 0.65s ;
-    }
-    .icon-area,
-    .content-area{
-        opacity: 0;
-        transform: translateY(calc(100% + 1rem));
-        transition: all 0.45s ease-out;
-    }
-    .about-us__title,
-    .about-us__counter,
-    .trust-us__title,
-    .our-serivce__down,
-    .case-studies__down,
-    .news-career__down
-    {
-        opacity: 0;
-        transform: translateY(calc(100% + 1rem));
-        transition: all 0.65s ease-out;
+        /* opacity: 0; */
+        /* width: 58%;
+        padding: 2.5em; */
+        /* transform: translateX(calc(100% + 8rem)); */
+        /* transition: all 0.65s ; */
     }
 }
 @media (min-width: 1600px) {
@@ -1092,22 +1036,22 @@
     .img-business,
     .talk-to-us
     {
-        opacity: 0;
+        /* opacity: 0; */
         width: 42%;
         flex: 0 0 auto;
-        transform: translateX(calc(-100% - 3rem));
-        transition: all 0.65s;
+        /* transform: translateX(calc(-100% - 3rem)); */
+        /* transition: all 0.65s; */
     }
     .inner-business,
     .talk-form
     {
-        opacity: 0;
+        /* opacity: 0; */
         width: 58%;
         padding: 2.5em;
-        transform: translateX(calc(100% + 8rem));
-        transition: all 0.65s ;
+        /* transform: translateX(calc(100% + 8rem)); */
+        /* transition: all 0.65s ; */
     }
-    .icon-area,
+    /* .icon-area,
     .content-area{
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
@@ -1123,5 +1067,5 @@
         opacity: 0;
         transform: translateY(calc(100% + 1rem));
         transition: all 0.65s ease-out;
-    }
+    } */
 }

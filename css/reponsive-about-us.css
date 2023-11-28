@@ -72,7 +72,7 @@
     /* Well Build */
     .brancherx-about-us-well-build{
         height: 100%;
-        padding-top: 3em;
+        padding: 5em 0;
     }
     .bg-title h2{
         font-size: 2.8em;
@@ -130,7 +130,7 @@
     }
     /* <!-- COMPANY HISTORY --> */
     .bg__left.company-history{
-        height: 100%;
+        height: 100vh;
         padding: 3em 0;
     }
     .company-history .bg-title h2{
@@ -150,7 +150,7 @@
     .about-us__company-history{
         flex-direction: row;
         height: 100%;
-        top: 43%;
+        margin-top: 0;
     }
     .history__up .history-box{
         width: 35vw;
@@ -303,6 +303,9 @@
         font-size: 1.4em;
     }
     /* Our - Service */
+    .our-service .container{
+        width: 100% !important;
+    }
     .our-service{
         height: auto;
     }
@@ -375,7 +378,7 @@
         margin: 0 auto;
         width: 100%;
         text-align: center;
-        padding: 2em 5em;
+        padding: 5em 0;
     }
     .form-row{
         flex-direction: column;
@@ -417,6 +420,9 @@
     }
     .contact-btn{
         bottom: 80px;
+    }
+    .our-service .container{
+        width: 100%;
     }
 }
 @media (min-width: 576px) and (max-width: 768px){
@@ -551,8 +557,8 @@
     }
     .about-us__company-history{
         flex-direction: row;
-        height: 100%;
-        top: 45%;
+        /* height: 100%;
+        top: 45%; */
     }
     .history__up .history-box{
         width: 35vw;
@@ -790,6 +796,10 @@
         height: 45vh;
     }
     /* <!-- COMPANY HISTORY --> */
+    .bg__left.company-history{
+        height: 100%;
+        padding: 10em 0;
+    }
     .history-box__front .img-area img{
         height: 6em;
     }
@@ -942,11 +952,14 @@
         height: 45vh;
     }
     /* <!-- COMPANY HISTORY --> */
-    .about-us__company-history{
-        top: 40%;
+    .bg__left.company-history{
+        height: 100%;
     }
     .about-us__title{
         font-size: 0.8em;
+    }
+    .about-us__company-history{
+        padding: 5em 0 10em;
     }
     .history-box__front .img-area img{
         height: 5em;
@@ -985,8 +998,8 @@
     }
     /* VISION MISSION */
     .vision-mission{
-        height: 100vh;
-        padding: 2em 0;
+        height: 100%;
+        padding: 10em 0;
     }
     .vision-mission .bg-title h2{
         font-size: 3em;
@@ -1015,6 +1028,13 @@
     /* Our - Service */
     .flip-card{
         width: 22%;
+    }
+    /* form */
+    .talk-form{
+        padding-right: 0;
+    }
+    footer{
+        height: 100%;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){

@@ -338,7 +338,7 @@ html{
     color: var(--white2);
 }
 /* Page Effect */
-.section.active .img-business,
+/* .section.active .img-business,
 .section.active .inner-business,
 .section.active .talk-to-us
 {
@@ -361,7 +361,7 @@ html{
 {
     opacity: 1;
     transform: translateY(0);
-}
+} */
 #fp-nav ul li a span, .fp-slidesNav ul li a span{
     background: var(--bg-highlight);
 }

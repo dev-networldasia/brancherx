@@ -456,4 +456,7 @@
     .bg-title h2{
         font-size: 4.8em;
     }
+    .dashboard{
+        padding: 10em 0;
+    }
 }

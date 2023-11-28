@@ -216,10 +216,10 @@
                                 </div>
                             </div>
                             <div class="media__down">
-                                <div class="media__left">
+                                <div class="wow fadeInLeftBig media__left">
                                     <img src="img/data-insight.jpg" alt="">
                                 </div>
-                                <div class="media__right">
+                                <div class="wow fadeInRightBig media__right">
                                     <div class="media__title">
                                         <h2>We connect your brand to the right target audience</h2>
                                     </div>
@@ -250,10 +250,10 @@
                                 </div>
                             </div>
                             <div class="media__down fix-pos">
-                                <div class="media__left">
+                                <div class="wow fadeInRightBig media__left">
                                     <img src="img/social.jpg" alt="">
                                 </div>
-                                <div class="media__right">
+                                <div class="wow fadeInLeftBig media__right">
                                     <div class="media__title">
                                         <h2>We make your brand viral</h2>
                                     </div>
@@ -285,10 +285,10 @@
                                 </div>
                             </div>
                             <div class="media__down">
-                                <div class="media__left">
+                                <div class="wow fadeInLeftBig media__left">
                                     <img src="img/creative-1-300x200.jpg" alt="">
                                 </div>
-                                <div class="media__right">
+                                <div class="wow fadeInRightBig media__right">
                                     <div class="media__title">
                                         <h2>We surprise both you and your target audience</h2>
                                     </div>
@@ -320,10 +320,10 @@
                                 </div>
                             </div>
                             <div class="media__down fix-pos">
-                                <div class="media__left">
+                                <div class="wow fadeInRightBig  media__left">
                                     <img src="img/what-we-do-4.jpeg" alt="">
                                 </div>
-                                <div class="media__right">
+                                <div class="wow fadeInLeftBig media__right">
                                     <div class="media__title">
                                         <h2>We help brands engage with the audience</h2>
                                     </div>
@@ -351,7 +351,7 @@
                 <section>
                     <div class="technology bg-wwd-2">
                         <div class="container">
-                            <div class="media-inner">
+                            <div class="wow fadeInUp media-inner">
                                 <div class="about-us__title">
                                     <div class="bg-title">
                                         <h2>OUR TECHNOLOGY</h2>
@@ -1113,7 +1113,7 @@
                                 <div class="swiper mySwiper3">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <img src="img/cover_1280x720-800-resize-768x432 .webp" />
+                                            <img src="img/cover_1280x720-800-resize-768x432.webp" />
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="info-career">
@@ -1167,7 +1167,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="info-career">
-                                                <img src="img/cover_1280x720-800-resize-768x432 .webp" alt="">
+                                                <img src="img/cover_1280x720-800-resize-768x432.webp" alt="">
                                                 <div class="inner__info-career">
                                                     <div class="info-career__disc">
                                                         <a href="#">
@@ -1429,6 +1429,45 @@
                 <i class="ri-arrow-up-fill"></i>
             </div>
         </div>
+            <!-- WOW - slide -->
+            <script src="js/wow.min.js"></script>
+            <script>
+                new WOW().init();
+            </script>
+            <script>
+                window.addEventListener('load', (event) => {
+                    new WOW(
+                        {
+                            animateClass: 'animated',
+                            offset: 100,
+                            mobile: true
+                        }
+                    ).init();
+                });
+            </script>
+            <!-- Navbar Menu -->
+            <script>
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                let mybutton = document.getElementById("scrolltopBtn");
+                window.onscroll = function () {
+                    scrollFunction()
+                };
+                // console.log(window.onscroll);
+                function scrollFunction() {
+                    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                        mybutton.style.display = "block";
+                        navbar.classList.add("fixed");
+                    } else {
+                        mybutton.style.display = "none";
+                        navbar.classList.remove("fixed");
+                    }
+                };
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
             <!-- JS Contact Form -->
             <script>
                 const bgform = document.querySelector('.diablog');
@@ -1440,69 +1479,6 @@
                 });
                 document.querySelector('.overlay-form').addEventListener("click", function () {
                     document.querySelector('.bg-form').classList.remove('active');
-                });
-            </script>
-            <!-- Full Page -->
-            <script type="text/javascript" src="js/jquery.min.js"></script>
-            <script type="text/javascript" src="js/fullpage.js"></script>
-            <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-            <script>
-                var myFullpage = new fullpage('#fullpage', {
-                    responsiveWidth: 1200,
-                    afterResponsive: function (isResponsive, destination, direction) {
-                        if (isResponsive) {
-                            fullpage_api.setAutoScrolling(!1)
-                        }
-                    },
-                    // anchors: ['firstPage', 'secondPage', '3rdPage', '4stPage', '5stPage', '6stPage', '7stPage'],
-                    navigation: true,
-                    navigationPosition: 'left',
-                    navigationTooltips: ['Home', 'Media', 'Social', 'Creative', 'Relations', 'Technology', 'Power of Data.X', 'Dashboard', 'Media Coverage', 'Case Studies', 'News & Careers', 'Form', 'Footer'],
-                    onLeave: function (index, nextIndex, direction, destination) {
-                        if (nextIndex.index == 1) {
-                            $('.header-bot').addClass('fixed');
-                        }
-                        if (nextIndex.index == 0) {
-                            $('.header-bot').removeClass('fixed');
-                        }
-                        if (nextIndex.index == 2) {
-                            $('.odometer').each(function () {
-                                // var odo = $('.odometer');
-                                // odo.each(function () {
-                                //     // $('.odometer').appear(function (e) {
-                                //         var countNumber = $(this).attr('data-count');
-                                //         $(this).html(countNumber);
-                                //     // });
-                                // });
-                                var $this = $(this)
-                                    , counter = {
-                                        time: 3000,
-                                        delay: 10,
-                                        beginAt: 0,
-                                        context: $(this)[0].dataset.count,
-                                    };
-                                if (counter.context) {
-                                    $({
-                                        countNum: counter.beginAt
-                                    }).animate({
-                                        countNum: counter.context
-                                    }, {
-                                        duration: counter.time,
-                                        easing: 'swing',
-                                        step: function () {
-                                            $this.html(Math.floor(this.countNum))
-                                        },
-                                        complete: function () {
-                                            $this.html(this.countNum)
-                                        }
-                                    })
-                                }
-                            })
-                        }
-                    },
-                });
-                document.querySelector('.scrolltop').addEventListener("click", function () {
-                    myFullpage.moveTo(1, 0);
                 });
             </script>
             <!-- JS Mobile-Menu -->
