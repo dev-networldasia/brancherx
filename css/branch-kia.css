@@ -92,15 +92,14 @@
 .challenge-branch h2,
 .cap h2{
     width: fit-content;
-    font-size: 2.8em;
+    font-size: 2.6em;
     margin-top: 0.4em;
     /* text-transform: uppercase; */
     color: var(--main-color);
-    border-bottom: 2px solid var(--bg-highlight);
 }
 .challenge-branch p,
 .cap p{
-    font-size: 2.2em;
+    font-size: 1.6em;
     padding: 1em;
 }
 .branch-result{
@@ -273,4 +272,158 @@
 .pic-branch .pic.active >i{
     opacity: 1;
     margin: 0;
+}
+/* STRATEGY */
+.strategy-area{
+    background-color: #EEF6FA;
+}
+.strategy__disc{
+    display: flex;
+}
+.strategy__left,
+.strategy__right{
+    width: 50%;
+}
+.strategy__left{
+    padding: 10em;
+}
+.tab{
+    display: flex;
+    align-items: center;
+}
+.strategy__close-btn img{
+    width: 20px;
+    margin-right: 1em;
+    transition: 0.3s;
+} 
+.tab span{
+    font-size: 2em;
+    font-weight: 600;
+}
+.panel {
+    color: var(--txt);
+    border-top: 1px solid #d5d8dc;
+    padding: 1.5em 2em;
+}
+.panel ul{
+    font-size: 1.6em;
+    list-style: disc;
+    margin-left: 1em;
+}
+.panel p{
+    font-size: 1.6em;
+}
+.child-tab{
+    display: none;
+}
+.accordion.active .strategy__close-btn img{
+    transform: rotate(180deg);
+    filter: brightness(0) saturate(100%) invert(17%) sepia(53%) saturate(3353%) hue-rotate(190deg) brightness(96%) contrast(106%);
+}
+.accordion.active .tab span{
+    color: var(--main-color);
+}
+.accordion {
+    border: 1px solid #d5d8dc;
+}
+.accordion .tab {
+    padding: 1.5em 2em;
+}
+.strategy__right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* RESULTS */
+.result{
+    display: flex;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    gap: 2em;
+}.results{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+.result__left,
+.result__right{
+    width: 50%;
+    padding: 1em;
+}
+.result__title h2{
+    color: var(--main-color);
+    font-size: 2.6em;
+    margin-bottom: 0.8em;
+}
+.result__inner p{
+    font-size: 1.6em;
+    color: var(--txt);
+}
+/* FANCY BOX */
+.fancybox{
+    position: relative;
+}
+.fancybox .swiper-button-next-fancy {
+    width: 3em;
+    height: 3em;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    z-index: 10;
+}
+
+.fancybox .swiper-button-next-fancy i {
+    width: 100%;
+    font-size: 5em;
+}
+
+.fancybox .swiper-button-next-fancy:hover {
+    color: var(--bg-highlight);
+}
+
+.fancybox .swiper-button-prev-fancy {
+    width: 3em;
+    height: 3em;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    color: var(--white);
+}
+
+.fancybox .swiper-button-prev-fancy i {
+    font-size: 5em;
+}
+
+.fancybox .swiper-button-prev-fancy:hover {
+    color: var(--bg-highlight);
+}
+.fancybox .swiper-slide{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 0;
+}
+.fancybox .swiper-slide a{
+    position: relative;
+    display: block;
+    font-size: 0;
+}
+.fancybox .swiper-slide img {
+    object-fit: cover;
+    transition: 0.3s;
+}
+.fancybox .swiper-slide:hover img{
+    transform: scale(1.1);
+    object-position: center;
 }

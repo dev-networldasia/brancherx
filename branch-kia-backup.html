@@ -201,16 +201,15 @@
         <div class="inner-branch container">
             <div class="inner-branch__left border">
                 <div class="show-click">
-                    <!-- <video width="320" height="240" controls>
+                    <video width="320" height="240" controls>
                         <source src="video/Kia Seltos SP2i_Exterior.mp4" type="video/mp4">
                         <source src="movie.ogg" type="video/ogg">
                         Your browser does not support the video tag.
-                    </video> -->
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9IkExBSPdxs?si=xB_O5eTr56a6nFFY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </video>
                 </div>
             </div>
             <div class="inner-branch__right">
-                <!-- <div class="pic-branch">
+                <div class="pic-branch">
                     <div class="pic border" data-type="video" data-content="https://www.youtube.com/watch?v=KrwbYpjC_1o">
                         <img src="img/kia-motors-7.jpg" alt="">
                         <i class="ri-arrow-go-back-line"></i>
@@ -231,7 +230,7 @@
                         <i class="ri-arrow-go-back-line"></i>
                         <div class="overlay-pic"></div>
                     </div>
-                </div> -->
+                </div>
                 <div class="challenge-branch">
                     <h2>Challenge</h2>
                     <p>In 2019, KIA Motors faced a big challenge in asserting its position, when sales is stable, and market
@@ -280,14 +279,14 @@
                                </ul>
                             </div>
                         </li>
-                        <li class="accordion active">
+                        <li class="accordion">
                             <div class="tab">
                                 <div class="strategy__close-btn">
                                     <img src="img/top-btn-resize.png" alt="">
                                 </div>
                                 <span>Performance</span>
                             </div>
-                            <div class="panel child-tab" style="display: block;">
+                            <div class="panel child-tab">
                                 <p>To communicate the new brand manifesto to the target audience. Focus on each customer segment for each different product. Create high brand awareness to maximize the reach and contribute to increase sales and market share.
                                 </p>
                                 <p>Channel from Awareness to Performance: TV, OOH, Programmatic Youtube, Online Video, OTT TV, Facebook, SEM, LAN.</p>
@@ -749,24 +748,24 @@
         });
     </script>
     <script>
-        // document.querySelectorAll('.pic').forEach(function (picclick) {
-        //     picclick.addEventListener("click", function (evt) {
-        //         var content = picclick.getAttribute('data-content');
-        //         var _type = picclick.getAttribute('data-type');
-        //             console.log(picclick);
-        //             document.querySelectorAll('.pic').forEach(function(evtre) {
-        //             //    alert(1);
-        //                 evtre.classList.remove('active');
-        //             });
-        //             picclick.classList.add('active');
-        //         if (_type == 'img') {
-        //             document.querySelector('.show-click').innerHTML = '<img src="' + content + '">';
-        //         } else {
-        //             var videourl = get_video_id(content);
-        //             document.querySelector('.show-click').innerHTML = '<iframe src="https://www.youtube.com/embed/' + videourl + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>';
-        //         }
-        //     });
-        // });
+        document.querySelectorAll('.pic').forEach(function (picclick) {
+            picclick.addEventListener("click", function (evt) {
+                var content = picclick.getAttribute('data-content');
+                var _type = picclick.getAttribute('data-type');
+                    console.log(picclick);
+                    document.querySelectorAll('.pic').forEach(function(evtre) {
+                    //    alert(1);
+                        evtre.classList.remove('active');
+                    });
+                    picclick.classList.add('active');
+                if (_type == 'img') {
+                    document.querySelector('.show-click').innerHTML = '<img src="' + content + '">';
+                } else {
+                    var videourl = get_video_id(content);
+                    document.querySelector('.show-click').innerHTML = '<iframe src="https://www.youtube.com/embed/' + videourl + '?feature=oembed&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>';
+                }
+            });
+        });
 
         function get_video_id(url) {
             var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
@@ -867,7 +866,7 @@
                 },
                 991: {
                     slidesPerView: 4,
-                    spaceBetween: -1,
+                    spaceBetween: 0,
                 },
             },
             pagination: {

@@ -6,6 +6,16 @@
     object-fit: cover;
     object-position: center center;
 }
+.our-service__disc {
+    flex: 7;
+    padding-right: 10%;
+    font-size: 1.6em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    color: var(--main-color);
+    border-left: 5px solid var(--main-color);
+}
 /* Media */
 .dashboard-inner{
     padding: 5em 0;
