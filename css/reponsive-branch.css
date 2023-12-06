@@ -33,6 +33,10 @@
     .branch-result .result-disc ul{
         margin-left: 3em;
     }
+    .branch__title .word-area h2{
+        font-size: 2.4em;
+        margin-top: 2em;
+    }
     /* RELATED */
     .related__img{
         height: 4em;
@@ -111,6 +115,10 @@
     }
     .branch-result{
         flex-direction: column;
+    }
+    .branch__title .word-area h2{
+        font-size: 2.4em;
+        margin-top: 2em;
     }
     /* RELATED */
     .related__img{
