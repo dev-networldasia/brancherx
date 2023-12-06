@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/style-mobilemenu.css">
     <link rel="stylesheet" href="css/style-strategic.css">
     <link rel="stylesheet" href="css/about-us-banner.css">
+    <link rel="stylesheet" href="css/style-home-form-master.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/branch-kia.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -263,6 +264,9 @@
         <div class="strategy-area">
             <div class="strategy__disc">
                 <div class="strategy__left">
+                    <div class="strategy__title">
+                        <h2>Strategy</h2>
+                    </div>
                     <ul class="main-tab">
                         <li class="accordion">
                             <div class="tab">
@@ -495,6 +499,53 @@
             </div>
         </div>
     </section>
+    <!-- FORM MASTER -->
+    <section class="form-master">
+        <div class="container form-row">
+            <div class="wow fadeInLeft talk-to-us">
+                <span>COME TALK TO US</span>
+            </div>
+            <div class="wow fadeInRight talk-form">
+                <h2>HOTLINE: (+84) 287 303 0568</h2>
+                <form action="#">
+                    <div class="form">
+                        <input type="text" placeholder="Company name *">
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="Job title *">
+                    </div>
+                    <div class="form">
+                        <input type="email" placeholder="E - mail *">
+                    </div>
+                    <div class="form">
+                        <input type="number" placeholder="Phone *">
+                    </div>
+                    <div class="form form-label">
+                        <span for="post-start-date" class="label-contactus">
+                            Choose your service that you interest:
+                        </span>
+                        <select name="brancherx_page_contact_form_service" class="form-control">
+                            <option valuvalue="Integrated Marketing Communication">Integrated Marketing Communication</option>
+                            <option valuvalue="Marketing & Business Solution">Marketing & Business Solution</option>
+                            <option valuvalue="Creative Communication">Creative Communication</option>
+                            <option valuvalue="Media Planning & Media Buying">Media Planning & Media Buying</option>
+                            <option valuvalue="PR Planning & Buying">PR Planning & Buying</option>
+                            <option valuvalue="Digital Marketing & Performance">Digital Marketing & Performance</option>
+                            <option valuvalue="Social Content Management">Social Content Management</option>
+                            <option valuvalue="KOL,KOC, Seeding">KOL,KOC, Seeding</option>
+                            <option valuvalue="Others">Others</option>
+                        </select>
+                    </div>
+                    <div class="form">
+                        <input type="text" placeholder="Message *">
+                    </div>
+                    <div class="btn-form">
+                        <span>SEND</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- FOOTER -->
     <div class="section" id="section10">
         <footer>
@@ -670,7 +721,7 @@
     </div>
     <!-- Scroll top -->
     <div class="box-support">
-        <div class="icon-support scrolltop" id="scrolltopBtn">
+        <div onclick="topFunction()" class="icon-support scrolltop" id="scrolltopBtn">
             <i class="ri-arrow-up-fill"></i>
         </div>
     </div>
@@ -783,7 +834,7 @@
             spaceBetween: 30,
             loop: true,
             autoplay: {
-                delay: 4000,
+                delay: 6000,
                 disableOnInteraction: false
             },
             breakpoints: {

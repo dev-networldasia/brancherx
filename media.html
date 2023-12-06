@@ -919,10 +919,33 @@
     </div>
     <!-- Scroll top -->
     <div class="box-support">
-        <div class="icon-support scrolltop" id="scrolltopBtn">
+        <div onclick="topFunction()" class="icon-support scrolltop" id="scrolltopBtn">
             <i class="ri-arrow-up-fill"></i>
         </div>
     </div>
+    <!-- Navbar Menu -->
+    <script>
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        let mybutton = document.getElementById("scrolltopBtn");
+        window.onscroll = function() {
+            scrollFunction()};
+        // console.log(window.onscroll);
+        function scrollFunction() {
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybutton.style.display = "block";
+            navbar.classList.add("fixed");
+          } else {
+            mybutton.style.display = "none";
+            navbar.classList.remove("fixed");
+          }
+        };
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    
 
     <!-- JS Contact Form -->
     <script>

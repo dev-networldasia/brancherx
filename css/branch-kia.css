@@ -239,7 +239,7 @@
 .inner-related{
     width: 100%;
     position: relative;
-    padding: 4em 0;
+    padding: 5em 0;
 }
 .related__img {
     display: block;
@@ -287,12 +287,17 @@
 .strategy__left{
     padding: 10em;
 }
+.strategy__title h2{
+    color: var(--main-color);
+    font-size: 2.6em;
+    margin-bottom: 0.8em;
+}
 .tab{
     display: flex;
     align-items: center;
 }
 .strategy__close-btn img{
-    width: 20px;
+    width: 17px;
     margin-right: 1em;
     transition: 0.3s;
 } 

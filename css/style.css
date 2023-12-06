@@ -333,9 +333,12 @@ html{
     left: 0;
     transform: translateX(0);
     margin-top: 1em;
+    position: relative;
+    text-align: center;
 }
 .bot-form .btn-form span{
     color: var(--white2);
+    font-size: 1.6em;
 }
 /* Page Effect */
 /* .section.active .img-business,
