@@ -1,0 +1,117 @@
+@media (max-width: 575px){
+    .banner{
+        height: auto;
+    }
+    /* PUBLIC RELATIONS */
+    .flex-end{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .grid-container>div{
+        flex-direction: column;
+        text-align: center;
+        padding: 2em 1em;
+    }
+    .flex-end .public-img{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .flex-end .public-disc h2{
+        text-align: center;
+    }
+    .flex-end .public-disc p{
+        text-align: center;
+    }
+    .public-img{
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+        margin-bottom: 1em;
+    }
+    /* BOX PR */
+    .box-area {
+        gap: 2em;
+    }
+    .box-area .box{
+        width: 48%;
+    }
+    /* CASE STUDIES */
+    .case-studies{
+        height: 100%;
+        padding: 5em 0;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .banner{
+        height: auto;
+    }
+    /* PUBLIC RELATIONS */
+    .flex-end{
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .grid-container>div{
+        flex-direction: column;
+        text-align: center;
+        padding: 2em 1em;
+    }
+    .flex-end .public-img{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .flex-end .public-disc h2{
+        text-align: center;
+    }
+    .flex-end .public-disc p{
+        text-align: center;
+    }
+    .public-img{
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+        margin-bottom: 1em;
+    }
+    .item5{
+        aspect-ratio: unset;
+    }
+    /* BOX PR */
+    .box-area {
+        gap: 2em;
+    }
+    .box-area .box{
+        width: 48%;
+    }
+    .box-area .box span{
+        font-size: 2.4em;
+    }
+    /* CASE STUDIES */
+    .case-studies{
+        height: 100%;
+        padding: 5em 0;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px){
+
+}
+@media only screen and (min-width: 1400px) and (max-width: 1599px){
+
+}
+@media (min-width: 1600px){
+    
+}

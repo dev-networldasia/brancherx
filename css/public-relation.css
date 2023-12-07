@@ -1,0 +1,207 @@
+.banner{
+    padding-top: 7.5em;
+    width: 100%;
+    max-width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center center;
+}
+.our-service__disc {
+    flex: 7;
+    padding-right: 10%;
+    font-size: 1.6em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    color: var(--main-color);
+    border-left: 5px solid var(--main-color);
+}
+/* PUBLIC RELATIONS */
+.public-relations{
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+    padding: 5em 0;
+}
+.imc-inner{
+    padding: 5em 0;
+}
+.bg-title h2{
+    text-transform: uppercase;
+}
+.title-imc__disc{
+    font-weight: 400;
+    text-align: center;
+    font-size: 3.2em;
+    color: var(--main-color);
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
+}
+.title-imc p{
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--txt);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+}
+.public__inner {
+    margin-top: 4em;
+}
+.grid-container>div {
+    padding: 1em;
+    display: flex;
+}
+.item5 {
+    grid-area: 2 / 2 / 4 / 2;
+    aspect-ratio: auto 496 / 442;
+}
+.item5 img{
+    margin: 0 auto;
+}
+.public-img{
+    width: 15%;
+    margin-right: 2em;
+}
+.public-disc h2{
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 0.6em;
+    color: var(--main-color);
+}
+.public-disc p{
+    font-size: 1.6em;
+    color: var(--txt);
+}
+.flex-end{
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+.flex-end .public-img{
+    margin-left: 2em;
+}
+.flex-end .public-disc h2{
+    text-align: end;
+}
+.flex-end .public-disc p{
+    text-align: end;
+}
+.effect:hover{
+    box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.1);
+    transform: scale(1.08);
+}
+.effect{
+    transition: transform .85s cubic-bezier(.23,1,.32,1),background .3s,border .3s,border-radius .3s,box-shadow .3s;
+}
+/* BOX PR */
+/* BOX AREA */
+.box-pr{
+    display: block;
+    position: relative;
+    padding: 5em 0;
+    background-color: var(--white2);
+}
+.bot-banner {
+    display: block;
+    position: relative;
+}
+.box-area{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--white2);
+}
+.box-area .box{
+    width: 23%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white2);
+    border-radius: 20px;
+    aspect-ratio: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    transition: 0.3s;
+}
+.box-area .box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 8px solid #CDF5FD;
+    transition: 0.3s;
+}
+.box-area .box span{
+    font-size: 2em;
+    color: var(--main-color);
+    margin-top: 0.5em;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s;
+}
+.box-area .box:hover{
+    transform: scale(1.05);
+}
+.inner-box{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDF5FD;
+    border-radius: 50%;
+}
+.box-area .box.box2 {
+    border-color: #A0E9FF;
+}
+.box2 .inner-box{
+    background-color: #A0E9FF;
+}
+.box-area .box.box3 {
+    border-color: #89CFF3;
+}
+.box3 .inner-box{
+    background-color: #89CFF3;
+}
+.box-area .box.box4 {
+    border-color: #00A9FF;
+}
+.box4 .inner-box{
+    background-color: #00A9FF;
+}
+.inner-box img{
+    max-width: 70%;
+    filter: brightness(0) saturate(100%) invert(15%) sepia(51%) saturate(3942%) hue-rotate(193deg) brightness(97%) contrast(101%);
+}
+.box:hover img{
+    animation-name: shake;
+    animation-duration: 0.75s;
+}
+.box-area .box:hover .icon-hover{
+    display: block;
+}
+@keyframes shake {
+    0%   {transform: scale3d(1, 1, 1);}
+    30%  {transform: scale3d(1.25, 0.75, 1);}
+    40%  {transform: scale3d(0.75, 1.25, 1);}
+    50% {transform: scale3d(1.15, 0.85, 1);}
+    65% {transform: scale3d(0.95, 1.05, 1);}
+    75% {transform: scale3d(1.05, 0.95, 1);}
+    100% {transform: scale3d(1, 1, 1);}
+}
+.pr-disc{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    color: var(--txt);
+    font-size: 2em;
+    margin-top: 3em;
+}
