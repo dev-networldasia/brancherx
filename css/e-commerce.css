@@ -6,6 +6,10 @@
     object-fit: cover;
     object-position: center center;
 }
+.banner img{
+    width: 100%;
+    object-fit: cover;
+}
 .our-service__disc {
     flex: 7;
     padding-right: 10%;
