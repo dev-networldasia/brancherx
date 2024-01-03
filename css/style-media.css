@@ -5,6 +5,8 @@
     height: 50vh;
     object-fit: cover;
     object-position: center center;
+    overflow: hidden;
+    position: relative;
 }
 .our-service__disc {
     flex: 7;
@@ -15,6 +17,22 @@
     font-weight: 500;
     color: var(--main-color);
     border-left: 5px solid var(--main-color);
+}
+.text-area{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+}
+.title-about-us{
+    text-align: center;
+    color: var(--white2);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+.banner .title-about-us h1{
+    font-size: 8.5em;
 }
 /* Media */
 .dashboard-inner{
