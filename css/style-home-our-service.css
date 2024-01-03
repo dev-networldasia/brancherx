@@ -6,9 +6,9 @@
     background-attachment: fixed;
     background-position: right;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
-    height: 100vh;
+    height: 100%;
     font-size: 1rem;
-    padding: 4em 0em;
+    padding: 8em 0em;
     overflow: hidden;
     justify-content: center;
     display: flex;
@@ -52,7 +52,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 5em;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5%;
 }
 .flip-card{
     width: 24%;
