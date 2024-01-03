@@ -50,6 +50,34 @@
         position: relative;
         margin-bottom: 1em;
     }
+    /* TECHNOLOGY */
+    .technology{
+        height: 100%;
+        padding: 4em 0;
+    }
+    .technology .description-area h4{
+        font-size: 1.4em;
+    }
+    /* POWER-X */
+    .power-x{
+        height: 100%;
+    }
+    .powerx-inner{
+        padding: 3em 1.5em;
+        width: 100%;
+    }
+    .powerx-title h2{
+        font-size: 2.6em;
+    }
+    .powerx-title h2 span {
+        font-size: 6.5rem;
+    }
+    .powerx-disc h4{
+        font-size: 2.4em;
+    }
+    .powerx-text h4{
+        font-size: 1.6em;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     /* IMC */
@@ -101,11 +129,60 @@
     .item5{
         aspect-ratio: unset;
     }
+    /* TECHNOLOGY */
+    .technology{
+        height: 100%;
+        padding: 4em 0;
+    }
+    .technology .description-area h4{
+        font-size: 1.4em;
+    }
+    /* POWER-X */
+    .power-x{
+        height: 100%;
+    }
+    .powerx-inner{
+        padding: 3em 1.5em;
+        width: 100%;
+    }
+    .powerx-title h2{
+        font-size: 2.6em;
+    }
+    .powerx-title h2 span {
+        font-size: 6.5rem;
+    }
+    .powerx-disc h4{
+        font-size: 2.4em;
+    }
+    .powerx-text h4{
+        font-size: 1.6em;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
     /* IMC */
     .imc-box{
         font-size: 0.7rem;
+    }
+    /* TECHNOLOGY */
+    .technology{
+        height: 100%;
+        padding: 4em 0;
+    }
+    .technology .description-area h4{
+        font-size: 1.6em;
+    }
+    /* POWER-X */
+    .powerx-title h2{
+        font-size: 2.6em;
+    }
+    .powerx-title h2 span {
+        font-size: 6.5rem;
+    }
+    .powerx-disc h4{
+        font-size: 2.4em;
+    }
+    .powerx-text h4{
+        font-size: 1.6em;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
@@ -113,17 +190,72 @@
     .imc-box{
         font-size: 0.8rem;
     }
+    /* TECHNOLOGY */
+    .technology{
+        height: 100%;
+        padding: 4em 0;
+    }
+    .technology .description-area h4{
+        font-size: 1.6em;
+    }
+    /* POWER-X */
+    .powerx-title h2{
+        font-size: 2.6em;
+    }
+    .powerx-title h2 span {
+        font-size: 6.5rem;
+    }
+    .powerx-disc h4{
+        font-size: 2.4em;
+    }
+    .powerx-text h4{
+        font-size: 1.6em;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
     /* IMC */
     .imc-box{
         font-size: 0.9rem;
     }
+    /* TECHNOLOGY */
+    .technology .description-area h4{
+        font-size: 1.6em;
+    }
+    /* POWER-X */
+    .powerx-title h2{
+        font-size: 2.6em;
+    }
+    .powerx-title h2 span {
+        font-size: 6.5rem;
+    }
+    .powerx-disc h4{
+        font-size: 2.4em;
+    }
+    .powerx-text h4{
+        font-size: 1.6em;
+    }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px){
     /* IMC */
     .imc-box{
         font-size: 0.9rem;
+    }
+    /* TECHNOLOGY */
+    .technology .description-area h4{
+        font-size: 1.8em;
+    }
+    /* POWER-X */
+    .powerx-title h2{
+        font-size: 3.6em;
+    }
+    .powerx-title h2 span {
+        font-size: 7.6rem;
+    }
+    .powerx-disc h4{
+        font-size: 2.4em;
+    }
+    .powerx-text h4{
+        font-size: 1.8em;
     }
 }
 @media (min-width: 1600px){

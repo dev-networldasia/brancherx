@@ -248,3 +248,100 @@
 .effect{
     transition: transform .85s cubic-bezier(.23,1,.32,1),background .3s,border .3s,border-radius .3s,box-shadow .3s;
 }
+/* OUR TECHNOLOGY */
+.technology{
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(143, 210, 238, 0.86) 91.98%), url(../img/what-we-do-our-technology-bg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.technology .bg-title{
+    background: var(--bg-highlight);
+}
+.technology .description-area{
+    width: 80%;
+    margin: 0 auto;
+}
+.technology .description-area h4{
+    font-weight: 500;
+    font-size: 2.2em;
+    line-height: 3rem;
+    text-align: center;
+    color: var(--main-color);
+    padding-top: 1em;
+}
+.technology .img-tech{
+    position: relative;
+    margin: 3em auto 0;
+}
+.technology .media-inner{
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.img-tech img{
+    max-height: 60vh;
+}
+/* POWER-X */
+.power-x{
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0.9) 31.98%, rgba(217, 217, 217, 0) 100%), url(../img/what-we-do-power-x.webp);
+}
+.powerx-inner{
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+.powerx-title h2{
+    font-weight: 700;
+    font-size: 4.4em;
+    line-height: 5rem;
+    color: var(--main-color);
+}
+.powerx-title h2 span{
+    font-weight: 700;
+    font-size: 10rem;
+    line-height: 0.9em;
+    display: block;
+}
+.powerx-disc{
+    padding-left: 40px;
+    border-left: 5px solid var(--main-color);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.powerx-disc h4{
+    font-weight: 700;
+    font-size: 2.8em;
+    line-height: 1.5em;
+    color: var(--main-color);
+    width: 100%;
+    display: inline-block;
+}
+.powerx-text h4{
+    font-weight: 400;
+    font-size: 2.2em;
+    line-height: 3rem;
+    color: var(--main-color);
+    width: 90%;
+    display: inline-block;
+    text-align: justify;
+    margin: 1.5rem 0;
+}
