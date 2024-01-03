@@ -356,74 +356,50 @@
             </div>
         </div>
         <!-- Scroll top -->
-        <div class="box-support">
-            <div class="icon-support scrolltop" id="scrolltopBtn">
-                <i class="ri-arrow-up-fill"></i>
-            </div>
+    <div class="box-support">
+        <div onclick="topFunction()" class="icon-support scrolltop" id="scrolltopBtn">
+            <i class="ri-arrow-up-fill"></i>
         </div>
-        <!-- Full Page -->
-        <script type="text/javascript" src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="js/fullpage.js"></script>
-        <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-        <script>
-            var myFullpage = new fullpage('#fullpage', {
-            responsiveWidth: 991,
-            afterResponsive: function(isResponsive, destination, direction) {
-                if (isResponsive) {
-                    fullpage_api.setAutoScrolling(!1)
+    </div>
+    <!-- Navbar Menu -->
+    <script>
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        let mybutton = document.getElementById("scrolltopBtn");
+        window.onscroll = function() {
+            scrollFunction()};
+        // console.log(window.onscroll);
+        function scrollFunction() {
+          if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybutton.style.display = "block";
+            navbar.classList.add("fixed");
+          } else {
+            mybutton.style.display = "none";
+            navbar.classList.remove("fixed");
+          }
+        };
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- WOW - slide -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        window.addEventListener('load', (event) => {
+            new WOW(
+                {
+                    animateClass: 'animated',
+                    offset: 100,
+                    mobile: true
                 }
-            },
-			// anchors: ['firstPage', 'secondPage', '3rdPage', '4stPage', '5stPage', '6stPage', '7stPage'],
-			navigation: true,
-			navigationPosition: 'left',
-			navigationTooltips: ['Home', 'Form', 'Footer' , 'Company History', 'Vision & Mission', 'Our Service' , 'Case Studies' , 'News & Careers' , 'Form' , 'Footer'],
-			onLeave: function (index, nextIndex, direction, destination) {
-                if(nextIndex.index == 1){
-                    $('.header-bot').addClass('fixed');
-                }
-                if(nextIndex.index == 0){
-                    $('.header-bot').removeClass('fixed');
-                }
-				if (nextIndex.index == 2) {
-					$('.odometer').each(function () {
-                        // var odo = $('.odometer');
-                        // odo.each(function () {
-                        //     // $('.odometer').appear(function (e) {
-                        //         var countNumber = $(this).attr('data-count');
-                        //         $(this).html(countNumber);
-                        //     // });
-                        // });
-						var $this = $(this)
-							, counter = {
-								time: 3000,
-								delay: 10,
-								beginAt: 0,
-								context: $(this)[0].dataset.count,
-							};
-						if (counter.context) {
-							$({
-								countNum: counter.beginAt
-							}).animate({
-								countNum: counter.context
-							}, {
-								duration: counter.time,
-								easing: 'swing',
-								step: function () {
-									$this.html(Math.floor(this.countNum))
-								},
-								complete: function () {
-									$this.html(this.countNum)
-								}
-							})
-						}
-					})
-				}
-			},
-		});
-        document.querySelector('.scrolltop').addEventListener("click", function() {
-            myFullpage.moveTo(1, 0);
+            ).init();
         });
-        </script>
+    </script>
+        
     <!-- JS Mobile-Menu -->
     <script>
         const bgmenu = document.querySelector('.inner-wrapper');

@@ -22,7 +22,7 @@
     background-color: var(--white2);
 }
 .form-master{
-    padding-top: 0 !important;
+    padding: 5em 0;
     background: linear-gradient(180deg,#7ac8e7 -18.83%,#fff 100%);
 }
 .talk-form .form input{
