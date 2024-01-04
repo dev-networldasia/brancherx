@@ -103,6 +103,9 @@
         padding-right: 0;
     }
     /* Our - Service */
+    .our-service .container{
+        width: 100% !important;
+    }
     .our-service{
         height: auto;
     }
@@ -110,7 +113,7 @@
         gap: 1em;
     }
     .flip-card{
-        width: 90%;
+        width: 47%;
         padding: 2em 0.5em;
     }
     .our-serivce__up{
@@ -393,8 +396,8 @@
     .home-your-business-up img{
         padding-right: 0;
     }
-    /* Our - Service */
-    .our-service{
+     /* Our - Service */
+     .our-service{
         height: auto;
     }
     .our-serivce__down{
@@ -402,7 +405,7 @@
     }
     .flip-card{
         width: 48%;
-        padding: 2em 3em;
+        padding: 2em 1em;
     }
     .our-serivce__up{
         flex-direction: column;
@@ -633,10 +636,10 @@
     }
     /* Our - Service */
     .our-serivce__down{
-        gap: 1em;
+        gap: 4em;
     }
     .flip-card{
-        width: 22%;
+        width: 25%;
     }
     /* News - Career */
     .info-career__disc a h2{
@@ -781,8 +784,8 @@
         padding: 5em;
     }
     /* Our - Service */
-    .flip-card{
-        width: 22%;
+     .flip-card{
+        width: 27%;
     }
     .header-bot.sticky{
         width: 100%;
