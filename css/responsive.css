@@ -308,6 +308,10 @@
     .form-control{
         padding: 1em 0 1em 1.5em;
     }
+    /* banner e-com */
+    .banner .title-about-us h1{
+        font-size: 3em;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     html{
@@ -553,6 +557,10 @@
     .form-control{
         padding: 1em 0 1em 1.5em;
     }
+    /* banner e-com */
+    .banner .title-about-us h1{
+        font-size: 5.5em;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
     html{
@@ -729,6 +737,10 @@
     }
     footer{
         height: auto;
+    }
+    /* banner e-com */
+    .banner .title-about-us h1{
+        font-size: 7.5em;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){

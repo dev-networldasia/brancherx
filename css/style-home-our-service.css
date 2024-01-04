@@ -52,11 +52,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 5em;
-    justify-content: center;
+    justify-content: space-around;
     gap: 1%;
 }
 .flip-card{
-    width: 16%;
+    width: 18%;
     position: relative;
 }
 .flip-card__inner{
