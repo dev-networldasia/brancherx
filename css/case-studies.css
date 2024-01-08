@@ -1,0 +1,105 @@
+.banner {
+    /* padding-top: 7.5em; */
+    width: 100%;
+    max-width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.our-service__disc {
+    flex: 7;
+    padding-right: 10%;
+    font-size: 1.6em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    color: var(--main-color);
+    border-left: 5px solid var(--main-color);
+}
+
+.text-area {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title-about-us {
+    text-align: center;
+    color: var(--white2);
+    margin: 10px 10px 10px 10px;
+    padding: 12px 12px 12px 12px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--white2);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .title-about-us h1 {
+    font-size: 6.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Case studies */
+.case-studies-page {
+    padding: 10em 0;
+}
+
+.branch__title .word-area h2 {
+    font-weight: 600;
+    font-size: 3.2em;
+    line-height: 1.5em;
+    text-align: center;
+    color: var(--main-color);
+    margin-bottom: 3rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item {
+    margin: 10px;
+    text-align: start;
+    overflow: hidden;
+    background-color: #EEF6FA;
+}
+.related__img{
+    height: 23em;
+    overflow: hidden;
+}
+.related__img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    object-fit: cover;
+}
+.related__img:hover img{
+    transform: scale(1.1);
+}
+
+.related__title {
+    padding: 3em;
+}
+
+.related__title h2 {
+    margin-bottom: 5px;
+    font-size: 2.4em;
+}
+
+.related__title p {
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
