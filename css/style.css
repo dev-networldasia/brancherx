@@ -378,6 +378,29 @@ html{
     margin: 10px;
 }
 /* BUTTON Learn more */
+.button-area{
+    padding: 0.8em 3em;
+    background: var(--main-color);
+    display: block;
+    width: fit-content;
+    margin-top: 1.5em;
+    border-radius: 3em;
+}
+.brancherx-btn-main{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.button-area .button-text {
+    font-size: 1.6em;
+    
+}
+.button-area .button-icon{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    margin-left: 0.5em;
+}
 .btn-learn-more {
     padding: 0;
     margin: 0;

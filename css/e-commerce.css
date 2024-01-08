@@ -111,7 +111,7 @@
 }
 .trust-us__inner{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     gap: 4em;
     padding-bottom: 5em;
 }

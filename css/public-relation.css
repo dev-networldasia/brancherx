@@ -72,6 +72,8 @@
     color: var(--txt);
 }
 .grid-container {
+    width: 90%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     gap: 5px;

@@ -1,3 +1,6 @@
+.imc{
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(143, 210, 238, 0.86) 91.98%);
+}
 .banner{
     /* padding-top: 7.5em; */
     width: 100%;
@@ -193,6 +196,7 @@
 }
 .imc-box{
     width: 23%;
+    background: var(--white2);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     border-radius: 2rem;
     transition: 0.3s;
