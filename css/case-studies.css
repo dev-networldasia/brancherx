@@ -104,6 +104,10 @@
     margin-bottom: 20px;
     font-size: 1.6em;
 }
+.our-service .flip-back-overlay{
+    position: absolute;
+    margin-top: 5em;
+}
 /*  */
 #loadMore {
     font-size: 1.8em;

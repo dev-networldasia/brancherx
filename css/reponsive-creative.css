@@ -9,6 +9,24 @@
     .creative__left, .creative__right{
         width: 100%;
     }
+    /* Videos */
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    #light {
+        /* width: 426px !important;
+            height: 240px !important; */
+        max-width: 426px;
+        max-height: 240px;
+        margin-left: -215px;
+        margin-top: -180px;
+    }
+
+    #light iframe {
+        width: 426px !important;
+        height: 240px !important;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     .banner{
@@ -20,6 +38,10 @@
     }
     .creative__left, .creative__right{
         width: 100%;
+    }
+    /* Videos */
+    .grid-container {
+        grid-template-columns: auto auto auto;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
