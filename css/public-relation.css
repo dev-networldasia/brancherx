@@ -235,3 +235,14 @@
     font-size: 2em;
     margin-top: 3em;
 }
+.news-inner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    width: 100%;
+    margin: 0 auto;
+}
+.img-news{
+    width: 25%;
+}
