@@ -2,11 +2,18 @@
     .banner{
         height: auto;
     }
-
+    /* Case Studies */
+    .grid-container {
+        grid-template-columns: auto auto;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     .banner{
         height: auto;
+    }
+    /* Case Studies */
+    .grid-container {
+        grid-template-columns: auto auto auto;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
