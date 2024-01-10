@@ -74,7 +74,7 @@
     font-size: 1.6em;
     text-align: center;
     margin-bottom: 1em;
-    color: var(--txt);
+    color: var(--main-color);
 }
 
 .creative__inner {
@@ -125,7 +125,7 @@
 }
 
 .creative__disc {
-    color: var(--txt);
+    color: var(--main-color);
 }
 
 .creative__disc h2 {
