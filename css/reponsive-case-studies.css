@@ -6,6 +6,9 @@
     .grid-container {
         grid-template-columns: auto auto;
     }
+    .grid-item {
+        width: 45%;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     .banner{
@@ -15,12 +18,19 @@
     .grid-container {
         grid-template-columns: auto auto auto;
     }
+    .grid-item {
+        width: 45%;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
-    
+    .grid-item {
+        width: 30%;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
-
+    .grid-item {
+        width: 30%;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
 
