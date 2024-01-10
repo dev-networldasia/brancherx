@@ -263,7 +263,7 @@ footer {
 .list-tab .grid-container{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
 }
 .grid-item{
     margin: 10px;
