@@ -1,5 +1,6 @@
 .imc{
-    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(143, 210, 238, 0.86) 91.98%);
+    /* background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(143, 210, 238, 0.86) 91.98%); */
+    background: var(--white2);
 }
 .banner{
     /* padding-top: 7.5em; */
@@ -12,7 +13,7 @@
 .our-service__disc {
     flex: 7;
     padding-right: 10%;
-    font-size: 1.6em;
+    font-size: 1.8em;
     padding-left: 2em;
     padding-bottom: 0.5em;
     font-weight: 500;
@@ -185,7 +186,7 @@
     font-size: 1.6em;
     text-align: center;
     margin-bottom: 1em;
-    color: var(--txt);
+    color: var(--main-color);
 }
 .imc-disc{
     display: flex;
@@ -196,7 +197,8 @@
 }
 .imc-box{
     width: 23%;
-    background: var(--white2);
+    /* background: var(--white2); */
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(143, 210, 238, 0.86) 91.98%);
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     border-radius: 2rem;
     transition: 0.3s;
@@ -207,7 +209,7 @@
 }
 .imc-box-disc{
     font-size: 1.6em;
-    color: var(--txt);
+    color: var(--main-color);
     font-weight: 400;
     line-height: 1.5;
 }

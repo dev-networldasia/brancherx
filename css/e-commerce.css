@@ -78,7 +78,7 @@
     font-size: 1.6em;
     text-align: center;
     margin-bottom: 1em;
-    color: var(--txt);
+    color: var(--main-color);
     margin-bottom: 1em;
 }
 
@@ -94,7 +94,7 @@
     font-size: 1.6em;
     text-align: center;
     margin-bottom: 1em;
-    color: var(--txt);
+    color: var(--main-color);
 }
 
 .ecommerce__inner .ecom-box {
@@ -149,7 +149,9 @@
     filter: contrast(1.1) brightness(1.25) saturate(1.1);
     transform: scale(1.1);
 }
-
+.trust-us .bg-title{
+    background: var(--bg-highlight);
+}
 /* case studies */
 .case-studies {
     height: auto;
