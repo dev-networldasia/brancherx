@@ -1025,7 +1025,7 @@
     /* VISION MISSION */
     .vision-mission{
         height: 100%;
-        padding: 10em 0;
+        padding: 5em 0;
     }
     .vision-mission .bg-title h2{
         font-size: 3em;
@@ -1161,19 +1161,19 @@
         font-size: 2.4em;
     }
     .about-us__title .slogan-area h2{
-        font-size: 2.6em;
+        font-size: 2.4em;
     }
     .vision-mission .about-us__title{
         margin-bottom: 5em;
     }
     .vision-mission__left h4{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     .vision-mission__right h2{
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
     .vision-mission__right h4{
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
     /* FORM MASTER */
     .footer-disc__down{
@@ -1204,7 +1204,7 @@
         font-size: 2.4em;
     }
     .about-us-weel-build__down .box-left>h4{
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     .about-us-weel-build__down .box-left{
         margin-top: 6em;
