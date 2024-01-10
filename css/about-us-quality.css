@@ -2,15 +2,16 @@
     overflow: hidden;
 }
 .about-us {
-    height: 50vh;
-    padding-bottom: 5em;
+    height: 100%;
+    padding-bottom: 10em;
 }
 .brancherx-section-icon{
     background: #1F4889;
     background-image: url(../img/about-us-section-icon-bg-2.svg);
     background-position: bottom right;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 100%;
+    padding-bottom: 5em;
 }
 .brancherx-section-icon .content-area>img{
     width: 8em;

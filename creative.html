@@ -252,7 +252,7 @@
                 <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
                 <iframe id="VisaChipCardVideo"
                     src=""
-                    width="560" height="315" frameborder="0" allowscriptaccess="always" allow="accelerometer; autoplay" allowfullscreen></iframe>
+                    width="854" height="480" frameborder="0" allowscriptaccess="always" allow="accelerometer; autoplay" allowfullscreen></iframe>
             </div>
             <div id="fade" onClick="lightbox_close();"></div>
 
@@ -1227,9 +1227,7 @@
             document.getElementById('fade').style.display = 'none';
             // console.log(lightBoxVideo.currentTarget, lightBoxVideo.target, )
             const src = lightBoxVideo.src;
-            lightBoxVideo.src = src;
-            // lightBoxVideo.pauseVideo();
-            // lightBoxVideo.pause();
+            lightBoxVideo.setAttribute('src', '');
         }
     </script>
 </body>
