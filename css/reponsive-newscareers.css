@@ -15,7 +15,7 @@
         max-height: 9.5em;
     }
     .news-careers-page .inner__info-career{
-        height: 9em;
+        height: 10em;
         padding: 0 0.5em 0.5em 1.5em;
     }
     .news-careers-page .tab{
@@ -172,7 +172,6 @@
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
     /* News - Careers */
     .news-career.bg__left{
-        height: 100vh;
         padding: 5em 0;
     }
     .news-careers-page .tab{
@@ -182,18 +181,15 @@
     .news-career__down{
         min-height: 48em;
     }
-    .news-careers-page .list-tab{
-        height: 20em;
-    }
     .news-career .swiper{
-        height: 74vh;
+        height: 70vh;
         padding-bottom: 1.5em;
     }
     .news-careers-page .swiper-slide img{
         max-height: 12.5em;
     }
     .news-careers-page .inner__info-career{
-        height: 7.5em;
+        height: 11em;
     }
     .news-careers-page .tab{
         font-size: 2em;

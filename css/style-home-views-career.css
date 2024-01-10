@@ -84,14 +84,14 @@
   color: var(--bg-highlight);
 }
 .info-career__disc a h2{
-  font-size: 1.4em;
+  font-size: 1.8em;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
 .info-career__disc p{
-  font-size: 1.2em;
+  font-size: 1.6em;
   padding-left: 1em;
   border-left: 3px solid var(--bg-highlight);
   margin-top: 0.5em;

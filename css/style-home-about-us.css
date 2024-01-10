@@ -40,7 +40,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--bg-highlight);
-    margin-top: 0.2em;
+    margin-top: 1.2em;
 }
 .about-us__counter{
     display: flex;
