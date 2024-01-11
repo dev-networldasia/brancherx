@@ -176,7 +176,7 @@
     border-bottom: 3px solid transparent;
 }
 .wrapper .tabs_wrap ul li:last-child{
-    display: none;
+    /* display: none; */
 }
 
 .wrapper .tabs_wrap ul li:hover,
