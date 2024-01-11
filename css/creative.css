@@ -222,13 +222,20 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    max-width: 858px;
-    max-height: 484px;
+    width: 75vw;
+    aspect-ratio: 16 / 9;
     transform: translate(-50%,-50%);
-    border: 2px solid #FFF;
+    /* border: 2px solid #FFF; */
     background: #FFF;
     z-index: 1002;
-    overflow: visible;
+    overflow: hidden;
+}
+#light iframe, #light object, #light embed  {
+    position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
 #boxclose {
@@ -244,8 +251,8 @@
     line-height: 0px;
     padding: 11px 3px;
     position: absolute;
-    right: 2px;
-    top: 2px;
+    right: 3px;
+    top: 3px;
     z-index: 1002;
     opacity: 0.9;
 }
