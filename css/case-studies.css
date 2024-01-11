@@ -175,6 +175,9 @@
 	transition: all 0.2s ease;
     border-bottom: 3px solid transparent;
 }
+.wrapper .tabs_wrap ul li:last-child{
+    display: none;
+}
 
 .wrapper .tabs_wrap ul li:hover,
 .wrapper .tabs_wrap ul li.active{
