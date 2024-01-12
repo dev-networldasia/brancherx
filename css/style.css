@@ -469,4 +469,64 @@ html{
     width: 15px;
     transition-delay: 0.2s;
   }
-  
+/* IMC */
+.imc-inner{
+    padding: 5em 0;
+}
+.bg-title h2{
+    text-transform: uppercase;
+}
+.title-imc__disc{
+    font-weight: 400;
+    text-align: center;
+    font-size: 3.2em;
+    color: var(--main-color);
+    margin-top: 0.8em;
+    margin-bottom: 0.6em;
+}
+.title-imc p{
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: var(--main-color);
+}
+.imc-disc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1%;
+    margin: 5em 0;
+}
+.imc-box{
+    width: 23%;
+    /* background: var(--white2); */
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgba(143, 210, 238, 0.86) 91.98%);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    border-radius: 2rem;
+    transition: 0.3s;
+}
+.ribbon{
+    padding: 3em;
+    text-align: center;
+}
+.imc-box-disc{
+    font-size: 1.6em;
+    color: var(--main-color);
+    font-weight: 400;
+    line-height: 1.5;
+}
+.ribbon-front h2{
+    margin-bottom: 2rem;
+    font-size: 2.4em;
+    color: var(--main-color);
+}
+.img-imc{
+    margin-bottom: 2rem;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+.imc-box:hover{
+    transform: scale(1.1);
+}
