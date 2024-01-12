@@ -69,6 +69,12 @@
     .brancherx-home-your-business{
         height: auto;
     }
+    .title-about-us h4{
+        font-size: 4em;
+    }
+    .word-area h2{
+        font-size: 2.2em;
+    }
     /* Well Build */
     .brancherx-about-us-well-build{
         height: 100%;
@@ -798,6 +804,9 @@
     .header-right .search{
         display: none;
     }
+    .word-area h2{
+        font-size: 2.2em;
+    }
     /* Well Build */
     .box-left .title-area h2{
         font-size: 3em;
@@ -955,6 +964,9 @@
     .menu-child-item>a {
         font-size: 1.4em;
     }
+    .word-area h2{
+        font-size: 2.4em;
+    }
      /* Well Build */
      .box-left .title-area h2{
         font-size: 3em;
@@ -1077,6 +1089,9 @@
     }
     .home-menu::after{
         bottom: -0.7em;
+    }
+    .word-area h2{
+        font-size: 2.4em;
     }
      /* Well Build */
      .box-left .title-area h2{
