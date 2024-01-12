@@ -31,6 +31,7 @@
     border-radius: 6em;
     padding: 2em 3.5em;
     margin-right: 5%;
+    height: fit-content;
 }
 .our-service .bg-title h2{
     font-size: 3.2em;

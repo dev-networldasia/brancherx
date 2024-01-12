@@ -21,7 +21,7 @@
 }
 .bg-title{
     text-align: center;
-    background: var(--blue-color);
+    background: var(--bg-highlight);
     display: inline-block;
     position: relative;
     border-radius: 6em;
