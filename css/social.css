@@ -278,3 +278,124 @@
     left: 50%;
     transform: translateX(-50%);
 }
+/* Our Works */
+.news-career {
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    padding: 5em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.news-career.bg__left {
+    background: #fff;
+    overflow: hidden;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.news-career__up {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.news-career .bg-title {
+    text-align: center;
+    background: var(--bg-highlight);
+    display: inline-block;
+    position: relative;
+    border-radius: 6em;
+    padding: 2em 3.5em;
+}
+
+.news-career .bg-title h2 {
+    font-size: 3.2em;
+    line-height: 1em;
+    margin-top: -1em;
+    color: var(--main-color);
+}
+
+.news-career__down {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    justify-items: center;
+}
+
+.tab {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 5em;
+    padding: 2em 0;
+    font-size: 2em;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.list-tab {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tabcontent {
+    display: none;
+    padding: 0.6em 1.2em;
+    transition: 0.3s;
+    position: relative;
+    opacity: 0;
+}
+
+.tabcontent.active {
+    display: block;
+    opacity: 1;
+}
+
+.tablinks {
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.tablinks.active {
+    border-bottom: 3px solid var(--main-color);
+}
+.list-tab .grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-item{
+    margin: 20px;
+    text-align: start;
+    overflow: hidden;
+    display: block;
+    transition: 0.3s;
+}
+.grid-item img{
+    object-fit: cover;
+}
+.grid-item:hover{
+    transform: scale(1.06);
+}
+#tab2 .grid-container{
+    grid-template-columns: auto auto;
+}
+#tab3 .grid-container{
+    grid-template-columns: auto auto auto;
+}

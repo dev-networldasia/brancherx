@@ -329,19 +329,72 @@
             </div>
         </section>
 
-    <!-- Social -->
-    <!-- <section class="social-page">
-        <div class="container">
-            <div class="branch__title">
-                <div class="word-area">
-                    <h2>SOCIAL</h2>
-                    <p>We make your brand viral</p>
+        <section class="news-career bg__left">
+            <div class="news-career__up container">
+                <div class="bg-title">
+                    <h2>OUR WORKS</h2>
                 </div>
             </div>
-            
-        </div>
-        
-    </section> -->
+            <div class="wow fadeInUp news-career__down">
+                <div class="tab">
+                    <div data-id="tab1" class="tablinks active">
+                        <span>Clips / TVC</span>
+                    </div>
+                    <div data-id="tab2" class="tablinks">
+                        <span>Banner</span>
+                    </div>
+                    <div data-id="tab3" class="tablinks">
+                        <span>Social Posts</span>
+                    </div>
+                </div>
+                <div class="list-tab">
+                    <div id="tab1" class="tabcontent active">
+                        <div class="grid-container">
+                            
+                        </div>
+                    </div>
+                    <div id="tab2" class="tabcontent">
+                        <div class="grid-container">
+                            <a href="#" class="grid-item">
+                                <img src="img/banner/cuckoo-1.png" alt="">
+                            </a>
+                            <a href="#" class="grid-item">
+                                <img src="img/banner/cuckoo-2.png" alt="">
+                            </a>
+                            <a href="#" class="grid-item">
+                                <img src="img/banner/cuckoo-3.png" alt="">
+                            </a>
+                            <a href="#" class="grid-item">
+                                <img src="img/banner/cuckoo-4.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                    <div id="tab3" class="tabcontent">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <img src="img/social-posts/Post 2.png" alt="">
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/social-posts/Post 3.png" alt="">
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/social-posts/Post 4.png" alt="">
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/social-posts/post 5.jpeg" alt="">
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/social-posts/post 6.png" alt="">
+                            </div>
+                            <div class="grid-item">
+                                <img src="img/social-posts/post 7.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!-- Our service -->
     <section class="our-service">
@@ -1125,6 +1178,25 @@
                     progressContent.textContent = `${Math.ceil(time / 1000)}s`;
                 }
             }
+        });
+    </script>
+    <!-- TAB CREATIVE -->
+    <!-- OUR WORKS ECOM -->
+    <script>
+        document.querySelectorAll('.tablinks').forEach(function (itemclick) {
+            itemclick.addEventListener("click", function (evt3) {
+
+                var teacher = this.getAttribute("data-id");
+                document.querySelectorAll('.tabcontent').forEach(function (evtre) {
+                    console.log(teacher);
+                    evtre.classList.remove('active');
+                });
+                document.querySelectorAll('.tablinks').forEach(function (retablinks) {
+                    retablinks.classList.remove('active');
+                });
+                itemclick.classList.add('active');
+                document.getElementById(teacher).classList.add('active');
+            });
         });
     </script>
 </body>
