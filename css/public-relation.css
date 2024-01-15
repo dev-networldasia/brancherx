@@ -271,3 +271,28 @@
     font-weight: 600;
     margin-bottom: 2em;
 }
+/* OUR WORKS PR */
+.our-works{
+    width: 100%;
+    position: relative;
+    padding: 5em 0;
+}
+.our-works-inner {
+    text-align: center;
+}
+.img-news {
+    position: relative;
+    width: 100%;
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-between;
+    margin-top: 5em;
+    flex-wrap: wrap;
+}
+.img-news a{
+    width: 23%;
+    transition: 0.3s;
+}
+.img-news a:hover{
+    transform: scale(1.07);
+}

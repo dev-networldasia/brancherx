@@ -280,3 +280,6 @@ footer {
 .grid-item:hover{
     transform: scale(1.06);
 }
+#tab2 .grid-container{
+    grid-template-columns: auto auto;
+}

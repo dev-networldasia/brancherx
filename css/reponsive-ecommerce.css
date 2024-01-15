@@ -19,6 +19,9 @@
         display: grid;
         grid-template-columns: auto auto;
     }
+    .grid-item{
+        margin: 5px;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     .banner{

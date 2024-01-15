@@ -45,6 +45,9 @@
         height: 100%;
         padding: 5em 0;
     }
+    .img-news a{
+        width: 100%;
+    }
 }
 @media (min-width: 576px) and (max-width: 768px){
     .banner{
@@ -99,12 +102,22 @@
         height: 100%;
         padding: 5em 0;
     }
+    /* OUR WORKS PR */
+    .img-news a{
+        width: 48%;
+    }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
-
+    /* OUR WORKS PR */
+    .img-news a{
+        width: 48%;
+    }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
-
+    /* OUR WORKS PR */
+    .img-news a{
+        width: 48%;
+    }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
 
