@@ -246,3 +246,31 @@
 .img-news{
     width: 20%;
 }
+/* PR-inner */
+.pr-inner {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    padding: 5em 0;
+}
+.pr-title h4{
+    font-size: 3.2em;
+    line-height: 1.25;
+    color: var(--main-color);
+    margin-bottom: 2rem;
+}
+.pr-title p{
+    font-size: 1.6em;
+    color: var(--main-color);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.pr-inner .pr-disc h4 {
+    font-size: 2rem;
+    line-height: 1.25;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 2em;
+}
