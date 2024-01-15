@@ -285,7 +285,7 @@
     width: 100%;
     display: flex;
     gap: 1.5em;
-    justify-content: space-between;
+    justify-content:center;
     margin-top: 5em;
     flex-wrap: wrap;
 }
@@ -295,4 +295,10 @@
 }
 .img-news a:hover{
     transform: scale(1.07);
+}
+.source{
+    margin-top: 1.5rem;
+}
+.source p{
+    font-size: 1.6em;
 }
