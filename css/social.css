@@ -89,6 +89,7 @@
 .grid-container>div {
     padding: 1em;
     display: flex;
+    width: 100%;
 }
 .item5 {
     grid-area: 2 / 2 / 4 / 2;
@@ -389,6 +390,7 @@
 }
 .grid-item img{
     object-fit: cover;
+    width: 100%;
 }
 .grid-item:hover{
     transform: scale(1.06);
