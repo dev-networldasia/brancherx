@@ -9,13 +9,27 @@
     filter: brightness(0.7);
     height: 100%;
 }
-.about-us-banner .title-about-us{
+.about-us-banner .text-area{
     position: absolute;
-    bottom: 5vh;
-    left: 0;
+    bottom: 8vh;
+    left: 50%;
     right: 0;
+    transform: translateX(-50%);
+    width: max-content;
+}
+.about-us-banner .title-about-us{
+    position: relative;
     text-align: center;
     color: var(--white2);
+    text-align: center;
+    color: var(--white2);
+    margin: 10px 10px 10px 10px;
+    padding: 12px 12px 12px 12px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: var(--white2);
+    box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    width: fit-content;
 }
 .title-about-us h4{
     font-size: 6.5em ;
