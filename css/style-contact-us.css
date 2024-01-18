@@ -12,11 +12,13 @@
     justify-content: center;
 }
 .title-about-us h2{
-    border-bottom: 5px solid var(--bg-highlight);
     width: fit-content;
 }
 .talk-form h2 {
     font-size: 4.2em;
+}
+.about-us-banner .text-area{
+    bottom: 0;
 }
 .form-master{
     padding: 5em 0;
