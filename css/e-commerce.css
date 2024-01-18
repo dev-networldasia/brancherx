@@ -151,6 +151,125 @@
 .trust-us .bg-title{
     background: var(--bg-highlight);
 }
+/* BOX AREA */
+.box-pr{
+    display: block;
+    position: relative;
+    padding: 5em 0;
+    background-color: var(--white2);
+}
+.bot-banner {
+    display: block;
+    position: relative;
+}
+.box-area{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--white2);
+}
+.box-area .box{
+    width: 30%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white2);
+    border-radius: 20px;
+    aspect-ratio: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    transition: 0.3s;
+}
+.box-area .box{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    border: 8px solid #CDF5FD;
+    transition: 0.3s;
+}
+.box-area .box span{
+    font-size: 2em;
+    color: var(--main-color);
+    margin-top: 0.5em;
+    font-weight: 500;
+    text-align: center;
+    transition: 0.3s;
+}
+.box-area .box:hover{
+    transform: scale(1.05);
+}
+.inner-box{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDF5FD;
+    border-radius: 50%;
+}
+.box-area .box.box2 {
+    border-color: #A0E9FF;
+}
+.box2 .inner-box{
+    background-color: #A0E9FF;
+}
+.box-area .box.box3 {
+    border-color: #89CFF3;
+}
+.box3 .inner-box{
+    background-color: #89CFF3;
+}
+.box-area .box.box4 {
+    border-color: #00A9FF;
+}
+.box4 .inner-box{
+    background-color: #00A9FF;
+}
+.inner-box img{
+    max-width: 70%;
+    filter: brightness(0) saturate(100%) invert(15%) sepia(51%) saturate(3942%) hue-rotate(193deg) brightness(97%) contrast(101%);
+}
+.box:hover img{
+    animation-name: shake;
+    animation-duration: 0.75s;
+}
+.box-area .box:hover .icon-hover{
+    display: block;
+}
+@keyframes shake {
+    0%   {transform: scale3d(1, 1, 1);}
+    30%  {transform: scale3d(1.25, 0.75, 1);}
+    40%  {transform: scale3d(0.75, 1.25, 1);}
+    50% {transform: scale3d(1.15, 0.85, 1);}
+    65% {transform: scale3d(0.95, 1.05, 1);}
+    75% {transform: scale3d(1.05, 0.95, 1);}
+    100% {transform: scale3d(1, 1, 1);}
+}
+.pr-disc{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    color: var(--main-color);
+    font-size: 1.6em;
+    margin-top: 3em;
+}
+.news-inner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    width: 100%;
+    margin: 0 auto;
+}
+.img-news{
+    width: 20%;
+}
 /* our partner */
 .trust-us{
     padding-top: 5em;

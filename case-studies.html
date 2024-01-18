@@ -200,13 +200,14 @@
             <div class="tabs_wrap">
                 <ul>
                     <li data-tabs="automotive">Automotive</li>
-                    <li data-tabs="banking">Banking</li>
                     <li data-tabs="food">Food & Beverages</li>
                     <li data-tabs="airline">Airline</li>
                     <li data-tabs="baby">Mom & Baby</li>
                     <li data-tabs="beauty">Beauty & Cometics</li>
                     <li data-tabs="pharma">Pharmaceuticals</li>
-                    <li data-tabs="electronic">Telecomunications & Electronics</li>
+                    <li data-tabs="tele">Telecomunications</li>
+                    <li data-tabs="electronic">Electronics</li>
+                    <li data-tabs="banking">Banking</li>
                     <li data-tabs="both" class="active">All</li>
                 </ul>
             </div>
@@ -1200,6 +1201,7 @@
         var babys = document.querySelectorAll(".baby");
         var beautys = document.querySelectorAll(".beauty");
         var electronics = document.querySelectorAll(".electronic");
+        var teles = document.querySelectorAll(".tele");
         var pharmas = document.querySelectorAll(".pharma");
         var all = document.querySelectorAll(".grid-item");
 
@@ -1248,6 +1250,11 @@
                 else if (tabval == "electronic") {
                     electronics.forEach((electronic) => {
                         electronic.style.display = "block";
+                    })
+                }
+                else if (tabval == "tele") {
+                    teles.forEach((tele) => {
+                        tele.style.display = "block";
                     })
                 } 
                 else if (tabval == "pharma") {

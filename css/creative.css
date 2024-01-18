@@ -358,13 +358,18 @@
 }
 
 .tabcontent {
-    display: none;
+    display: block;
     padding: 0.6em 1.2em;
     transition: 0.3s;
     position: relative;
-    opacity: 0;
+    opacity: 1;
+    margin-bottom: 1em;
 }
-
+.tabcontent .tablinks>span{
+    font-size: 2.4em;
+    font-weight: 600;
+    color: var(--main-color);
+}
 .tabcontent.active {
     display: block;
     opacity: 1;
@@ -373,12 +378,10 @@
 .tablinks {
     border-bottom: 3px solid transparent;
     transition: all 0.3s linear;
-    cursor: pointer;
+    text-align: center;
+    margin-top: 2em;
 }
 
-.tablinks.active {
-    border-bottom: 3px solid var(--main-color);
-}
 #tab2 .grid-container {
     grid-template-columns: auto auto;
 }

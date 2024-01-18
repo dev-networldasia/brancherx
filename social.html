@@ -328,7 +328,7 @@
                 </span>
             </div>
         </section>
-
+        <!-- OUR WORKS -->
         <section class="news-career bg__left">
             <div class="news-career__up container">
                 <div class="bg-title">
@@ -336,26 +336,14 @@
                 </div>
             </div>
             <div class="wow fadeInUp news-career__down">
-                <div class="tab">
-                    <div data-id="tab1" class="tablinks active">
-                        <span>Clips / TVC</span>
-                    </div>
-                    <div data-id="tab2" class="tablinks">
-                        <span>Banner</span>
-                    </div>
-                    <div data-id="tab3" class="tablinks">
-                        <span>Social Posts</span>
-                    </div>
-                </div>
+                <!-- <div class="tab">
+                </div> -->
                 <div class="list-tab">
                     <div id="tab1" class="tabcontent active">
+                        <div data-id="tab1" class="tablinks active">
+                            <span>Clips / TVC</span>
+                        </div>
                         <div class="grid-container">
-                            <div id="light">
-                                <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-                                <video id="VisaChipCardVideo" src=""></video>
-                            </div>
-                            <div id="fade" onClick="lightbox_close();"></div>
-        
                             <div class="grid-item">
                                 <div class="related-box">
                                     <div class="related__img">
@@ -463,8 +451,10 @@
                         </div>
                     </div>
 
-
                     <div id="tab2" class="tabcontent">
+                        <div data-id="tab2" class="tablinks active">
+                            <span>Banner</span>
+                        </div>
                         <div class="grid-container">
                             <a href="#" class="grid-item">
                                 <img src="img/banner/cuckoo-1.png" alt="">
@@ -482,6 +472,9 @@
 
                     </div>
                     <div id="tab3" class="tabcontent">
+                        <div data-id="tab3" class="tablinks active">
+                            <span>Social Posts</span>
+                        </div>
                         <div class="grid-container">
                             <div class="grid-item">
                                 <img src="img/social-posts/Post 2.png" alt="">
@@ -1184,6 +1177,12 @@
         </div>
         <div class="overlay-form"></div>
     </div>
+    <!-- Frame VIDEOS -->
+    <div id="light">
+        <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+        <video id="VisaChipCardVideo" src=""></video>
+    </div>
+    <div id="fade" onClick="lightbox_close();"></div>
     <!-- Scroll top -->
     <div class="box-support">
         <div onclick="topFunction()" class="icon-support scrolltop" id="scrolltopBtn">
@@ -1349,7 +1348,7 @@
     </script>
 
     <!-- OUR WORKS ECOM -->
-    <script>
+    <!-- <script>
         document.querySelectorAll('.tablinks').forEach(function (itemclick) {
             itemclick.addEventListener("click", function (evt3) {
 
@@ -1365,7 +1364,7 @@
                 document.getElementById(teacher).classList.add('active');
             });
         });
-    </script>
+    </script> -->
 </body>
 
 </html>

@@ -16,6 +16,24 @@
     #light {
         width: 95vw;
     }
+     /* OUR WORKS */
+     #tab2 .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    #tab3 .grid-container {
+        grid-template-columns: auto auto auto;
+    }
+
+    #tab1 .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .news-career__down .list-tab .grid-item {
+        padding: 0;
+        margin: 10px;
+    }
+
 }
 @media (min-width: 576px) and (max-width: 768px){
     .banner{
@@ -31,6 +49,27 @@
     /* Videos */
     .grid-container {
         grid-template-columns: auto auto auto;
+    }
+     /* OUR WORKS */
+    #tab2 .grid-container {
+        grid-template-columns: auto auto;
+    }
+
+    #tab3 .grid-container {
+        grid-template-columns: auto auto auto;
+    }
+
+    #tab1 .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .news-career__down .list-tab .grid-item {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .tablinks {
+        margin-bottom: 1em;
     }
 }
 @media only screen and (min-width: 769px) and (max-width: 991px) {
